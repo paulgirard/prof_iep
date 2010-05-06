@@ -1,0 +1,309 @@
+digrpah output {
+Diplomes etrangers->Province&sep;1&sep;BARBOU DES PLACES
+PME->Pub et marketing&sep;2&sep;DE ROVIRA | DELPORT
+PME->Banque, Finance, Assurances&sep;1&sep;DE ROVIRA
+PME->Hebdomadaire&sep;1&sep;PICQUART
+PME->TV&sep;1&sep;DELPORT
+Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)->Conseils, audit comptable et fiscal&sep;1&sep;VERRIER
+Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)->Pub et marketing&sep;1&sep;GAULTIER
+Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)->Sondages&sep;1&sep;ROY
+Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)->Universitaire&sep;1&sep;ZAKARIAN
+Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)->Organisations internationales (ONU, OCDE)&sep;1&sep;ZAKARIAN
+Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)->Banque, Finance, Assurances&sep;1&sep;EYRAUD
+Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)->Radio&sep;1&sep;ROY
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->Pub et marketing&sep;1&sep;EMSELLEM
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->Sondages&sep;1&sep;EMSELLEM
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->Universitaire&sep;1&sep;JESTAZ
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->Organisations internationales (ONU, OCDE)&sep;1&sep;EMSELLEM
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->Cabinets ministeriels&sep;1&sep;DERDEVET
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->regions et departements&sep;1&sep;DERDEVET
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->Ministere Environnement / ADEME&sep;1&sep;BEEKER
+Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)->Province&sep;1&sep;DERDEVET
+Conseils juridique : avocats->Conseils, audit comptable et fiscal&sep;1&sep;VEDRINE
+Conseils juridique : avocats->Organisations internationales (ONU, OCDE)&sep;2&sep;DEVIN | PAROCHE
+Conseils juridique : avocats->Executif (Psdts-Ministres)&sep;2&sep;LEPAGE | VEDRINE
+Conseils juridique : avocats->Secretariat gal Psdce de la Republique et Secretariat Gal PM&sep;1&sep;VEDRINE
+Conseils juridique : avocats->Deputes, senateurs, maires : mandat electif ou responsabilites parti politique&sep;1&sep;LEPAGE
+Conseils juridique : avocats->Administrateurs Senat / Ass Na&sep;1&sep;DEVIN
+Conseils juridique : avocats->Paris X&sep;1&sep;DEVIN
+Conseils juridique : avocats->Ministere Culture&sep;1&sep;VEDRINE
+Conseils juridique : avocats->MAE&sep;1&sep;VEDRINE
+Conseils juridique : avocats->Province&sep;4&sep;DEVIN | GASTAUD | JAMIN | VIVANT
+Conseils juridique : avocats->Paris&sep;1&sep;SEFTON-GREEN
+Conseils juridique : avocats->Paris IX&sep;1&sep;GASTAUD
+Conseils juridique : avocats->PR Universite&sep;3&sep;DEVIN | JAMIN | VIVANT
+Conseils, audit comptable et fiscal->Pub et marketing&sep;4&sep;CUBERTAFOND | FAUCON | KAISER | SEGURET
+Conseils, audit comptable et fiscal->Sondages&sep;1&sep;BAHOUT
+Conseils, audit comptable et fiscal->Organisations internationales (ONU, OCDE)&sep;1&sep;WILLIAMS
+Conseils, audit comptable et fiscal->Executif (Psdts-Ministres)&sep;1&sep;VEDRINE
+Conseils, audit comptable et fiscal->Secretariat gal Psdce de la Republique et Secretariat Gal PM&sep;1&sep;VEDRINE
+Conseils, audit comptable et fiscal->Banque, Finance, Assurances&sep;2&sep;GUILHAMON | NEBOT
+Conseils, audit comptable et fiscal->Ministere Culture&sep;1&sep;VEDRINE
+Conseils, audit comptable et fiscal->MAE&sep;1&sep;VEDRINE
+Conseils, audit comptable et fiscal->PR Universite&sep;1&sep;RACHLINE
+Conseils, audit comptable et fiscal->Province&sep;1&sep;GRALEPOIS
+Pub et marketing->Sondages&sep;3&sep;EMSELLEM | MISSIKA | SAINT-PAUL
+Pub et marketing->Universitaire&sep;1&sep;BERTRAND
+Pub et marketing->Organisations internationales (ONU, OCDE)&sep;1&sep;EMSELLEM
+Pub et marketing->ville &sep;2&sep;ESTEBE | MISSIKA
+Pub et marketing->Secretariat gal Psdce de la Republique et Secretariat Gal PM&sep;1&sep;MISSIKA
+Pub et marketing->Deputes, senateurs, maires : mandat electif ou responsabilites parti politique&sep;2&sep;MILLOT | MISSIKA
+Pub et marketing->Cabinets ministeriels&sep;1&sep;MILLOT
+Pub et marketing->Administrateurs Senat / Ass Na&sep;1&sep;MILLOT
+Pub et marketing->Banque, Finance, Assurances&sep;1&sep;DE ROVIRA
+Pub et marketing->Hebdomadaire&sep;2&sep;MISSIKA | SAUTY DE CHALON
+Pub et marketing->TV&sep;4&sep;DELPORT | MILLOT | MISSIKA | SAUTY DE CHALON
+Pub et marketing->Radio&sep;1&sep;MILLOT
+Sondages->Organisations internationales (ONU, OCDE)&sep;2&sep;DUHAMEL | EMSELLEM
+Sondages->ville &sep;1&sep;MISSIKA
+Sondages->Secretariat gal Psdce de la Republique et Secretariat Gal PM&sep;1&sep;MISSIKA
+Sondages->Deputes, senateurs, maires : mandat electif ou responsabilites parti politique&sep;2&sep;DUHAMEL | MISSIKA
+Sondages->Conseil constitutionnel&sep;1&sep;DUHAMEL
+Sondages->Hebdomadaire&sep;1&sep;MISSIKA
+Sondages->Paris X&sep;1&sep;DUHAMEL
+Sondages->Paris I&sep;1&sep;DUHAMEL
+Sondages->PR Universite&sep;1&sep;DUHAMEL
+Sondages->TV&sep;1&sep;MISSIKA
+Sondages->Radio&sep;1&sep;ROY
+Direction / Charge de mission->Directeur recherche FNSP&sep;1&sep;DOMENACH
+Direction / Charge de mission->Universitaire&sep;3&sep;CRES | DOMENACH | VON BUSEKIST
+Direction / Charge de mission->Organisations internationales (ONU, OCDE)&sep;1&sep;THIOLLET
+Direction / Charge de mission->Banque, Finance, Assurances&sep;1&sep;VENE-RAUTUREAU
+Direction / Charge de mission->HEC&sep;1&sep;CRES
+Direction / Charge de mission->Magistrat&sep;1&sep;SKZRYERBAK
+Direction / Charge de mission->ENS&sep;1&sep;THIOLLET
+Direction / Charge de mission->Paris I&sep;1&sep;MORABITO
+Direction / Charge de mission->Diplomatie francaise et cooperation&sep;1&sep;DOMENACH
+Direction / Charge de mission->MAE&sep;1&sep;DOMENACH
+Direction / Charge de mission->Province&sep;2&sep;MORABITO | VON BUSEKIST
+Direction / Charge de mission->PR Universite&sep;3&sep;LATOUR | MORABITO | VON BUSEKIST
+Direction / Charge de mission->ENPC&sep;1&sep;LATOUR
+Direction / Charge de mission->CNAM &sep;1&sep;LATOUR
+Assistant, ATER, AMN, associe->EPHE - EHESS&sep;1&sep;BOBINEAU
+CNRS->Directeur recherche CNRS&sep;1&sep;SALAME
+CNRS->Executif (Psdts-Ministres)&sep;1&sep;SALAME
+CNRS->Cabinets ministeriels&sep;1&sep;BAUBEROT
+CNRS->Commissariat General Plan (CGP)&sep;1&sep;FRANCOIS
+CNRS->Paris IV&sep;1&sep;MELONIO
+CNRS->Paris X&sep;1&sep;MELONIO
+Directeur recherche CNRS->Universitaire&sep;2&sep;LE GLOANNEC | LEQUESNE
+Directeur recherche CNRS->Organisations internationales (ONU, OCDE)&sep;1&sep;LAIDI
+Directeur recherche CNRS->Executif (Psdts-Ministres)&sep;1&sep;SALAME
+Directeur recherche CNRS->Charge recherche CNRS&sep;1&sep;CHAUVEL
+Charge recherche FNSP->Universitaire&sep;1&sep;CINALLI
+Charge recherche FNSP->Organisations internationales (ONU, OCDE)&sep;1&sep;HATTO
+Charge recherche FNSP->Province&sep;1&sep;REYNIE
+Charge recherche FNSP->PR Universite&sep;1&sep;REYNIE
+Directeur recherche FNSP->Universitaire&sep;1&sep;DOMENACH
+Directeur recherche FNSP->Diplomatie francaise et cooperation&sep;1&sep;DOMENACH
+Directeur recherche FNSP->MAE&sep;1&sep;DOMENACH
+EPHE - EHESS->Paris I&sep;3&sep;BOUTRY | KARSENTI | RAYNAUD
+EPHE - EHESS->Diplomatie francaise et cooperation&sep;2&sep;BOUTRY | POUCHEPADASS
+Universitaire->Organisations internationales (ONU, OCDE)&sep;3&sep;D'SOUZA | DEHOUSSE | ZAKARIAN
+Universitaire->Banque, Finance, Assurances&sep;1&sep;D'SOUZA
+Universitaire->HEC&sep;1&sep;CRES
+Universitaire->Paris X&sep;1&sep;MERCIER
+Universitaire->Diplomatie francaise et cooperation&sep;1&sep;DOMENACH
+Universitaire->MAE&sep;1&sep;DOMENACH
+Universitaire->Paris II&sep;2&sep;AUBY | LAUVAUX
+Universitaire->Province&sep;3&sep;AUBY | FITOUSSI | VON BUSEKIST
+Universitaire->MCF Universite&sep;1&sep;CHEBEL
+Universitaire->PR Universite&sep;4&sep;AUBY | DEHOUSSE | FITOUSSI | VON BUSEKIST
+Universitaire->Charge recherche CNRS&sep;1&sep;PALIER
+Organisations internationales (ONU, OCDE)->Executif (Psdts-Ministres)&sep;1&sep;MOSCOVICI
+Organisations internationales (ONU, OCDE)->Secretariat gal Psdce de la Republique et Secretariat Gal PM&sep;1&sep;HEILBRONN
+Organisations internationales (ONU, OCDE)->Deputes, senateurs, maires : mandat electif ou responsabilites parti politique&sep;3&sep;BOURLANGES | DUHAMEL | MOSCOVICI
+Organisations internationales (ONU, OCDE)->Conseil constitutionnel&sep;1&sep;DUHAMEL
+Organisations internationales (ONU, OCDE)->Cabinets ministeriels&sep;3&sep;CHEVAUCHEZ | LANDAU | QUINET
+Organisations internationales (ONU, OCDE)->Administrateurs Senat / Ass Na&sep;1&sep;DEVIN
+Organisations internationales (ONU, OCDE)->Banque, Finance, Assurances&sep;2&sep;D'SOUZA | WEST
+Organisations internationales (ONU, OCDE)->INSEE&sep;1&sep;COTIS
+Organisations internationales (ONU, OCDE)->Commissariat General Plan (CGP)&sep;1&sep;MOSCOVICI
+Organisations internationales (ONU, OCDE)->Caisse des depots et consignations&sep;1&sep;QUINET
+Organisations internationales (ONU, OCDE)->Paris X&sep;2&sep;DEVIN | DUHAMEL
+Organisations internationales (ONU, OCDE)->Banque de France (BF) - cob, regulation financiere&sep;2&sep;LANDAU | QUINET
+Organisations internationales (ONU, OCDE)->Magistrat&sep;1&sep;GENCARELLI
+Organisations internationales (ONU, OCDE)->Ministere Educ Nat, Ens sup Recherche&sep;1&sep;MOSCOVICI
+Organisations internationales (ONU, OCDE)->ENS&sep;1&sep;THIOLLET
+Organisations internationales (ONU, OCDE)->Paris I&sep;2&sep;DUHAMEL | MARTIN
+Organisations internationales (ONU, OCDE)->Diplomatie francaise et cooperation&sep;1&sep;LEFEBVRE
+Organisations internationales (ONU, OCDE)->Inspection des finances&sep;3&sep;HEILBRONN | LANDAU | QUINET
+Organisations internationales (ONU, OCDE)->Cour des Comptes&sep;2&sep;BOURLANGES | MOSCOVICI
+Organisations internationales (ONU, OCDE)->MINEFI&sep;4&sep;COTIS | HEILBRONN | LANDAU | QUINET
+Organisations internationales (ONU, OCDE)->MAE&sep;2&sep;GODEMENT | LEFEBVRE
+Organisations internationales (ONU, OCDE)->Paris II&sep;1&sep;AZOULAI
+Organisations internationales (ONU, OCDE)->Province&sep;4&sep;AZOULAI | DEVIN | MARTIN | MESSERLIN
+Organisations internationales (ONU, OCDE)->PR Universite&sep;6&sep;DEHOUSSE | DEVIN | DUHAMEL | GODEMENT | MARTIN | MESSERLIN
+Organisations internationales (ONU, OCDE)->INALCO&sep;1&sep;GODEMENT
+ville ->Secretariat gal Psdce de la Republique et Secretariat Gal PM&sep;1&sep;MISSIKA
+ville ->Deputes, senateurs, maires : mandat electif ou responsabilites parti politique&sep;1&sep;MISSIKA
+ville ->Hebdomadaire&sep;1&sep;MISSIKA
+ville ->ENPC&sep;1&sep;OFFNER
+ville ->TV&sep;1&sep;MISSIKA
+Executif (Psdts-Ministres)->Secretariat gal Psdce de la Republique et Secretariat Gal PM&sep;2&sep;GUIGOU | VEDRINE
+Executif (Psdts-Ministres)->Deputes, senateurs, maires : mandat electif ou responsabilites parti politique&sep;4&sep;GUIGOU | JEANNENEY | LEPAGE | MOSCOVICI
+Executif (Psdts-Ministres)->Cabinets ministeriels&sep;1&sep;GUIGOU
+Executif (Psdts-Ministres)->Commissariat General Plan (CGP)&sep;1&sep;MOSCOVICI
+Executif (Psdts-Ministres)->BNF - Archives - Musees&sep;1&sep;JEANNENEY
+Executif (Psdts-Ministres)->Paris X&sep;1&sep;JEANNENEY
+Executif (Psdts-Ministres)->Ministere Educ Nat, Ens sup Recherche&sep;1&sep;MOSCOVICI
+Executif (Psdts-Ministres)->Diplomatie francaise et cooperation&sep;1&sep;GUIGOU
+Executif (Psdts-Ministres)->Ministere Culture&sep;1&sep;VEDRINE
+Executif (Psdts-Ministres)->Cour des Comptes&sep;1&sep;MOSCOVICI
+Executif (Psdts-Ministres)->MINEFI&sep;1&sep;GUIGOU
+Executif (Psdts-Ministres)->MAE&sep;1&sep;VEDRINE
+Executif (Psdts-Ministres)->PR Universite&sep;1&sep;JEANNENEY
+Executif (Psdts-Ministres)->TV&sep;1&sep;JEANNENEY
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Deputes, senateurs, maires : mandat electif ou responsabilites parti politique&sep;2&sep;GUIGOU | MISSIKA
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Conseil constitutionnel&sep;1&sep;DUTHEILLET DE LAMOTHE
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Cabinets ministeriels&sep;3&sep;DAMON | DUTHEILLET DE LAMOTHE | GUIGOU
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->INSEE&sep;1&sep;DAMON
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Conseil d'Etat&sep;3&sep;AGUILA | DUTHEILLET DE LAMOTHE | GLASER
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Caisses et secu sociale (AP-HP, ANPE)&sep;1&sep;DAMON
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Hebdomadaire&sep;1&sep;MISSIKA
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Diplomatie francaise et cooperation&sep;2&sep;AGUILA | GUIGOU
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Ministere Culture&sep;1&sep;VEDRINE
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Inspection des finances&sep;1&sep;HEILBRONN
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->MINEFI&sep;3&sep;GLASER | GUIGOU | HEILBRONN
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->MAE&sep;1&sep;VEDRINE
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Ministere Travail et relations sociales / sante&sep;2&sep;DAMON | DUTHEILLET DE LAMOTHE
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->Ministere Defense&sep;1&sep;GLASER
+Secretariat gal Psdce de la Republique et Secretariat Gal PM->TV&sep;1&sep;MISSIKA
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Conseil constitutionnel&sep;1&sep;DUHAMEL
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Cabinets ministeriels&sep;2&sep;GUIGOU | MILLOT
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Administrateurs Senat / Ass Na&sep;1&sep;MILLOT
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Commissariat General Plan (CGP)&sep;1&sep;MOSCOVICI
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Hebdomadaire&sep;1&sep;MISSIKA
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->BNF - Archives - Musees&sep;1&sep;JEANNENEY
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Paris X&sep;2&sep;DUHAMEL | JEANNENEY
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Ministere Educ Nat, Ens sup Recherche&sep;1&sep;MOSCOVICI
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Paris I&sep;1&sep;DUHAMEL
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Diplomatie francaise et cooperation&sep;1&sep;GUIGOU
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Cour des Comptes&sep;2&sep;BOURLANGES | MOSCOVICI
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->MINEFI&sep;1&sep;GUIGOU
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->PR Universite&sep;2&sep;DUHAMEL | JEANNENEY
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->TV&sep;3&sep;JEANNENEY | MILLOT | MISSIKA
+Deputes, senateurs, maires : mandat electif ou responsabilites parti politique->Radio&sep;1&sep;MILLOT
+Conseil constitutionnel->Cabinets ministeriels&sep;1&sep;DUTHEILLET DE LAMOTHE
+Conseil constitutionnel->Conseil d'Etat&sep;1&sep;DUTHEILLET DE LAMOTHE
+Conseil constitutionnel->Paris X&sep;1&sep;DUHAMEL
+Conseil constitutionnel->Paris I&sep;1&sep;DUHAMEL
+Conseil constitutionnel->Ministere Travail et relations sociales / sante&sep;1&sep;DUTHEILLET DE LAMOTHE
+Conseil constitutionnel->PR Universite&sep;1&sep;DUHAMEL
+Cabinets ministeriels->Administrateurs Senat / Ass Na&sep;2&sep;ARKWRIGHT | MILLOT
+Cabinets ministeriels->Banque, Finance, Assurances&sep;2&sep;DUHAMEL | VIAL
+Cabinets ministeriels->regions et departements&sep;1&sep;DERDEVET
+Cabinets ministeriels->INSEE&sep;1&sep;DAMON
+Cabinets ministeriels->Conseil d'Etat&sep;2&sep;DUTHEILLET DE LAMOTHE | TABUTEAU
+Cabinets ministeriels->Caisses et secu sociale (AP-HP, ANPE)&sep;3&sep;DAMON | DUHAMEL | TABUTEAU
+Cabinets ministeriels->Caisse des depots et consignations&sep;1&sep;QUINET
+Cabinets ministeriels->Etablissements publics (BNF, Archives, Musees, hopitaux)&sep;1&sep;TABUTEAU
+Cabinets ministeriels->Banque de France (BF) - cob, regulation financiere&sep;2&sep;LANDAU | QUINET
+Cabinets ministeriels->Ministere Justice&sep;1&sep;GALLET
+Cabinets ministeriels->Magistrat&sep;1&sep;GALLET
+Cabinets ministeriels->Diplomatie francaise et cooperation&sep;2&sep;GUIGOU | LEVY
+Cabinets ministeriels->Inspection des finances&sep;3&sep;LANDAU | QUINET | VIAL
+Cabinets ministeriels->MINEFI&sep;5&sep;GUIGOU | LANDAU | LEVY | QUINET | VIAL
+Cabinets ministeriels->IGAS&sep;2&sep;DUHAMEL | LAVIGNE
+Cabinets ministeriels->MAE&sep;1&sep;LEVY
+Cabinets ministeriels->Ministere Travail et relations sociales / sante&sep;4&sep;DAMON | DUHAMEL | DUTHEILLET DE LAMOTHE | TABUTEAU
+Cabinets ministeriels->Province&sep;1&sep;DERDEVET
+Cabinets ministeriels->TV&sep;1&sep;MILLOT
+Cabinets ministeriels->Radio&sep;1&sep;MILLOT
+Administrateurs Senat / Ass Na->Paris X&sep;1&sep;DEVIN
+Administrateurs Senat / Ass Na->Province&sep;1&sep;DEVIN
+Administrateurs Senat / Ass Na->PR Universite&sep;1&sep;DEVIN
+Administrateurs Senat / Ass Na->TV&sep;1&sep;MILLOT
+Administrateurs Senat / Ass Na->Radio&sep;1&sep;MILLOT
+Banque, Finance, Assurances->Caisses et secu sociale (AP-HP, ANPE)&sep;1&sep;DUHAMEL
+Banque, Finance, Assurances->Caisse des depots et consignations&sep;1&sep;BARAUD-SERFATY
+Banque, Finance, Assurances->Banque de France (BF) - cob, regulation financiere&sep;1&sep;FRAISSE
+Banque, Finance, Assurances->Magistrat&sep;1&sep;GOLDSTEIN
+Banque, Finance, Assurances->Inspection des finances&sep;2&sep;MACRON | VIAL
+Banque, Finance, Assurances->MINEFI&sep;2&sep;MACRON | VIAL
+Banque, Finance, Assurances->IGAS&sep;1&sep;DUHAMEL
+Banque, Finance, Assurances->Ministere Travail et relations sociales / sante&sep;1&sep;DUHAMEL
+regions et departements->Province&sep;1&sep;DERDEVET
+INSEAD->TV&sep;1&sep;FRASER
+INSEAD->Radio&sep;1&sep;FRASER
+INSEE->Caisses et secu sociale (AP-HP, ANPE)&sep;2&sep;DAMON | PELLET
+INSEE->Commissariat General Plan (CGP)&sep;1&sep;PELLET
+INSEE->INED &sep;1&sep;DESESQUELLES
+INSEE->Paris I&sep;1&sep;PELLET
+INSEE->MINEFI&sep;1&sep;COTIS
+INSEE->Ministere Travail et relations sociales / sante&sep;1&sep;DAMON
+INSEE->Province&sep;1&sep;PELLET
+Conseil d'Etat->Caisses et secu sociale (AP-HP, ANPE)&sep;1&sep;TABUTEAU
+Conseil d'Etat->Etablissements publics (BNF, Archives, Musees, hopitaux)&sep;1&sep;TABUTEAU
+Conseil d'Etat->Ministere Educ Nat, Ens sup Recherche&sep;1&sep;STIRN
+Conseil d'Etat->ENA&sep;1&sep;STIRN
+Conseil d'Etat->Diplomatie francaise et cooperation&sep;1&sep;AGUILA
+Conseil d'Etat->MINEFI&sep;1&sep;GLASER
+Conseil d'Etat->Ministere Travail et relations sociales / sante&sep;2&sep;DUTHEILLET DE LAMOTHE | TABUTEAU
+Conseil d'Etat->Ministere Defense&sep;1&sep;GLASER
+Caisses et secu sociale (AP-HP, ANPE)->Commissariat General Plan (CGP)&sep;1&sep;PELLET
+Caisses et secu sociale (AP-HP, ANPE)->Etablissements publics (BNF, Archives, Musees, hopitaux)&sep;1&sep;TABUTEAU
+Caisses et secu sociale (AP-HP, ANPE)->Paris I&sep;1&sep;PELLET
+Caisses et secu sociale (AP-HP, ANPE)->IGAS&sep;2&sep;DUHAMEL | MOLEUX
+Caisses et secu sociale (AP-HP, ANPE)->Ministere Travail et relations sociales / sante&sep;4&sep;DAMON | DUHAMEL | MOLEUX | TABUTEAU
+Caisses et secu sociale (AP-HP, ANPE)->Province&sep;1&sep;PELLET
+Commissariat General Plan (CGP)->Ministere Educ Nat, Ens sup Recherche&sep;1&sep;MOSCOVICI
+Commissariat General Plan (CGP)->Paris I&sep;1&sep;PELLET
+Commissariat General Plan (CGP)->Cour des Comptes&sep;1&sep;MOSCOVICI
+Commissariat General Plan (CGP)->Province&sep;1&sep;PELLET
+Caisse des depots et consignations->Banque de France (BF) - cob, regulation financiere&sep;1&sep;QUINET
+Caisse des depots et consignations->Inspection des finances&sep;1&sep;QUINET
+Caisse des depots et consignations->MINEFI&sep;1&sep;QUINET
+Etablissements publics (BNF, Archives, Musees, hopitaux)->Ministere Travail et relations sociales / sante&sep;1&sep;TABUTEAU
+Mensuel->Ministere Environnement / ADEME&sep;1&sep;PHILIBERT
+Hebdomadaire->TV&sep;2&sep;MISSIKA | SAUTY DE CHALON
+BNF - Archives - Musees->Paris X&sep;1&sep;JEANNENEY
+BNF - Archives - Musees->PR Universite&sep;1&sep;JEANNENEY
+BNF - Archives - Musees->TV&sep;1&sep;JEANNENEY
+Editions->Cour des Comptes&sep;1&sep;PICQ
+Editions->Ministere Defense&sep;1&sep;PICQ
+Paris IV->Paris X&sep;1&sep;MELONIO
+Paris X->Paris I&sep;1&sep;DUHAMEL
+Paris X->Diplomatie francaise et cooperation&sep;1&sep;CUSSET
+Paris X->Province&sep;1&sep;DEVIN
+Paris X->PR Universite&sep;4&sep;DEVIN | DUHAMEL | JEANNENEY | ROUSSO
+Paris X->TV&sep;1&sep;JEANNENEY
+Banque de France (BF) - cob, regulation financiere->Inspection des finances&sep;2&sep;LANDAU | QUINET
+Banque de France (BF) - cob, regulation financiere->MINEFI&sep;2&sep;LANDAU | QUINET
+Ministere Justice->Magistrat&sep;1&sep;GALLET
+Ministere Educ Nat, Ens sup Recherche->ENA&sep;1&sep;STIRN
+Ministere Educ Nat, Ens sup Recherche->Cour des Comptes&sep;1&sep;MOSCOVICI
+INA->PR Universite&sep;1&sep;TUBIANA
+ENS->Province&sep;2&sep;BEAUD | PINSON
+Paris->Autres Conseils (credoc, conseil d'analyse strategique, conseil concurrence&sep;1&sep;FOUILLAND
+Paris I->Diplomatie francaise et cooperation&sep;1&sep;BOUTRY
+Paris I->Province&sep;5&sep;BRAUD | MARTIN | MORABITO | MUIR WATT | PELLET
+Paris I->Paris&sep;2&sep;MAYER | PONCET
+Paris I->PR Universite&sep;5&sep;BRAUD | DUHAMEL | MARTIN | MORABITO | MUIR WATT
+Diplomatie francaise et cooperation->MINEFI&sep;2&sep;GUIGOU | LEVY
+Diplomatie francaise et cooperation->MAE&sep;3&sep;DOMENACH | LEFEBVRE | LEVY
+Ministere Culture->MAE&sep;1&sep;VEDRINE
+Inspection des finances->MINEFI&sep;8&sep;HEILBRONN | JUTTEAU | LANDAU | LEPETIT | MACRON | QUINET | VERDIER | VIAL
+Cour des Comptes->Ministere Defense&sep;1&sep;PICQ
+MINEFI->MAE&sep;1&sep;LEVY
+MINEFI->Ministere Defense&sep;1&sep;GLASER
+IGAS->Ministere Travail et relations sociales / sante&sep;2&sep;DUHAMEL | MOLEUX
+MAE->PR Universite&sep;1&sep;GODEMENT
+MAE->INALCO&sep;1&sep;GODEMENT
+Banlieue->PR Universite&sep;1&sep;BOULLIER
+Paris II->Province&sep;3&sep;AUBY | AZOULAI | TIGROUDJA
+Paris II->PR Universite&sep;1&sep;AUBY
+Province->Paris&sep;1&sep;RAY
+Province->Paris IX&sep;2&sep;FRISON-ROCHE | GASTAUD
+Province->MCF Universite&sep;1&sep;LE CACHEUX
+Province->PR Universite&sep;14&sep;AUBY | BRAUD | DEVIN | FITOUSSI | FRISON-ROCHE | JAMIN | MARTIN | MESSERLIN | MORABITO | MUIR WATT | PERRINEAU | REYNIE | VIVANT | VON BUSEKIST
+Paris IX->PR Universite&sep;1&sep;FRISON-ROCHE
+PR Universite->INALCO&sep;1&sep;GODEMENT
+PR Universite->ENPC&sep;1&sep;LATOUR
+PR Universite->CNAM &sep;2&sep;LATOUR | SEGRESTIN
+PR Universite->Province&sep;2&sep;LE GALES | SEGRESTIN
+PR Universite->TV&sep;1&sep;JEANNENEY
+ENPC->CNAM &sep;1&sep;LATOUR
+CNAM ->Province&sep;1&sep;SEGRESTIN
+TV->Radio&sep;2&sep;FRASER | MILLOT
+}

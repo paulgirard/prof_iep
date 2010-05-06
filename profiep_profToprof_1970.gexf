@@ -1,0 +1,3295 @@
+<gexf version="1.1" xmlns="http://www.gephi.org/gexf/1.1draft" xmlnsxsi="http://www.w3.org/2001/XMLSchema-instance" xsischemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2010-04-13T12:42:53.412226">
+    <creator>Paul Girard medialab Sciences Po</creator>
+    <description>IEP professers linked by common institutions 1970</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static"/>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static"/>
+    <nodes>
+      <node id="24" label="CHESNEAUX">
+        <attvalues/>
+      </node>
+      <node id="25" label="CHEVALIER ">
+        <attvalues/>
+      </node>
+      <node id="26" label="CONSIGNY">
+        <attvalues/>
+      </node>
+      <node id="27" label="DALLE">
+        <attvalues/>
+      </node>
+      <node id="20" label="CHARDONNET">
+        <attvalues/>
+      </node>
+      <node id="21" label="CHAUMONT">
+        <attvalues/>
+      </node>
+      <node id="22" label="CHENIQUE">
+        <attvalues/>
+      </node>
+      <node id="23" label="CHENOT">
+        <attvalues/>
+      </node>
+      <node id="28" label="DENIS">
+        <attvalues/>
+      </node>
+      <node id="29" label="DESMYTTERE">
+        <attvalues/>
+      </node>
+      <node id="4" label="AYMARD">
+        <attvalues/>
+      </node>
+      <node id="8" label="BONDEL">
+        <attvalues/>
+      </node>
+      <node id="58" label="JAMES">
+        <attvalues/>
+      </node>
+      <node id="55" label="HOURTIG">
+        <attvalues/>
+      </node>
+      <node id="54" label="HOUIN">
+        <attvalues/>
+      </node>
+      <node id="57" label="HURTIG">
+        <attvalues/>
+      </node>
+      <node id="56" label="HUET">
+        <attvalues/>
+      </node>
+      <node id="51" label="GROSSER">
+        <attvalues/>
+      </node>
+      <node id="50" label="GOUT">
+        <attvalues/>
+      </node>
+      <node id="53" label="HOLLEAUX">
+        <attvalues/>
+      </node>
+      <node id="52" label="HENRY-GREARD">
+        <attvalues/>
+      </node>
+      <node id="115" label="VOGUE de">
+        <attvalues/>
+      </node>
+      <node id="114" label="VIOT">
+        <attvalues/>
+      </node>
+      <node id="88" label="ODENT">
+        <attvalues/>
+      </node>
+      <node id="89" label="OUDIETTE">
+        <attvalues/>
+      </node>
+      <node id="111" label="VEDEL">
+        <attvalues/>
+      </node>
+      <node id="110" label="VALLEUL de">
+        <attvalues/>
+      </node>
+      <node id="113" label="VINCENT">
+        <attvalues/>
+      </node>
+      <node id="112" label="VIGIER">
+        <attvalues/>
+      </node>
+      <node id="82" label="MEYRIAT">
+        <attvalues/>
+      </node>
+      <node id="83" label="MONBEIG">
+        <attvalues/>
+      </node>
+      <node id="80" label="MERCIER">
+        <attvalues/>
+      </node>
+      <node id="81" label="MERCILLON ">
+        <attvalues/>
+      </node>
+      <node id="86" label="NEIDINGER">
+        <attvalues/>
+      </node>
+      <node id="87" label="NOUSBAUM">
+        <attvalues/>
+      </node>
+      <node id="84" label="MORAZE">
+        <attvalues/>
+      </node>
+      <node id="85" label="MOUSSA ">
+        <attvalues/>
+      </node>
+      <node id="7" label="BILLARD">
+        <attvalues/>
+      </node>
+      <node id="108" label="TOUCHARD">
+        <attvalues/>
+      </node>
+      <node id="109" label="ULLMO">
+        <attvalues/>
+      </node>
+      <node id="102" label="SAINT-GEOURS">
+        <attvalues/>
+      </node>
+      <node id="103" label="SALMON">
+        <attvalues/>
+      </node>
+      <node id="100" label="ROSIER">
+        <attvalues/>
+      </node>
+      <node id="101" label="ROUSSEAU">
+        <attvalues/>
+      </node>
+      <node id="106" label="TAVERNIER">
+        <attvalues/>
+      </node>
+      <node id="107" label="TERROU">
+        <attvalues/>
+      </node>
+      <node id="104" label="SAUVAGE">
+        <attvalues/>
+      </node>
+      <node id="105" label="TABAH">
+        <attvalues/>
+      </node>
+      <node id="39" label="FOURASTIER">
+        <attvalues/>
+      </node>
+      <node id="38" label="ERGMANN">
+        <attvalues/>
+      </node>
+      <node id="33" label="DUCROCQ">
+        <attvalues/>
+      </node>
+      <node id="32" label="DREYFUS">
+        <attvalues/>
+      </node>
+      <node id="31" label="DRESCH">
+        <attvalues/>
+      </node>
+      <node id="30" label="DEVILLIERS">
+        <attvalues/>
+      </node>
+      <node id="37" label="ELISSEEFF">
+        <attvalues/>
+      </node>
+      <node id="36" label="DUVERGER">
+        <attvalues/>
+      </node>
+      <node id="35" label="DUROSELLE">
+        <attvalues/>
+      </node>
+      <node id="34" label="DUMONT">
+        <attvalues/>
+      </node>
+      <node id="60" label="KERBLAY">
+        <attvalues/>
+      </node>
+      <node id="61" label="KREWERAS">
+        <attvalues/>
+      </node>
+      <node id="62" label="LABASSE">
+        <attvalues/>
+      </node>
+      <node id="63" label="LACHARRIERE de">
+        <attvalues/>
+      </node>
+      <node id="64" label="LACOUTURE">
+        <attvalues/>
+      </node>
+      <node id="65" label="LALOY">
+        <attvalues/>
+      </node>
+      <node id="66" label="LA MARTINIERE de">
+        <attvalues/>
+      </node>
+      <node id="67" label="LANCELOT">
+        <attvalues/>
+      </node>
+      <node id="68" label="LAROQUE">
+        <attvalues/>
+      </node>
+      <node id="69" label="LAROQUE">
+        <attvalues/>
+      </node>
+      <node id="2" label="ALBERT">
+        <attvalues/>
+      </node>
+      <node id="6" label="BESSE">
+        <attvalues/>
+      </node>
+      <node id="99" label="RONDOT">
+        <attvalues/>
+      </node>
+      <node id="98" label="REUTER">
+        <attvalues/>
+      </node>
+      <node id="91" label="PECRESSE">
+        <attvalues/>
+      </node>
+      <node id="90" label="PALLEZ">
+        <attvalues/>
+      </node>
+      <node id="93" label="PERROT">
+        <attvalues/>
+      </node>
+      <node id="92" label="PEPY">
+        <attvalues/>
+      </node>
+      <node id="95" label="PIATIER">
+        <attvalues/>
+      </node>
+      <node id="94" label="PETIT">
+        <attvalues/>
+      </node>
+      <node id="97" label="REMOND">
+        <attvalues/>
+      </node>
+      <node id="96" label="PIGANIOL">
+        <attvalues/>
+      </node>
+      <node id="11" label="BRAIBANT">
+        <attvalues/>
+      </node>
+      <node id="10" label="BOUNINE-CABALE">
+        <attvalues/>
+      </node>
+      <node id="13" label="BRUHAT ">
+        <attvalues/>
+      </node>
+      <node id="12" label="BROCHIER ">
+        <attvalues/>
+      </node>
+      <node id="15" label="BURDEAU">
+        <attvalues/>
+      </node>
+      <node id="14" label="BRUNSCHWIG">
+        <attvalues/>
+      </node>
+      <node id="17" label="CARRERE d'ENCAUSSE">
+        <attvalues/>
+      </node>
+      <node id="16" label="CARMOY de">
+        <attvalues/>
+      </node>
+      <node id="19" label="CHAPSAL">
+        <attvalues/>
+      </node>
+      <node id="18" label="CASANOVA">
+        <attvalues/>
+      </node>
+      <node id="116" label="WAHL">
+        <attvalues/>
+      </node>
+      <node id="48" label="GOGUEL">
+        <attvalues/>
+      </node>
+      <node id="49" label="GOURNAY">
+        <attvalues/>
+      </node>
+      <node id="46" label="GIRARD">
+        <attvalues/>
+      </node>
+      <node id="47" label="GIRARDET">
+        <attvalues/>
+      </node>
+      <node id="44" label="GEORGE">
+        <attvalues/>
+      </node>
+      <node id="45" label="GERBET">
+        <attvalues/>
+      </node>
+      <node id="42" label="GAUDEMET">
+        <attvalues/>
+      </node>
+      <node id="43" label="GAZIER">
+        <attvalues/>
+      </node>
+      <node id="40" label="FOURNIER">
+        <attvalues/>
+      </node>
+      <node id="41" label="FRANCK">
+        <attvalues/>
+      </node>
+      <node id="1" label="ADAM">
+        <attvalues/>
+      </node>
+      <node id="5" label="BASTID">
+        <attvalues/>
+      </node>
+      <node id="9" label="BOISSONNAT">
+        <attvalues/>
+      </node>
+      <node id="77" label="MATHIOT">
+        <attvalues/>
+      </node>
+      <node id="76" label="MAJORELLE">
+        <attvalues/>
+      </node>
+      <node id="75" label="LOYS de ">
+        <attvalues/>
+      </node>
+      <node id="74" label="L'HUILLIER">
+        <attvalues/>
+      </node>
+      <node id="73" label="LE ROY">
+        <attvalues/>
+      </node>
+      <node id="72" label="LAVAU ">
+        <attvalues/>
+      </node>
+      <node id="71" label="LATTRE de">
+        <attvalues/>
+      </node>
+      <node id="70" label="LATREILLE">
+        <attvalues/>
+      </node>
+      <node id="79" label="MENDRAS">
+        <attvalues/>
+      </node>
+      <node id="78" label="MAYOUX">
+        <attvalues/>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="83" id="0" weight="1" label="CNAM ">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="4" id="1" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="5" id="2" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="6" id="3" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="10" id="4" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="12" id="5" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="16" id="6" weight="2" label="Inspection des finances | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="23" id="7" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="26" id="8" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="28" id="9" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="37" id="10" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="40" id="11" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="41" id="12" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="43" id="13" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="51" id="14" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="56" id="15" weight="3" label="Inspection des finances | Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="74" id="16" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="66" id="17" weight="2" label="Inspection des finances | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="63" id="18" weight="2" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="64" id="19" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="65" id="20" weight="2" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="69" id="21" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="71" id="22" weight="2" label="Inspection des finances | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="78" id="23" weight="2" label="Inspection des finances | Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="84" id="24" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="85" id="25" weight="4" label="Inspection des finances | Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE) | Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="89" id="26" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="90" id="27" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="92" id="28" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="94" id="29" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="95" id="30" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="98" id="31" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="99" id="32" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="101" id="33" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="102" id="34" weight="3" label="Inspection des finances | Organisations internationales (ONU, OCDE) | Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="105" id="35" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="107" id="36" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="108" id="37" weight="2" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="114" id="38" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="2" target="116" id="39" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="6" id="40" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="23" id="41" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="28" id="42" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="41" id="43" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="78" id="44" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="85" id="45" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="94" id="46" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="4" target="102" id="47" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="15" id="48" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="16" id="49" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="20" id="50" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="36" id="51" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="37" id="52" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="42" id="53" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="51" id="54" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="54" id="55" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="56" id="56" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="58" id="57" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="63" id="58" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="65" id="59" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="71" id="60" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="72" id="61" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="73" id="62" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="77" id="63" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="81" id="64" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="84" id="65" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="85" id="66" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="93" id="67" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="95" id="68" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="98" id="69" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="100" id="70" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="101" id="71" weight="3" label="Province | Paris II | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="102" id="72" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="105" id="73" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="107" id="74" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="108" id="75" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="110" id="76" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="111" id="77" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="5" target="114" id="78" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="16" id="79" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="23" id="80" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="28" id="81" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="41" id="82" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="56" id="83" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="71" id="84" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="76" id="85" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="78" id="86" weight="2" label="Banque, Finance, Assurances | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="85" id="87" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="94" id="88" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="102" id="89" weight="2" label="Banque, Finance, Assurances | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="6" target="114" id="90" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="7" target="9" id="91" weight="2" label="Mensuel | Radio">
+        <attvalues/>
+      </edge>
+      <edge source="7" target="103" id="92" weight="1" label="Mensuel">
+        <attvalues/>
+      </edge>
+      <edge source="7" target="107" id="93" weight="1" label="Mensuel">
+        <attvalues/>
+      </edge>
+      <edge source="9" target="103" id="94" weight="1" label="Mensuel">
+        <attvalues/>
+      </edge>
+      <edge source="9" target="107" id="95" weight="1" label="Mensuel">
+        <attvalues/>
+      </edge>
+      <edge source="8" target="21" id="96" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="8" target="54" id="97" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="8" target="58" id="98" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="8" target="74" id="99" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="8" target="83" id="100" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="8" target="95" id="101" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="8" target="105" id="102" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="12" id="103" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="27" id="104" weight="1" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="29" id="105" weight="1" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="33" id="106" weight="1" label="Conseils, audit comptable et fiscal">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="40" id="107" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="43" id="108" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="56" id="109" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="74" id="110" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="66" id="111" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="63" id="112" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="64" id="113" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="65" id="114" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="85" id="115" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="92" id="116" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="96" id="117" weight="1" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="99" id="118" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="108" id="119" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="10" target="116" id="120" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="23" id="121" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="40" id="122" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="43" id="123" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="53" id="124" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="55" id="125" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="68" id="126" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="88" id="127" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="11" target="92" id="128" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="17" id="129" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="31" id="130" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="35" id="131" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="40" id="132" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="43" id="133" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="44" id="134" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="56" id="135" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="74" id="136" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="66" id="137" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="62" id="138" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="63" id="139" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="64" id="140" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="65" id="141" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="83" id="142" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="85" id="143" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="92" id="144" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="99" id="145" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="108" id="146" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="12" target="116" id="147" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="24" id="148" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="37" id="149" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="39" id="150" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="42" id="151" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="58" id="152" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="60" id="153" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="82" id="154" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="84" id="155" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="95" id="156" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="14" target="105" id="157" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="20" id="158" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="36" id="159" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="42" id="160" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="54" id="161" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="58" id="162" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="72" id="163" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="73" id="164" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="77" id="165" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="81" id="166" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="93" id="167" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="100" id="168" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="101" id="169" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="110" id="170" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="15" target="111" id="171" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="26" id="172" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="37" id="173" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="51" id="174" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="56" id="175" weight="3" label="Inspection des finances | Organisations internationales (ONU, OCDE) | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="66" id="176" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="63" id="177" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="65" id="178" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="69" id="179" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="71" id="180" weight="3" label="Inspection des finances | Organisations internationales (ONU, OCDE) | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="76" id="181" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="78" id="182" weight="2" label="Inspection des finances | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="84" id="183" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="85" id="184" weight="2" label="Inspection des finances | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="89" id="185" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="90" id="186" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="95" id="187" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="98" id="188" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="101" id="189" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="102" id="190" weight="3" label="Inspection des finances | Organisations internationales (ONU, OCDE) | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="105" id="191" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="107" id="192" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="108" id="193" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="16" target="114" id="194" weight="2" label="Organisations internationales (ONU, OCDE) | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="18" id="195" weight="1" label="PR Universite">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="31" id="196" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="35" id="197" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="44" id="198" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="51" id="199" weight="1" label="PR Universite">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="62" id="200" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="83" id="201" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="17" target="95" id="202" weight="1" label="PR Universite">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="23" id="203" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="26" id="204" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="31" id="205" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="32" id="206" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="35" id="207" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="44" id="208" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="45" id="209" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="49" id="210" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="50" id="211" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="51" id="212" weight="1" label="PR Universite">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="53" id="213" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="56" id="214" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="65" id="215" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="70" id="216" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="71" id="217" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="77" id="218" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="80" id="219" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="84" id="220" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="85" id="221" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="88" id="222" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="89" id="223" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="92" id="224" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="94" id="225" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="95" id="226" weight="1" label="PR Universite">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="97" id="227" weight="2" label="Province | Paris X">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="98" id="228" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="102" id="229" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="108" id="230" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="109" id="231" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="111" id="232" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="112" id="233" weight="2" label="Province | Paris X">
+        <attvalues/>
+      </edge>
+      <edge source="18" target="116" id="234" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="19" target="48" id="235" weight="2" label="Administrateurs Senat / Ass Na | Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="19" target="52" id="236" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="19" target="57" id="237" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="19" target="75" id="238" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="19" target="108" id="239" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="36" id="240" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="42" id="241" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="54" id="242" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="58" id="243" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="72" id="244" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="73" id="245" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="77" id="246" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="81" id="247" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="100" id="248" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="101" id="249" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="110" id="250" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="20" target="111" id="251" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="21" target="54" id="252" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="21" target="58" id="253" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="21" target="74" id="254" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="21" target="83" id="255" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="21" target="95" id="256" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="21" target="105" id="257" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="22" target="23" id="258" weight="1" label="Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)">
+        <attvalues/>
+      </edge>
+      <edge source="22" target="76" id="259" weight="1" label="Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="26" id="260" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="28" id="261" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="40" id="262" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="41" id="263" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="43" id="264" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="48" id="265" weight="1" label="Conseil constitutionnel">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="49" id="266" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="50" id="267" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="53" id="268" weight="2" label="Conseil d'Etat | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="55" id="269" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="56" id="270" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="65" id="271" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="68" id="272" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="71" id="273" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="76" id="274" weight="1" label="Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="77" id="275" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="78" id="276" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="84" id="277" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="85" id="278" weight="2" label="Cabinets ministeriels | Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="88" id="279" weight="2" label="Conseil d'Etat | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="89" id="280" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="92" id="281" weight="2" label="Conseil d'Etat | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="94" id="282" weight="2" label="Cabinets ministeriels | Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="98" id="283" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="102" id="284" weight="2" label="Cabinets ministeriels | Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="108" id="285" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="109" id="286" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="111" id="287" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="23" target="116" id="288" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="37" id="289" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="39" id="290" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="42" id="291" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="58" id="292" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="60" id="293" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="82" id="294" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="84" id="295" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="95" id="296" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="24" target="105" id="297" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="25" target="46" id="298" weight="1" label="INED ">
+        <attvalues/>
+      </edge>
+      <edge source="25" target="53" id="299" weight="1" label="ville ">
+        <attvalues/>
+      </edge>
+      <edge source="25" target="105" id="300" weight="1" label="INED ">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="32" id="301" weight="1" label="Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="49" id="302" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="50" id="303" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="53" id="304" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="56" id="305" weight="2" label="Inspection des finances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="66" id="306" weight="2" label="Inspection des finances | Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="65" id="307" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="69" id="308" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="71" id="309" weight="2" label="Inspection des finances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="77" id="310" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="78" id="311" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="84" id="312" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="85" id="313" weight="2" label="Inspection des finances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="88" id="314" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="89" id="315" weight="2" label="Inspection des finances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="90" id="316" weight="1" label="Inspection des finances">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="92" id="317" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="94" id="318" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="98" id="319" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="102" id="320" weight="2" label="Inspection des finances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="103" id="321" weight="1" label="Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="108" id="322" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="109" id="323" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="111" id="324" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="26" target="116" id="325" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="27" target="29" id="326" weight="1" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
+        <attvalues/>
+      </edge>
+      <edge source="27" target="86" id="327" weight="1" label="PME">
+        <attvalues/>
+      </edge>
+      <edge source="27" target="87" id="328" weight="1" label="PME">
+        <attvalues/>
+      </edge>
+      <edge source="27" target="91" id="329" weight="1" label="PME">
+        <attvalues/>
+      </edge>
+      <edge source="27" target="96" id="330" weight="1" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
+        <attvalues/>
+      </edge>
+      <edge source="28" target="41" id="331" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="28" target="78" id="332" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="28" target="85" id="333" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="28" target="94" id="334" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="28" target="102" id="335" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="29" target="96" id="336" weight="1" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="32" id="337" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="48" id="338" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="56" id="339" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="64" id="340" weight="1" label="Hebdomadaire">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="67" id="341" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="71" id="342" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="80" id="343" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="83" id="344" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="94" id="345" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="99" id="346" weight="1" label="Ministere Defense">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="102" id="347" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="30" target="103" id="348" weight="1" label="Hebdomadaire">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="32" id="349" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="35" id="350" weight="2" label="Province | Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="44" id="351" weight="2" label="Province | Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="45" id="352" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="62" id="353" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="70" id="354" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="80" id="355" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="83" id="356" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="97" id="357" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="31" target="112" id="358" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="35" id="359" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="36" id="360" weight="1" label="IEP Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="42" id="361" weight="1" label="IEP Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="44" id="362" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="45" id="363" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="66" id="364" weight="1" label="Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="67" id="365" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="70" id="366" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="77" id="367" weight="1" label="IEP Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="80" id="368" weight="2" label="CNRS | Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="83" id="369" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="97" id="370" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="103" id="371" weight="1" label="Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
+        <attvalues/>
+      </edge>
+      <edge source="32" target="112" id="372" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="44" id="373" weight="2" label="Province | Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="45" id="374" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="49" id="375" weight="1" label="Directeur recherche FNSP">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="62" id="376" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="70" id="377" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="72" id="378" weight="1" label="Directeur recherche FNSP">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="80" id="379" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="83" id="380" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="97" id="381" weight="2" label="Province | Directeur recherche FNSP">
+        <attvalues/>
+      </edge>
+      <edge source="35" target="112" id="382" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="42" id="383" weight="3" label="Province | IEP Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="54" id="384" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="58" id="385" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="72" id="386" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="73" id="387" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="77" id="388" weight="2" label="Province | IEP Province">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="81" id="389" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="93" id="390" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="100" id="391" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="101" id="392" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="110" id="393" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="36" target="111" id="394" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="39" id="395" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="42" id="396" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="46" id="397" weight="1" label="BNF - Archives - Musees">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="51" id="398" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="56" id="399" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="58" id="400" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="60" id="401" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="63" id="402" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="65" id="403" weight="2" label="BNF - Archives - Musees | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="71" id="404" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="81" id="405" weight="1" label="BNF - Archives - Musees">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="82" id="406" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="84" id="407" weight="2" label="Organisations internationales (ONU, OCDE) | EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="85" id="408" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="95" id="409" weight="2" label="Organisations internationales (ONU, OCDE) | EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="98" id="410" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="101" id="411" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="102" id="412" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="105" id="413" weight="2" label="Organisations internationales (ONU, OCDE) | EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="107" id="414" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="108" id="415" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="37" target="114" id="416" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="38" target="49" id="417" weight="1" label="Cour des Comptes">
+        <attvalues/>
+      </edge>
+      <edge source="38" target="94" id="418" weight="1" label="Cour des Comptes">
+        <attvalues/>
+      </edge>
+      <edge source="38" target="109" id="419" weight="1" label="Cour des Comptes">
+        <attvalues/>
+      </edge>
+      <edge source="38" target="114" id="420" weight="1" label="Cour des Comptes">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="42" id="421" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="49" id="422" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="50" id="423" weight="1" label="Caisses et secu sociale (AP-HP, ANPE)">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="58" id="424" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="60" id="425" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="78" id="426" weight="1" label="Caisses et secu sociale (AP-HP, ANPE)">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="82" id="427" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="84" id="428" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="90" id="429" weight="2" label="Caisses et secu sociale (AP-HP, ANPE) | Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="95" id="430" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="105" id="431" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="109" id="432" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="114" id="433" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="39" target="116" id="434" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="43" id="435" weight="2" label="Conseil d'Etat | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="53" id="436" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="55" id="437" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="56" id="438" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="74" id="439" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="66" id="440" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="63" id="441" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="64" id="442" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="65" id="443" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="68" id="444" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="85" id="445" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="88" id="446" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="92" id="447" weight="2" label="Conseil d'Etat | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="99" id="448" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="108" id="449" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="40" target="116" id="450" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="50" id="451" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="56" id="452" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="66" id="453" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="63" id="454" weight="1" label="MAE">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="65" id="455" weight="1" label="MAE">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="69" id="456" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="71" id="457" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="78" id="458" weight="2" label="Banque, Finance, Assurances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="85" id="459" weight="2" label="Banque, Finance, Assurances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="89" id="460" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="90" id="461" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="94" id="462" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="102" id="463" weight="2" label="Banque, Finance, Assurances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="108" id="464" weight="1" label="MAE">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="111" id="465" weight="2" label="MINEFI | MAE">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="115" id="466" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="41" target="116" id="467" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="54" id="468" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="58" id="469" weight="2" label="Province | EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="60" id="470" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="72" id="471" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="73" id="472" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="77" id="473" weight="2" label="Province | IEP Province">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="81" id="474" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="82" id="475" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="84" id="476" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="93" id="477" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="95" id="478" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="100" id="479" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="101" id="480" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="105" id="481" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="110" id="482" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="42" target="111" id="483" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="53" id="484" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="55" id="485" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="56" id="486" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="74" id="487" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="66" id="488" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="63" id="489" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="64" id="490" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="65" id="491" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="68" id="492" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="85" id="493" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="88" id="494" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="92" id="495" weight="2" label="Conseil d'Etat | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="99" id="496" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="108" id="497" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="43" target="116" id="498" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="44" target="45" id="499" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="44" target="62" id="500" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="44" target="70" id="501" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="44" target="80" id="502" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="44" target="83" id="503" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="44" target="97" id="504" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="44" target="112" id="505" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="45" target="70" id="506" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="45" target="80" id="507" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="45" target="97" id="508" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="45" target="106" id="509" weight="1" label="Charge recherche FNSP">
+        <attvalues/>
+      </edge>
+      <edge source="45" target="112" id="510" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="46" target="61" id="511" weight="1" label="Paris V">
+        <attvalues/>
+      </edge>
+      <edge source="46" target="65" id="512" weight="1" label="BNF - Archives - Musees">
+        <attvalues/>
+      </edge>
+      <edge source="46" target="81" id="513" weight="1" label="BNF - Archives - Musees">
+        <attvalues/>
+      </edge>
+      <edge source="46" target="105" id="514" weight="1" label="INED ">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="52" id="515" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="56" id="516" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="57" id="517" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="71" id="518" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="75" id="519" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="94" id="520" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="102" id="521" weight="1" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="48" target="108" id="522" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="50" id="523" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="53" id="524" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="56" id="525" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="65" id="526" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="71" id="527" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="72" id="528" weight="1" label="Directeur recherche FNSP">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="77" id="529" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="84" id="530" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="85" id="531" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="88" id="532" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="89" id="533" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="90" id="534" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="92" id="535" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="94" id="536" weight="2" label="Cour des Comptes | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="97" id="537" weight="1" label="Directeur recherche FNSP">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="98" id="538" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="102" id="539" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="108" id="540" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="109" id="541" weight="3" label="Cour des Comptes | Cabinets ministeriels | Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="111" id="542" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="114" id="543" weight="2" label="Cour des Comptes | Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="49" target="116" id="544" weight="2" label="Cabinets ministeriels | Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="53" id="545" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="56" id="546" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="66" id="547" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="65" id="548" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="69" id="549" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="71" id="550" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="77" id="551" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="78" id="552" weight="2" label="MINEFI | Caisses et secu sociale (AP-HP, ANPE)">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="84" id="553" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="85" id="554" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="88" id="555" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="89" id="556" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="90" id="557" weight="2" label="MINEFI | Caisses et secu sociale (AP-HP, ANPE)">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="92" id="558" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="94" id="559" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="98" id="560" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="102" id="561" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="108" id="562" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="109" id="563" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="111" id="564" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="115" id="565" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="50" target="116" id="566" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="56" id="567" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="63" id="568" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="65" id="569" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="71" id="570" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="84" id="571" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="85" id="572" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="95" id="573" weight="2" label="Organisations internationales (ONU, OCDE) | PR Universite">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="98" id="574" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="101" id="575" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="102" id="576" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="105" id="577" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="107" id="578" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="108" id="579" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="51" target="114" id="580" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="52" target="57" id="581" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="52" target="75" id="582" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="52" target="108" id="583" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="55" id="584" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="56" id="585" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="65" id="586" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="68" id="587" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="71" id="588" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="77" id="589" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="84" id="590" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="85" id="591" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="88" id="592" weight="2" label="Conseil d'Etat | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="89" id="593" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="92" id="594" weight="2" label="Conseil d'Etat | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="94" id="595" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="98" id="596" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="102" id="597" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="107" id="598" weight="1" label="Ministere Culture">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="108" id="599" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="109" id="600" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="111" id="601" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="53" target="116" id="602" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="58" id="603" weight="2" label="Universitaire | Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="74" id="604" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="72" id="605" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="73" id="606" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="77" id="607" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="81" id="608" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="83" id="609" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="95" id="610" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="100" id="611" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="101" id="612" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="105" id="613" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="110" id="614" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="54" target="111" id="615" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="55" target="68" id="616" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="55" target="88" id="617" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="55" target="92" id="618" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="74" id="619" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="66" id="620" weight="3" label="Inspection des finances | MINEFI | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="63" id="621" weight="2" label="Organisations internationales (ONU, OCDE) | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="64" id="622" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="65" id="623" weight="3" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE) | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="69" id="624" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="71" id="625" weight="6" label="Inspection des finances | Secretariat gal Psdce de la Republique et Secretariat Gal PM | Cabinets ministeriels | Organisations internationales (ONU, OCDE) | MINEFI | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="76" id="626" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="77" id="627" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="78" id="628" weight="3" label="Inspection des finances | MINEFI | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="84" id="629" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="85" id="630" weight="5" label="Inspection des finances | Cabinets ministeriels | Organisations internationales (ONU, OCDE) | MINEFI | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="88" id="631" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="89" id="632" weight="3" label="Inspection des finances | Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="90" id="633" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="92" id="634" weight="2" label="Cabinets ministeriels | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="94" id="635" weight="2" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="95" id="636" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="98" id="637" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="99" id="638" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="101" id="639" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="102" id="640" weight="6" label="Inspection des finances | Secretariat gal Psdce de la Republique et Secretariat Gal PM | Cabinets ministeriels | Organisations internationales (ONU, OCDE) | MINEFI | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="105" id="641" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="107" id="642" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="108" id="643" weight="3" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE) | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="109" id="644" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="111" id="645" weight="2" label="Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="114" id="646" weight="2" label="Organisations internationales (ONU, OCDE) | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="115" id="647" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="56" target="116" id="648" weight="3" label="Cabinets ministeriels | MINEFI | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="57" target="75" id="649" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="57" target="82" id="650" weight="1" label="Bibliotheque et ressources documentaires">
+        <attvalues/>
+      </edge>
+      <edge source="57" target="108" id="651" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="60" id="652" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="74" id="653" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="72" id="654" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="73" id="655" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="77" id="656" weight="2" label="Province | Paris">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="81" id="657" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="82" id="658" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="83" id="659" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="84" id="660" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="95" id="661" weight="2" label="Universitaire | EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="98" id="662" weight="1" label="Paris">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="100" id="663" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="101" id="664" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="105" id="665" weight="2" label="Universitaire | EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="110" id="666" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="58" target="111" id="667" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="60" target="82" id="668" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="60" target="84" id="669" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="60" target="95" id="670" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="60" target="105" id="671" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="66" id="672" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="63" id="673" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="64" id="674" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="65" id="675" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="83" id="676" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="85" id="677" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="92" id="678" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="95" id="679" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="99" id="680" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="105" id="681" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="108" id="682" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="74" target="116" id="683" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="63" id="684" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="64" id="685" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="65" id="686" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="69" id="687" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="71" id="688" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="78" id="689" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="85" id="690" weight="3" label="Inspection des finances | MINEFI | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="89" id="691" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="90" id="692" weight="3" label="Inspection des finances | MINEFI | regions et departements">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="92" id="693" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="99" id="694" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="102" id="695" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="103" id="696" weight="1" label="Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="108" id="697" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="111" id="698" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="115" id="699" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="66" target="116" id="700" weight="2" label="MINEFI | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="62" target="83" id="701" weight="1" label="Paris I">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="64" id="702" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="65" id="703" weight="3" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE) | MAE">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="71" id="704" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="84" id="705" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="85" id="706" weight="2" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="92" id="707" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="95" id="708" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="98" id="709" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="99" id="710" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="101" id="711" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="102" id="712" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="105" id="713" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="107" id="714" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="108" id="715" weight="3" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE) | MAE">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="111" id="716" weight="1" label="MAE">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="114" id="717" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="63" target="116" id="718" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="64" target="65" id="719" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="64" target="85" id="720" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="64" target="92" id="721" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="64" target="99" id="722" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="64" target="103" id="723" weight="1" label="Hebdomadaire">
+        <attvalues/>
+      </edge>
+      <edge source="64" target="108" id="724" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="64" target="116" id="725" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="71" id="726" weight="2" label="Organisations internationales (ONU, OCDE) | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="77" id="727" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="81" id="728" weight="1" label="BNF - Archives - Musees">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="84" id="729" weight="2" label="Organisations internationales (ONU, OCDE) | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="85" id="730" weight="3" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE) | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="88" id="731" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="89" id="732" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="92" id="733" weight="2" label="Diplomatie francaise et cooperation | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="94" id="734" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="95" id="735" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="98" id="736" weight="2" label="Organisations internationales (ONU, OCDE) | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="99" id="737" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="101" id="738" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="102" id="739" weight="2" label="Organisations internationales (ONU, OCDE) | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="105" id="740" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="107" id="741" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="108" id="742" weight="4" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE) | MAE | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="109" id="743" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="111" id="744" weight="2" label="MAE | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="114" id="745" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="65" target="116" id="746" weight="2" label="Diplomatie francaise et cooperation | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="67" target="79" id="747" weight="1" label="Directeur recherche CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="67" target="80" id="748" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="67" target="83" id="749" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="68" target="88" id="750" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="68" target="92" id="751" weight="1" label="Conseil d'Etat">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="71" id="752" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="78" id="753" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="85" id="754" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="89" id="755" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="90" id="756" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="102" id="757" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="111" id="758" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="115" id="759" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="69" target="116" id="760" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="70" target="80" id="761" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="70" target="90" id="762" weight="1" label="Ministere Interieur">
+        <attvalues/>
+      </edge>
+      <edge source="70" target="97" id="763" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="70" target="112" id="764" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="76" id="765" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="77" id="766" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="78" id="767" weight="3" label="Inspection des finances | MINEFI | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="84" id="768" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="85" id="769" weight="4" label="Inspection des finances | MINEFI | Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="88" id="770" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="89" id="771" weight="3" label="Inspection des finances | MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="90" id="772" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="92" id="773" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="94" id="774" weight="2" label="Cabinets ministeriels | Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="95" id="775" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="98" id="776" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="101" id="777" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="102" id="778" weight="6" label="Inspection des finances | MINEFI | Cabinets ministeriels | Secretariat gal Psdce de la Republique et Secretariat Gal PM | Banque de France (BF) - cob, regulation financiere | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="105" id="779" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="107" id="780" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="108" id="781" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="109" id="782" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="111" id="783" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="114" id="784" weight="2" label="Banque de France (BF) - cob, regulation financiere | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="115" id="785" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="71" target="116" id="786" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="73" id="787" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="77" id="788" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="81" id="789" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="97" id="790" weight="1" label="Directeur recherche FNSP">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="100" id="791" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="101" id="792" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="110" id="793" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="72" target="111" id="794" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="73" target="77" id="795" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="73" target="81" id="796" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="73" target="100" id="797" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="73" target="101" id="798" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="73" target="110" id="799" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="73" target="111" id="800" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="75" target="108" id="801" weight="1" label="Direction / Charge de mission">
+        <attvalues/>
+      </edge>
+      <edge source="76" target="78" id="802" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="76" target="95" id="803" weight="1" label="Autres Conseils (credoc, conseil d'analyse strategique, conseil concurrence">
+        <attvalues/>
+      </edge>
+      <edge source="76" target="102" id="804" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="76" target="114" id="805" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="81" id="806" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="84" id="807" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="85" id="808" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="88" id="809" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="89" id="810" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="92" id="811" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="94" id="812" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="98" id="813" weight="2" label="Paris | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="100" id="814" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="101" id="815" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="102" id="816" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="108" id="817" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="109" id="818" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="110" id="819" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="111" id="820" weight="2" label="Province | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="77" target="116" id="821" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="85" id="822" weight="3" label="Inspection des finances | MINEFI | Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="89" id="823" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="90" id="824" weight="3" label="Inspection des finances | MINEFI | Caisses et secu sociale (AP-HP, ANPE)">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="94" id="825" weight="1" label="Banque, Finance, Assurances">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="102" id="826" weight="4" label="Inspection des finances | MINEFI | Banque, Finance, Assurances | Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="111" id="827" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="114" id="828" weight="1" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="115" id="829" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="78" target="116" id="830" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="80" target="83" id="831" weight="1" label="CNRS">
+        <attvalues/>
+      </edge>
+      <edge source="80" target="97" id="832" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="80" target="112" id="833" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="81" target="93" id="834" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="81" target="100" id="835" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="81" target="101" id="836" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="81" target="110" id="837" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="81" target="111" id="838" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="82" target="84" id="839" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="82" target="95" id="840" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="82" target="105" id="841" weight="1" label="EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="83" target="95" id="842" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="83" target="105" id="843" weight="1" label="Universitaire">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="85" id="844" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="88" id="845" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="89" id="846" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="92" id="847" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="94" id="848" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="95" id="849" weight="2" label="EPHE - EHESS | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="98" id="850" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="101" id="851" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="102" id="852" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="105" id="853" weight="2" label="EPHE - EHESS | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="107" id="854" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="108" id="855" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="109" id="856" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="111" id="857" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="114" id="858" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="84" target="116" id="859" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="88" id="860" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="89" id="861" weight="3" label="Inspection des finances | MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="90" id="862" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="92" id="863" weight="2" label="Diplomatie francaise et cooperation | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="94" id="864" weight="2" label="Banque, Finance, Assurances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="95" id="865" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="98" id="866" weight="2" label="Organisations internationales (ONU, OCDE) | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="99" id="867" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="101" id="868" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="102" id="869" weight="5" label="Inspection des finances | MINEFI | Organisations internationales (ONU, OCDE) | Banque, Finance, Assurances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="105" id="870" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="107" id="871" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="108" id="872" weight="3" label="Diplomatie francaise et cooperation | Organisations internationales (ONU, OCDE) | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="109" id="873" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="111" id="874" weight="2" label="MINEFI | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="114" id="875" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="115" id="876" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="85" target="116" id="877" weight="3" label="MINEFI | Diplomatie francaise et cooperation | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="86" target="87" id="878" weight="1" label="PME">
+        <attvalues/>
+      </edge>
+      <edge source="86" target="91" id="879" weight="1" label="PME">
+        <attvalues/>
+      </edge>
+      <edge source="87" target="91" id="880" weight="1" label="PME">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="89" id="881" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="92" id="882" weight="2" label="Conseil d'Etat | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="94" id="883" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="98" id="884" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="102" id="885" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="108" id="886" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="109" id="887" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="111" id="888" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="88" target="116" id="889" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="90" id="890" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="92" id="891" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="94" id="892" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="98" id="893" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="102" id="894" weight="3" label="Inspection des finances | Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="108" id="895" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="109" id="896" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="111" id="897" weight="2" label="Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="115" id="898" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="89" target="116" id="899" weight="2" label="Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="90" target="102" id="900" weight="2" label="Inspection des finances | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="90" target="109" id="901" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="90" target="111" id="902" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="90" target="114" id="903" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="90" target="115" id="904" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="90" target="116" id="905" weight="2" label="MINEFI | Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="94" id="906" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="98" id="907" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="99" id="908" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="102" id="909" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="108" id="910" weight="2" label="Cabinets ministeriels | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="109" id="911" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="111" id="912" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="92" target="116" id="913" weight="2" label="Cabinets ministeriels | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="93" target="101" id="914" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="93" target="110" id="915" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="93" target="111" id="916" weight="1" label="Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="94" target="98" id="917" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="94" target="102" id="918" weight="3" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM | Banque, Finance, Assurances | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="94" target="108" id="919" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="94" target="109" id="920" weight="2" label="Cour des Comptes | Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="94" target="111" id="921" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="94" target="114" id="922" weight="1" label="Cour des Comptes">
+        <attvalues/>
+      </edge>
+      <edge source="94" target="116" id="923" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="95" target="98" id="924" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="95" target="101" id="925" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="95" target="102" id="926" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="95" target="105" id="927" weight="3" label="Universitaire | Organisations internationales (ONU, OCDE) | EPHE - EHESS">
+        <attvalues/>
+      </edge>
+      <edge source="95" target="107" id="928" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="95" target="108" id="929" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="95" target="114" id="930" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="97" target="112" id="931" weight="2" label="Province | Paris X">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="101" id="932" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="102" id="933" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="105" id="934" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="107" id="935" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="108" id="936" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="109" id="937" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="111" id="938" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="114" id="939" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="98" target="116" id="940" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="99" target="108" id="941" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="99" target="116" id="942" weight="1" label="Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="100" target="101" id="943" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="100" target="110" id="944" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="100" target="111" id="945" weight="1" label="Province">
+        <attvalues/>
+      </edge>
+      <edge source="101" target="102" id="946" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="101" target="105" id="947" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="101" target="107" id="948" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="101" target="108" id="949" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="101" target="110" id="950" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="101" target="111" id="951" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="101" target="114" id="952" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="105" id="953" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="107" id="954" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="108" id="955" weight="2" label="Cabinets ministeriels | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="109" id="956" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="111" id="957" weight="2" label="Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="114" id="958" weight="2" label="Banque de France (BF) - cob, regulation financiere | Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="115" id="959" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="102" target="116" id="960" weight="2" label="Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="103" target="107" id="961" weight="1" label="Mensuel">
+        <attvalues/>
+      </edge>
+      <edge source="105" target="107" id="962" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="105" target="108" id="963" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="105" target="114" id="964" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="107" target="108" id="965" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="107" target="114" id="966" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="108" target="109" id="967" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="108" target="111" id="968" weight="2" label="Cabinets ministeriels | MAE">
+        <attvalues/>
+      </edge>
+      <edge source="108" target="114" id="969" weight="1" label="Organisations internationales (ONU, OCDE)">
+        <attvalues/>
+      </edge>
+      <edge source="108" target="116" id="970" weight="2" label="Cabinets ministeriels | Diplomatie francaise et cooperation">
+        <attvalues/>
+      </edge>
+      <edge source="109" target="111" id="971" weight="1" label="Cabinets ministeriels">
+        <attvalues/>
+      </edge>
+      <edge source="109" target="114" id="972" weight="2" label="Cour des Comptes | Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="109" target="116" id="973" weight="2" label="Cabinets ministeriels | Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="110" target="111" id="974" weight="2" label="Province | Paris II">
+        <attvalues/>
+      </edge>
+      <edge source="111" target="115" id="975" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="111" target="116" id="976" weight="2" label="Cabinets ministeriels | MINEFI">
+        <attvalues/>
+      </edge>
+      <edge source="114" target="116" id="977" weight="1" label="Commissariat General Plan (CGP)">
+        <attvalues/>
+      </edge>
+      <edge source="115" target="116" id="978" weight="1" label="MINEFI">
+        <attvalues/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
