@@ -23,41 +23,87 @@ def supprime_accent(ligne):
                 ligne = ligne.replace(accented_char, char)
         return ligne
 
+def autokey(key=0) :
+	while True :
+		yield key
+		key=key+1
+	
+ak = autokey()	
+
+def addProfession(line,professions) :
+	# input :
+	#     line =[group3,group2,group1,name,nameId]
+	#     professions[group]=[id,pgroup]
+	
+	# filtrage des groups vides
+	line=filter(lambda g:not g=="",line)
+	
+	lastId=None
+	for group in line[0:len(line)-2] :
+		if not group=="":
+			if not group in professions.keys() :
+				id="g"+str(ak.next())
+				professions[group]=[id,lastId]
+				print str(lastId)+" > "+str(id)+" - "+group
+			lastId=group
+	
+
+	name=line[len(line)-2]
+	id=line[len(line)-1]
+	professions[name]=[id,lastId]
+	print str(lastId)+" > "+str(id)+" - "+name
 
 
 def loadCategory(file):
 # load a csv 
 # colomun 0 : category name
 # column 1	: group1 name
-# column 2	: group2 name
-# column 3	: ID
-# column 4	: entity name
-# returns dict [id]=["cat","group1","group2","name"]
+# column 2	: group2 name (optional)
+# column 3	: entity name
+# column 4	:  ID
+# returns dict [id]=["name","group1","group2","group3"] ou ["name","group1","group2"]
 	
 	cat=""
 	group1=group2=""
 	nbline=1
 	codes={}
 	lines = file.readlines()
+	professions={}
 	for line in lines:
 		try :
+			# get rid of eol
+			line=re.sub("[\r\n]","",line)
 			data=line.split(";")
+			# get rid of trailing spaces
+			data=map(lambda s:s.strip(),data)
+			# get rid of accent unicode prb to be solved...
+			data=map(supprime_accent,data)
+			
+			# to professions table with pid calculation
+			addProfession(data,professions)
+			
+			#data.reverse()
+			#codes[data[0]]=map(supprime_accent,data[1:])
+			
+			
 			#print str(nbline)+":"+data[0]
-			if not data[0]=="" :
-				cat=data[0]
-			else : 
-				group1=data[1] if not data[1]=="" else group1
-				group2=data[2] if not data[2]=="" else group2
-				id=data[3] if len(data)>=4 else ""
-				if not id=="" :
-					name=re.sub("[\r\n]","",data[4]) if len(data)>=5 else ""
-					codes[id]=[supprime_accent(cat),supprime_accent(group1),supprime_accent(group2),supprime_accent(name),id]
+#			if not data[0]=="" :
+#				cat=data[0]
+#			else : 
+#				group1=data[1] if not data[1]=="" else group1
+#				group2=data[2] if not data[2]=="" else group2
+#				id=data[3] if len(data)>=4 else ""
+#				if not id=="" :
+#					name=re.sub("[\r\n]","",data[4]) if len(data)>=5 else ""
+#					codes[id]=[supprime_accent(cat),supprime_accent(group1),supprime_accent(group2),supprime_accent(name),id]
+
+
 		except Exception as e :
 			print "error line "+str(nbline)+" : "+line
 			print e
 		nbline+=1
 
-	return codes
+	return professions
 	
 def loadProf(file):
 # load a csv 
@@ -231,16 +277,27 @@ def generateProfInstitutionGraph(profs,professionsCat,file_prefix):
 	if export_dot :
 		file=open("profiep_profToinst.dot","w+")
 		file.write("digrpah output {\n"+dotString+"}")	
+	
+###########  MAIN	#############
+#
+#
+#################################
+ 	
 			
 # load categories
 
+verbose=0
 # profession
-file=open("profession.csv")
+file=open("indata/code_prof.csv")
 professionsCat=loadCategory(file)
 #print professions
+#if verbose :
+#	for id,vals in professionsCat.iteritems() :
+#		print id+"|"+"|".join(vals)
 if verbose :
-	for id,vals in professionsCat.iteritems() :
-		print id+"|"+"|".join(vals)
+	for name,[id,pname] in professionsCat.iteritems() :
+		print str(pname)+" > "+str(id)+" - "+name
+
 
 # formation
 
@@ -248,7 +305,7 @@ if verbose :
 
 
 
-for year in ("1970","2008") :
+for year in () :
 	# load prof
 	file=open(year+".csv")
 	profs=loadProf(file)
