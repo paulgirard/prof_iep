@@ -30,7 +30,7 @@ def autokey(key=0) :
 	
 ak = autokey()	
 
-def addProfession(line,professions) :
+def addProfession(line,professions,professionGroups) :
 	# input :
 	#     line =[group3,group2,group1,name,nameId]
 	#     professions[group]=[id,pgroup]
@@ -38,19 +38,21 @@ def addProfession(line,professions) :
 	# filtrage des groups vides
 	line=filter(lambda g:not g=="",line)
 	
-	lastId=None
+	lastId=-1
 	for group in line[0:len(line)-2] :
 		if not group=="":
-			if not group in professions.keys() :
+			if not group in professionGroups.keys() :
 				id="g"+str(ak.next())
-				professions[group]=[id,lastId]
+				professionGroups[group]=[id,lastId]
 				#print str(lastId)+" > "+str(id)+" - "+group
-			lastId=group
+			lastId=professionGroups[group][0]
 	
 
 	name=line[len(line)-2]
 	id=line[len(line)-1]
-	professions[name]=[id,lastId]
+	professions[id]=[name,lastId]
+	
+	
 	#print str(lastId)+" > "+str(id)+" - "+name
 
 
@@ -68,7 +70,8 @@ def loadCategory(file):
 	nbline=1
 	codes={}
 	lines = file.readlines()
-	professionsByName={}
+	professionGroupsByName={}
+	professions={}
 	for line in lines:
 		try :
 			# get rid of eol
@@ -80,7 +83,7 @@ def loadCategory(file):
 			data=map(supprime_accent,data)
 			
 			# to professions table with pid calculation
-			addProfession(data,professionsByName)
+			addProfession(data,professions,professionGroupsByName)
 			
 			#data.reverse()
 			#codes[data[0]]=map(supprime_accent,data[1:])
@@ -102,11 +105,13 @@ def loadCategory(file):
 			print "error line "+str(nbline)+" : "+line
 			print e
 		nbline+=1
-		
-	# reverse key in dict professionsByName to professionsById
-	professionsById=dict([[id,[name,pname]] for name,[id,pname] in professionsByName.iteritems()])
 
-	return professionsById
+
+	
+	# reverse key in dict professionsByName to professionsById
+	professionGroupsById=dict([[id,[name,pid]] for name,[id,pid] in professionGroupsByName.iteritems()])
+
+	return (professions,professionGroupsById)
 	
 def loadProf(file):
 # load a csv 
@@ -132,7 +137,8 @@ def loadProf(file):
 	profs=[]
 	lines = file.readlines()
 	nbline=1
-	for line in lines:
+	# avoid first line 
+	for line in lines[1:]:
 		try :
 			data=line.split(";")
 			
@@ -294,15 +300,18 @@ def generateProfInstitutionGraph(profs,professionsCat,file_prefix):
 verbose=1
 # profession
 file=open("indata/code_prof.csv")
-professionsCat=loadCategory(file)
+professionsName,professionsGroup=loadCategory(file)
 #print professions
 #if verbose :
 #	for id,vals in professionsCat.iteritems() :
 #		print id+"|"+"|".join(vals)
 if verbose :
-	for id,[name,pname] in professionsCat.iteritems() :
-		print str(pname)+" > "+str(id)+" - "+name
-
+	for id,[name,groupID] in professionsName.iteritems() :
+		print professionsGroup[groupID][0]+" > "+str(id)+" - "+name
+	for id,[name,groupID] in professionsGroup.iteritems() :
+		
+		print (professionsGroup[groupID][0] if not groupID==-1 else "-1")+" > "+str(id)+" - "+name
+#print professionsCat.keys()
 
 # formation
 
@@ -310,7 +319,7 @@ if verbose :
 
 
 
-for year in () :
+for year in ("2008",) :
 	# load prof
 	file=open("indata/"+year+".csv")
 	profs=loadProf(file)
@@ -318,19 +327,16 @@ for year in () :
 	#print professions
 	if verbose :
 		for name,formations,professions,id in profs :
-			print name+"|"+"|".join([professionsCat[p][3] if not professionsCat[p][3]=="" else professionsCat[p][2] for p in professions])
+			print name+"|"+"|".join([professionsName[p][0] for p in professions])
 	# let's gexf this
-	
-	# node = professers
-	# links = shared institutions
-	# nodes
+
 	key=lambda prof:prof[0]
 	profs=sorted(profs, key=key )
 	
 	
-	generateProfInstitutionGraph(profs,professionsCat,year)
-	generateProfToProfGraph(profs,professionsCat,year)
-	generateInstToInstGraph(profs,professionsCat,year)
+	generateProfInstitutionGraph(profs,professionsName,professionsGroups,year)
+	#generateProfToProfGraph(profs,professionsCat,year)
+	#generateInstToInstGraph(profs,professionsCat,year)
 
 
 

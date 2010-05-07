@@ -1,5 +1,5 @@
 CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;à l'université;0
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Province;1
+CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Province lettre;1
 CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris I;2
 CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris IV;3
 CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris V;4
@@ -10,7 +10,7 @@ CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris XIII;8
 CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Versailles St Quentin en Yvelines;9
 CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Banlieue;10
 CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Chargé de cours / prof associé + lieu dans seconde colonne;11
-CHAMP UNIVERSITAIRE;Fac Droit et éco;Province;12
+CHAMP UNIVERSITAIRE;Fac Droit et éco;Province droit et éco;12
 CHAMP UNIVERSITAIRE;Fac Droit et éco;Paris II;13
 CHAMP UNIVERSITAIRE;Fac Droit et éco;Paris IX;14
 CHAMP UNIVERSITAIRE;Fac Droit et éco;Paris;15
@@ -55,7 +55,7 @@ CHAMP UNIVERSITAIRE;Ecoles de commerce ;INSEAD;54
 CHAMP UNIVERSITAIRE;Ecoles de commerce ;ESCP;55
 CHAMP UNIVERSITAIRE;Ecoles de commerce ;ESSEC;56
 CHAMP UNIVERSITAIRE;Ecoles de commerce ;Autres;57
-CHAMP UNIVERSITAIRE;Classes préparatoires;Province;60
+CHAMP UNIVERSITAIRE;Classes préparatoires;Province prépa;60
 CHAMP UNIVERSITAIRE;Classes préparatoires;Paris;61
 CHAMP UNIVERSITAIRE;Classes préparatoires;Banlieue;62
 CHAMP UNIVERSITAIRE;Classes préparatoires;Lycée;63
