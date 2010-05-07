@@ -44,14 +44,14 @@ def addProfession(line,professions) :
 			if not group in professions.keys() :
 				id="g"+str(ak.next())
 				professions[group]=[id,lastId]
-				print str(lastId)+" > "+str(id)+" - "+group
+				#print str(lastId)+" > "+str(id)+" - "+group
 			lastId=group
 	
 
 	name=line[len(line)-2]
 	id=line[len(line)-1]
 	professions[name]=[id,lastId]
-	print str(lastId)+" > "+str(id)+" - "+name
+	#print str(lastId)+" > "+str(id)+" - "+name
 
 
 def loadCategory(file):
@@ -68,7 +68,7 @@ def loadCategory(file):
 	nbline=1
 	codes={}
 	lines = file.readlines()
-	professions={}
+	professionsByName={}
 	for line in lines:
 		try :
 			# get rid of eol
@@ -80,7 +80,7 @@ def loadCategory(file):
 			data=map(supprime_accent,data)
 			
 			# to professions table with pid calculation
-			addProfession(data,professions)
+			addProfession(data,professionsByName)
 			
 			#data.reverse()
 			#codes[data[0]]=map(supprime_accent,data[1:])
@@ -102,26 +102,31 @@ def loadCategory(file):
 			print "error line "+str(nbline)+" : "+line
 			print e
 		nbline+=1
+		
+	# reverse key in dict professionsByName to professionsById
+	professionsById=dict([[id,[name,pname]] for name,[id,pname] in professionsByName.iteritems()])
 
-	return professions
+	return professionsById
 	
 def loadProf(file):
 # load a csv 
 # columns :
-# NOM	DISCI	FORMATION1	F2	F3	DIPLOME1	D2	PRO1	T1	PRO2	T2	PRO3	T3	PRO4	T4	PRO5	T5	PRO6	T6	PRO7	T7	EXTRA1	T2	EXTRA2	T2	EXTRA3	T3	EXTRA4	T4	EXTRA5	T5	EXTRA6	T6
-#
+#NOM;DISCIPLINE;AUTO DESCRIPTION;FORMATION1;F2;F3;DIPLOME1;D2;PRO1;T1;PRO2;T2;PRO3;T3;PRO4;T4;PRO5;T5;PRO6;T6;PRO7;T7;EXTRA1;T2;EXTRA2;T2;EXTRA3;T3;EXTRA4;T4;EXTRA5;T5;EXTRA6;T6;;;;;;;;#
 # this function will extract :  
 # colomun 0 :  name
-# column 2	: formation 
-# column 3	: f2
-# column 4	: f3
-# column 7	: profession 
-# column 9	: f2
-# column 11	: f3
-# column 13	: f3
-# column 15	: f3
-# column 17	: f3
-# column 19	: f3
+# (...)
+# column 2	: autodescription = profession principale  
+# column 3	: formation 
+# column 4	: f2
+# column 5	: f3
+# (...)
+# column 8	: profession 
+# column 10	: p2
+# column 12	: p3
+# column 14	: p4
+# column 16	: p5
+# column 18	: p6
+# column 20	: p7
 	
 	
 	profs=[]
@@ -132,8 +137,8 @@ def loadProf(file):
 			data=line.split(";")
 			
 			name=data[0]
-			formations=[d for d in data[2:4] if not d in ("999","") ]
-			professions=[d for i,d in enumerate(data[7:20]) if not d in ("999","") and i%2==0]
+			formations=[d for d in data[3:6] if not d in ("999","") ]
+			professions=[d for i,d in enumerate(data[8:21]) if not d in ("999","") and i%2==0]
 			if len(professions)>0 : #len(formations)>0 or 
 				profs.append([supprime_accent(name),map(supprime_accent,formations),map(supprime_accent,professions),nbline])
 			else :
@@ -286,7 +291,7 @@ def generateProfInstitutionGraph(profs,professionsCat,file_prefix):
 			
 # load categories
 
-verbose=0
+verbose=1
 # profession
 file=open("indata/code_prof.csv")
 professionsCat=loadCategory(file)
@@ -295,7 +300,7 @@ professionsCat=loadCategory(file)
 #	for id,vals in professionsCat.iteritems() :
 #		print id+"|"+"|".join(vals)
 if verbose :
-	for name,[id,pname] in professionsCat.iteritems() :
+	for id,[name,pname] in professionsCat.iteritems() :
 		print str(pname)+" > "+str(id)+" - "+name
 
 
@@ -307,7 +312,7 @@ if verbose :
 
 for year in () :
 	# load prof
-	file=open(year+".csv")
+	file=open("indata/"+year+".csv")
 	profs=loadProf(file)
 	print year+": number profs loaded :"+str(len(profs))
 	#print professions
