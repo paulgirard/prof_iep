@@ -237,7 +237,7 @@ def generateInstToInstGraph(profs,professionsCat,file_prefix):
 			idEdge+=1
 				
 	if export_gexf  :
-		file=open("profiep_instToinst_"+file_prefix+".gexf","w+")
+		file=open("profiep_instToinst_"+file_prefix+"_hierarchy.gexf","w+")
 		gexf_file.write(file)
 	
 	if export_dot :
