@@ -27,8 +27,8 @@ class Gexf :
 		self.schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd"
 		self.version="1.1"
 	
-	def addGraph(self,type,mode):
-		g = Graph(type,mode)
+	def addGraph(self,type,mode,label):
+		g = Graph(type,mode,label)
 		self.graphs.append(g)
 		return g
  	
@@ -60,13 +60,14 @@ class Graph :
 	
 	
 	
-	def __init__(self,type,mode,start="",end="") :
+	def __init__(self,type,mode,label,start="",end="") :
 		
 		# control variable
 		self.authorizedType=("directed","undirected")
 		self.authorizedMode=("dynamic","static")
 		self.defaultType="directed"
 		self.defaultMode="static"
+		self.label=label
 		
 		
 		if type in self.authorizedType :
@@ -155,7 +156,7 @@ class Graph :
 	
 	def getXML(self) :
 		# return lxml etree element
-		graphXML = etree.Element("graph",defaultedgetype=self.type,mode=self.mode)
+		graphXML = etree.Element("graph",defaultedgetype=self.type,mode=self.mode,label=self.label)
 		attributesXMLNodeDynamic = etree.SubElement(graphXML, "attributes")
 		attributesXMLNodeDynamic.set("class","node")
 		attributesXMLNodeDynamic.set("mode","dynamic")
@@ -207,7 +208,7 @@ class Graph :
 		return graphXML
 		
 	def print_stat(self):
-		print self.type+" "+self.mode+" "+self.start+" "+self.end
+		print self.label+" "+self.type+" "+self.mode+" "+self.start+" "+self.end
  		print "number of nodes : "+str(len(self._nodes))
  		print "number of edges : "+str(len(self._edges))
 		

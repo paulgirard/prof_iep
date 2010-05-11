@@ -33,26 +33,28 @@ ak = autokey()
 def addProfession(line,professions,professionGroups) :
 	# input :
 	#     line =[group3,group2,group1,name,nameId]
-	#     professions[id]=[name,pid]
-	#     professionsGroups[(group,pid)]=[id,lastId]
+	#     professions[id]=[name,pid,depth]
+	#     professionsGroups[(group,pid)]=[id,lastId,depth]
 	
 	# filtrage des groups vides
 	line=filter(lambda g:not g=="",line)
 	
 	lastId=-1
+	depth=0
 	for group in line[0:len(line)-2] :
 		if not group=="":
 			# using (group,lasrId) as key to disambiguish same group name with different fathers
 			if not (group,lastId) in professionGroups.keys() :
 				id="g"+str(ak.next())
-				professionGroups[(group,lastId)]=[id,lastId]
+				professionGroups[(group,lastId)]=[id,lastId,depth]
 				#print str(lastId)+" > "+str(id)+" - "+group
 			lastId=professionGroups[(group,lastId)][0]
+			depth+=1
 	
 
 	name=line[len(line)-2]
 	id=line[len(line)-1]
-	professions[id]=[name,lastId]
+	professions[id]=[name,lastId,depth]
 	
 	
 	#print str(lastId)+" > "+str(id)+" - "+name
@@ -111,7 +113,7 @@ def loadCategory(file):
 
 	
 	# reverse key in dict professionsByName to professionsById
-	professionGroupsById=dict([[id,[name,pid]] for (name,pid),[id,pid] in professionGroupsByName.iteritems()])
+	professionGroupsById=dict([[id,[name,pid,depth]] for (name,pid),[id,pid,depth] in professionGroupsByName.iteritems()])
 
 	return (professions,professionGroupsById)
 	
@@ -249,7 +251,7 @@ def generateInstToInstGraph(profs,professionsCat,file_prefix):
 #
 ##########################################################
 
-def generateProfInstitutionGraph(profs,professionsName,professionsGroup,file_prefix):
+def generateProfInstitutionGraph(profs,professionsName,professionsGroup,year,gexf_file):
 	print "graph prof to inst"
 	dotString=""
 	edgesKeygen=autokey()
@@ -257,11 +259,12 @@ def generateProfInstitutionGraph(profs,professionsName,professionsGroup,file_pre
 
 		
 	if export_gexf :
-		gexf_file=gexf.Gexf("Paul Girard medialab Sciences Po","Institutions and professers IEP "+file_prefix)
-		graph=gexf_file.addGraph("undirected","static")
-		idAttType=graph.addNodeAttribute("type","professer","String")
-		idAttInstCat=graph.addNodeAttribute("cat2","","String")
-		idAttInstCat1=graph.addNodeAttribute("cat1","","String")
+		
+		graph=gexf_file.addGraph("undirected","static",year)
+		idAttType=graph.addNodeAttribute("type","professer","string")
+		idAttInstDepth=graph.addNodeAttribute("depth","0","integer")
+		idAttInstCat1=graph.addNodeAttribute("cat1","professors","string")
+#		idAttInstCat1=graph.addNodeAttribute("cat1","","String")
 		
 		
 		# CHECK PID DEPENDENCES
@@ -273,53 +276,58 @@ def generateProfInstitutionGraph(profs,professionsName,professionsGroup,file_pre
 				raise Exception('HIERARCHY ERROR', pid+' not found in ids')
   
 
-
-
-		# professions nodes
-
-		# heads of hierarchy first
-		for id,[name,pid] in professionsGroup.iteritems() :
-			if pid==-1 :
-				n=graph.addNode("inst_"+str(id),name)
-				n.addAttribute(idAttType,"institution")
-		# ohters groups after	
-		for id,[name,pid] in professionsGroup.iteritems() :
-			if not pid==-1 :
-				n=graph.addNode("inst_"+str(id),name,pid="inst_"+pid)
-				n.addAttribute(idAttType,"institution")
-
 		
-		for id,[name,pid] in professionsName.iteritems() :
-			n=graph.addNode("inst_"+str(id),name,pid="inst_"+pid)
+
+		# professions nodes : no gexf hierarchy but a depth attribute
+
+		# let's merge the two dict :
+		professions=professionsName.copy()
+		professions.update(professionsGroup)
+		
+				
+		for id,[name,pid,depth] in professions.iteritems() :
+			n=graph.addNode("inst_"+str(id),name)
 			n.addAttribute(idAttType,"institution")
-			
-			#n.addAttribute(idAttInstCat,group2)
-			#n.addAttribute(idAttInstCat1,group1)
+			n.addAttribute(idAttInstDepth,str(depth))
+			ppid=pid if not pid==-1 else id
+			while not pid==-1:
+				ppid=pid
+				pid=professions[ppid][1]
+	
+			n.addAttribute(idAttInstCat1,professions[ppid][0])
 				
 		
 		# professors nodes	
-		for name,formations,professions,id in profs :
+		for name,formations,profProfessions,id in profs :
 			n=graph.addNode("prof_"+str(id),name)
 			n.addAttribute(idAttType,"professer")
+			n.addAttribute(idAttInstDepth,"-1")
 			# professors edges
-			for professionID in professions :
-				if professionID in ids :
-					graph.addEdge(edgesKeygen.next(),"prof_"+str(id),"inst_"+str(professionID))
-				else :
-					raise Exception('EDGES ERROR', professionID+' not found in profession ids')			
+			professionLinked=[]
+			for professionID in profProfessions :
+				# add edges also to higher depth level professions (false hierarchy) 
+				while not professionID=="-1":
+					# avoid paralell edges
+					if not professionID in professionLinked :
+						graph.addEdge(edgesKeygen.next(),"prof_"+str(id),"inst_"+str(professionID))
+						professionLinked.append(professionID)
+					# jump up a level by using pid
+					professionID=str(professions[professionID][1])
+					
+						
+#				else :
+#					raise Exception('EDGES ERROR', professionID+' not found in profession ids')			
 				
-	if export_dot :
-		for prof in profs :
-			# pour toutes les professions du prof 1			for instID in prof[2] :
-					profession=professionsName[instID][0] 
-					dotString+=getDotLinkString(str(prof[3])+"-"+prof[0],profession,"1","")	
-	if export_gexf :
-		file=open("outdata/profiep_profToinst_"+file_prefix+".gexf","w+")
-		gexf_file.write(file)
+#	if export_dot :
+#		for prof in profs :
+#			# pour toutes les professions du prof 1#			for instID in prof[2] :
+#					profession=professionsName[instID][0] 
+#					dotString+=getDotLinkString(str(prof[3])+"-"+prof[0],profession,"1","")	
+
 	
-	if export_dot :
-		file=open("outdata/profiep_profToinst.dot","w+")
-		file.write("digrpah output {\n"+dotString+"}")	
+#	if export_dot :
+#		file=open("outdata/profiep_profToinst.dot","w+")
+#		file.write("digrpah output {\n"+dotString+"}")	
 	
 ###########  MAIN	#############
 #
@@ -329,7 +337,7 @@ def generateProfInstitutionGraph(profs,professionsName,professionsGroup,file_pre
 			
 # load categories
 
-verbose=1
+verbose=0
 # profession
 file=open("indata/code_prof.csv")
 professionsName,professionsGroup=loadCategory(file)
@@ -338,9 +346,9 @@ professionsName,professionsGroup=loadCategory(file)
 #	for id,vals in professionsCat.iteritems() :
 #		print id+"|"+"|".join(vals)
 if verbose :
-	for id,[name,groupID] in professionsName.iteritems() :
+	for id,[name,groupID,depth] in professionsName.iteritems() :
 		print professionsGroup[groupID][0]+" > "+str(id)+" - "+name
-	for id,[name,groupID] in professionsGroup.iteritems() :
+	for id,[name,groupID,depth] in professionsGroup.iteritems() :
 		
 		print (professionsGroup[groupID][0] if not groupID==-1 else "-1")+" > "+str(id)+" - "+name
 #print professionsCat.keys()
@@ -349,10 +357,12 @@ if verbose :
 
 # extra
 
+years=("2008","1996","1986","1970")
 
-
-for year in ("2008",) :
+for year in years :
 	# load prof
+	gexf_file=gexf.Gexf("medialab Sciences Po - Paul Girard - Marie Scot","Institutions and professers IEP "+year)
+
 	file=open("indata/"+year+".csv")
 	profs=loadProf(file)
 	print year+": number profs loaded :"+str(len(profs))
@@ -365,13 +375,15 @@ for year in ("2008",) :
 	key=lambda prof:prof[0]
 	profs=sorted(profs, key=key )
 	
-	
-	generateProfInstitutionGraph(profs,professionsName,professionsGroup,year)
+		
+	generateProfInstitutionGraph(profs,professionsName,professionsGroup,year,gexf_file)
 	#generateProfToProfGraph(profs,professionsCat,year)
 	#generateInstToInstGraph(profs,professionsCat,year)
 
 
-
+	if export_gexf :
+		file=open("outdata/profiep_profToinst_"+year+".gexf","w+")
+		gexf_file.write(file)
 
 
 

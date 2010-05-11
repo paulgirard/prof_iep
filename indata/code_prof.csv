@@ -1,151 +1,151 @@
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;à l'université;0
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Province lettre;1
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris I;2
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris IV;3
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris V;4
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris VII;5
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris VIII;6
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris X;7
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Paris XIII;8
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Versailles St Quentin en Yvelines;9
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Banlieue;10
-CHAMP UNIVERSITAIRE;Fac Lettres et Sc Humaines;Chargé de cours / prof associé + lieu dans seconde colonne;11
-CHAMP UNIVERSITAIRE;Fac Droit et éco;Province droit et éco;12
-CHAMP UNIVERSITAIRE;Fac Droit et éco;Paris II;13
-CHAMP UNIVERSITAIRE;Fac Droit et éco;Paris IX;14
-CHAMP UNIVERSITAIRE;Fac Droit et éco;Paris;15
-CHAMP UNIVERSITAIRE;IEP-FNSP;PR Université;16
-CHAMP UNIVERSITAIRE;IEP-FNSP;MCF Université;17
-CHAMP UNIVERSITAIRE;IEP-FNSP;Agrégé - certifié affecté;18
-CHAMP UNIVERSITAIRE;IEP-FNSP;Chargé recherche CNRS;19
-CHAMP UNIVERSITAIRE;IEP-FNSP;Directeur recherche CNRS;20
-CHAMP UNIVERSITAIRE;IEP-FNSP;Chargé recherche FNSP;21
-CHAMP UNIVERSITAIRE;IEP-FNSP;Directeur recherche FNSP;22
-CHAMP UNIVERSITAIRE;IEP-FNSP;Bibliothèque et ressources documentaires;23
-CHAMP UNIVERSITAIRE;IEP-FNSP;Direction / Chargé de mission;24
-CHAMP UNIVERSITAIRE;IEP-FNSP;IEP Province;25
-CHAMP UNIVERSITAIRE;IEP-FNSP;Assistant, ATER, AMN, associé;26
-CHAMP UNIVERSITAIRE;Grands établissements d'Enseignement supérieur et de recherche ;CNRS;27
-CHAMP UNIVERSITAIRE;Grands établissements d'Enseignement supérieur et de recherche ;EPHE - EHESS;28
-CHAMP UNIVERSITAIRE;Grands établissements d'Enseignement supérieur et de recherche ;Collège de France;29
-CHAMP UNIVERSITAIRE;Grands établissements d'Enseignement supérieur et de recherche ;INED ;30
-CHAMP UNIVERSITAIRE;Grands établissements d'Enseignement supérieur et de recherche ;INA;31
-CHAMP UNIVERSITAIRE;Grands établissements d'Enseignement supérieur et de recherche ;CNES, INSERM, INRA, IFREMER, IFRI;32
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;ENA;33
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;ENS;34
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;X;35
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;St Cyr;36
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;ENSAE ;37
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;CELSA;38
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;Mines;39
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;ENPC;40
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;CNAM ;41
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;ECP;42
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;ENMagistrature ;43
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;INALCO;44
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;IHED;45
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;Fondation pour les études de défense nationale;46
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;Ecole d'outre-mer;47
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;Uni Catho Paris;48
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;Institut international d'Administration publique, formation agents à l'étranger et coopération;49
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;Institut français Presse / CFJournaliste;50
-CHAMP UNIVERSITAIRE;Autres écoles de pouvoir ;Autres;51
-CHAMP UNIVERSITAIRE;Ecoles de commerce ;HEC;53
-CHAMP UNIVERSITAIRE;Ecoles de commerce ;INSEAD;54
-CHAMP UNIVERSITAIRE;Ecoles de commerce ;ESCP;55
-CHAMP UNIVERSITAIRE;Ecoles de commerce ;ESSEC;56
-CHAMP UNIVERSITAIRE;Ecoles de commerce ;Autres;57
-CHAMP UNIVERSITAIRE;Classes préparatoires;Province prépa;60
-CHAMP UNIVERSITAIRE;Classes préparatoires;Paris;61
-CHAMP UNIVERSITAIRE;Classes préparatoires;Banlieue;62
-CHAMP UNIVERSITAIRE;Classes préparatoires;Lycée;63
-CHAMP UNIVERSITAIRE;Classes préparatoires;IUFM;64
-CHAMP UNIVERSITAIRE;Ecoles privées - centres privés;;66
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Dans fac : psdt, vpsdt, doyen, psdt département;67
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Dans monde universitaire : CNU, CSU, Jurys;68
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Dans Ministère ES : commissions de programmes, consultation;69
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Evaluation : AERES, ANR;70
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Associations disciplinaires;71
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Comités de rédaction de revue;73
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Expertise publique;74
-CHAMP UNIVERSITAIRE;Pouvoir universitaire et de recherche ;Expertise privée;75
-CHAMP CULTUREL;ORTF- Radio-TL ;Radio;76
-CHAMP CULTUREL;ORTF- Radio-TL ;TV;77
-CHAMP CULTUREL;ORTF- Radio-TL ;Conseil Supérieur de l'Audiovisuel;78
-CHAMP CULTUREL;ORTF- Radio-TL ;CNC ?;79
-CHAMP CULTUREL;ORTF- Radio-TL ;AFP;80
-CHAMP CULTUREL;Presse;Hebdomadaire;81
-CHAMP CULTUREL;Presse;Mensuel;82
-CHAMP CULTUREL;Associations culturelles ;;83
-CHAMP CULTUREL;Editions;;84
-CHAMP CULTUREL;Arts et lettres;;85
-CHAMP CULTUREL;Académie SMP;;86
-CHAMP CULTUREL;BNF - Archives - Musées;;87
-CHAMP CULTUREL;Adm et amis Opéra, Musées nationaux;;88
-CHAMP ADMINISTRATIF;Grands Corps;Conseil d'Etat;89
-CHAMP ADMINISTRATIF;Grands Corps;Cour des Comptes;90
-CHAMP ADMINISTRATIF;Grands Corps;Inspection des finances;91
-CHAMP ADMINISTRATIF;Grands Corps;IGAS;92
-CHAMP ADMINISTRATIF;Ministères;MINEFI;93
-CHAMP ADMINISTRATIF;Ministères;MAE;94
-CHAMP ADMINISTRATIF;Ministères;Ministère Intérieur;95
-CHAMP ADMINISTRATIF;Ministères;Ministère Défense;96
-CHAMP ADMINISTRATIF;Ministères;Ministère Travail et relations sociales / santé;97
-CHAMP ADMINISTRATIF;Ministères;Ministère Agriculture;98
-CHAMP ADMINISTRATIF;Ministères;Ministère Culture;99
-CHAMP ADMINISTRATIF;Ministères;Ministère Environnement / ADEME;100
-CHAMP ADMINISTRATIF;Ministères;Ministère Outre Mer et  Ministère Coopération;101
-CHAMP ADMINISTRATIF;Ministères;Ministère Fonction Publique;102
-CHAMP ADMINISTRATIF;Ministères;Ministère Justice;103
-CHAMP ADMINISTRATIF;Ministères;Ministère Educ Nat, Ens sup Recherche;104
-CHAMP ADMINISTRATIF;Ministères;Jeunesse & Sport;105
-CHAMP ADMINISTRATIF;Ministères;Equipement;106
-CHAMP ADMINISTRATIF;Magistrature ;Magistrat;107
-CHAMP ADMINISTRATIF;Magistrature ;CSMagistrature;108
-CHAMP ADMINISTRATIF;Administration centrale;Banque de France (BF) - cob, régulation financiere;109
-CHAMP ADMINISTRATIF;Administration centrale;Commissariat Général Plan (CGP);110
-CHAMP ADMINISTRATIF;Administration centrale;Caisses et sécu sociale (AP-HP, ANPE);111
-CHAMP ADMINISTRATIF;Administration centrale;Etablissements publics (BNF, Archives, Musées, hôpitaux);112
-CHAMP ADMINISTRATIF;Administration centrale;Caisse des dépôts et consignations;113
-CHAMP ADMINISTRATIF;Administration centrale;DATAR ;114
-CHAMP ADMINISTRATIF;Administration centrale;INSEE;115
-CHAMP ADMINISTRATIF;Administration centrale;Autres Conseils (crédoc, conseil d'analyse stratégique, conseil concurrence;116
-CHAMP ADMINISTRATIF;Administrations régionales, départementales et locales;préfecture;117
-CHAMP ADMINISTRATIF;Administrations régionales, départementales et locales;régions et départements;118
-CHAMP ADMINISTRATIF;Administrations régionales, départementales et locales;ville ;119
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Exécutif (Psdts-Ministres);120
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Secrétariat gal Psdce de la République et Secrétariat Gal PM;121
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Députés, sénateurs, maires : mandat électif ou responsabilités parti politique;122
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Conseil constitutionnel;123
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Commissions ad hoc;124
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Cabinets ministériels;125
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Conseil économique et social ?;126
-CHAMP POLITIQUE;Administrations régionales, départementales et locales;Administrateurs Sénat / Ass Na;127
-CHAMP ECONOMIQUE;Banque, Finance, Assurances;;128
-CHAMP ECONOMIQUE;Industries productives;Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTélécom);131
-CHAMP ECONOMIQUE;Industries productives;Grandes entreprises privées (l'Oréal, Thomson, Lagardère, Bouygues);132
-CHAMP ECONOMIQUE;Industries productives;PME;133
-CHAMP ECONOMIQUE;Services et conseils;Sondages;134
-CHAMP ECONOMIQUE;Services et conseils;Pub et marketing;135
-CHAMP ECONOMIQUE;Services et conseils;Conseils, audit comptable et fiscal;136
-CHAMP ECONOMIQUE;Services et conseils;Conseils juridique : avocats;137
-CHAMP ECONOMIQUE;Commerce (cbre de commerce);;139
-CHAMP LOBBYING;Religieux Communautaire;CRIF - CFJ;140
-CHAMP LOBBYING;Religieux Communautaire;Catho (Amis - Sté Royaumont - Semaines sociales;141
-CHAMP LOBBYING;Patronal;CNPF-MEDEF;144
-CHAMP LOBBYING;Patronal;Clubs de réflexion (Institut Montaigne, Institut Aspen, Fondation Innovation, Institut La Boétie, Le siècle);145
-CHAMP LOBBYING;Syndical;;147
-CHAMP LOBBYING;ONG  (Croix Rouge / Sida);;150
-CHAMP LOBBYING;Clubs réflexion;(Club Saint Simon Cercle Tocqueville Club Horloge);151
-CHAMP LOBBYING;Politique ;Europe : Notre Europe   - Fondation Schuman;152
-CHAMP LOBBYING;Politique ;Alter : ATTAC         ;153
-CHAMP LOBBYING;Politique ;Action française        ;154
-CHAMP LOBBYING;Politique ;Ecolo;155
-CHAMP LOBBYING;Politique ;Socialiste;156
-CHAMP LOBBYING;Lobbying étranger;Fondation Franco-US;157
-CHAMP LOBBYING;Lobbying étranger;Afrique;158
-CHAMP INTERNATIONAL;Universitaire;;161
-CHAMP INTERNATIONAL;Diplomatie française et coopération;;162
-CHAMP INTERNATIONAL;Organisations internationales (ONU, OCDE);;163
-CHAMP INTERNATIONAL;Firmes Multinationales;;164
-CHAMP INTERNATIONAL;Diplômés étrangers;;165
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"à l'université";0
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Province";1
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Paris I";2
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Paris IV";3
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Paris V";4
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Paris VII";5
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Paris VIII";6
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Paris X";7
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Paris XIII";8
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Versailles St Quentin en Yvelines";9
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Banlieue";10
+"CHAMP UNIVERSITAIRE";"Fac Lettres et Sc Humaines";"Chargé de cours / prof associé + lieu dans seconde colonne";11
+"CHAMP UNIVERSITAIRE";"Fac Droit et éco";"Province";12
+"CHAMP UNIVERSITAIRE";"Fac Droit et éco";"Paris II";13
+"CHAMP UNIVERSITAIRE";"Fac Droit et éco";"Paris IX";14
+"CHAMP UNIVERSITAIRE";"Fac Droit et éco";"Paris";15
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"PR Université";16
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"MCF Université";17
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Agrégé - certifié affecté";18
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Chargé recherche CNRS";19
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Directeur recherche CNRS";20
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Chargé recherche FNSP";21
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Directeur recherche FNSP";22
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Bibliothèque et ressources documentaires";23
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Direction / Chargé de mission";24
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"IEP Province";25
+"CHAMP UNIVERSITAIRE";"IEP-FNSP";"Assistant, ATER, AMN, associé";26
+"CHAMP UNIVERSITAIRE";"Grands établissements d'Enseignement supérieur et de recherche ";"CNRS";27
+"CHAMP UNIVERSITAIRE";"Grands établissements d'Enseignement supérieur et de recherche ";"EPHE - EHESS";28
+"CHAMP UNIVERSITAIRE";"Grands établissements d'Enseignement supérieur et de recherche ";"Collège de France";29
+"CHAMP UNIVERSITAIRE";"Grands établissements d'Enseignement supérieur et de recherche ";"INED ";30
+"CHAMP UNIVERSITAIRE";"Grands établissements d'Enseignement supérieur et de recherche ";"INA";31
+"CHAMP UNIVERSITAIRE";"Grands établissements d'Enseignement supérieur et de recherche ";"CNES, INSERM, INRA, IFREMER, IFRI";32
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"ENA";33
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"ENS";34
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"X";35
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"St Cyr";36
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"ENSAE ";37
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"CELSA";38
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"Mines";39
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"ENPC";40
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"CNAM ";41
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"ECP";42
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"ENMagistrature ";43
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"INALCO";44
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"IHED";45
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"Fondation pour les études de défense nationale";46
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"Ecole d'outre-mer";47
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"Uni Catho Paris";48
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"Institut international d'Administration publique, formation agents à l'étranger et coopération";49
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"Institut français Presse / CFJournaliste";50
+"CHAMP UNIVERSITAIRE";"Autres écoles de pouvoir ";"Autres";51
+"CHAMP UNIVERSITAIRE";"Ecoles de commerce ";"HEC";53
+"CHAMP UNIVERSITAIRE";"Ecoles de commerce ";"INSEAD";54
+"CHAMP UNIVERSITAIRE";"Ecoles de commerce ";"ESCP";55
+"CHAMP UNIVERSITAIRE";"Ecoles de commerce ";"ESSEC";56
+"CHAMP UNIVERSITAIRE";"Ecoles de commerce ";"Autres";57
+"CHAMP UNIVERSITAIRE";"Classes préparatoires";"Province";60
+"CHAMP UNIVERSITAIRE";"Classes préparatoires";"Paris";61
+"CHAMP UNIVERSITAIRE";"Classes préparatoires";"Banlieue";62
+"CHAMP UNIVERSITAIRE";"Classes préparatoires";"Lycée";63
+"CHAMP UNIVERSITAIRE";"Classes préparatoires";"IUFM";64
+"CHAMP UNIVERSITAIRE";"Ecoles privées - centres privés";"Ecoles privées - centres privés";66
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Dans fac : psdt, vpsdt, doyen, psdt département";67
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Dans monde universitaire : CNU, CSU, Jurys";68
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Dans Ministère ES : commissions de programmes, consultation";69
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Evaluation : AERES, ANR";70
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Associations disciplinaires";71
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Comités de rédaction de revue";73
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Expertise publique";74
+"CHAMP UNIVERSITAIRE";"Pouvoir universitaire et de recherche ";"Expertise privée";75
+"CHAMP CULTUREL";"ORTF- Radio-TL ";"Radio";76
+"CHAMP CULTUREL";"ORTF- Radio-TL ";"TV";77
+"CHAMP CULTUREL";"ORTF- Radio-TL ";"Conseil Supérieur de l'Audiovisuel";78
+"CHAMP CULTUREL";"ORTF- Radio-TL ";"CNC ?";79
+"CHAMP CULTUREL";"ORTF- Radio-TL ";"AFP";80
+"CHAMP CULTUREL";"Presse";"Hebdomadaire";81
+"CHAMP CULTUREL";"Presse";"Mensuel";82
+"CHAMP CULTUREL";"Associations culturelles ";"Associations culturelles ";83
+"CHAMP CULTUREL";"Editions";"Editions";84
+"CHAMP CULTUREL";"Arts et lettres";"Arts et lettres";85
+"CHAMP CULTUREL";"Académie SMP";"Académie SMP";86
+"CHAMP CULTUREL";"BNF - Archives - Musées";"BNF - Archives - Musées";87
+"CHAMP CULTUREL";"Adm et amis Opéra, Musées nationaux";"Adm et amis Opéra, Musées nationaux";88
+"CHAMP ADMINISTRATIF";"Grands Corps";"Conseil d'Etat";89
+"CHAMP ADMINISTRATIF";"Grands Corps";"Cour des Comptes";90
+"CHAMP ADMINISTRATIF";"Grands Corps";"Inspection des finances";91
+"CHAMP ADMINISTRATIF";"Grands Corps";"IGAS";92
+"CHAMP ADMINISTRATIF";"Ministères";"MINEFI";93
+"CHAMP ADMINISTRATIF";"Ministères";"MAE";94
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Intérieur";95
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Défense";96
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Travail et relations sociales / santé";97
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Agriculture";98
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Culture";99
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Environnement / ADEME";100
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Outre Mer et  Ministère Coopération";101
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Fonction Publique";102
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Justice";103
+"CHAMP ADMINISTRATIF";"Ministères";"Ministère Educ Nat, Ens sup Recherche";104
+"CHAMP ADMINISTRATIF";"Ministères";"Jeunesse & Sport";105
+"CHAMP ADMINISTRATIF";"Ministères";"Equipement";106
+"CHAMP ADMINISTRATIF";"Magistrature ";"Magistrat";107
+"CHAMP ADMINISTRATIF";"Magistrature ";"CSMagistrature";108
+"CHAMP ADMINISTRATIF";"Administration centrale";"Banque de France (BF) - cob, régulation financiere";109
+"CHAMP ADMINISTRATIF";"Administration centrale";"Commissariat Général Plan (CGP)";110
+"CHAMP ADMINISTRATIF";"Administration centrale";"Caisses et sécu sociale (AP-HP, ANPE)";111
+"CHAMP ADMINISTRATIF";"Administration centrale";"Etablissements publics (BNF, Archives, Musées, hôpitaux)";112
+"CHAMP ADMINISTRATIF";"Administration centrale";"Caisse des dépôts et consignations";113
+"CHAMP ADMINISTRATIF";"Administration centrale";"DATAR ";114
+"CHAMP ADMINISTRATIF";"Administration centrale";"INSEE";115
+"CHAMP ADMINISTRATIF";"Administration centrale";"Autres Conseils (crédoc, conseil d'analyse stratégique, conseil concurrence";116
+"CHAMP ADMINISTRATIF";"Administrations régionales, départementales et locales";"préfecture";117
+"CHAMP ADMINISTRATIF";"Administrations régionales, départementales et locales";"régions et départements";118
+"CHAMP ADMINISTRATIF";"Administrations régionales, départementales et locales";"ville ";119
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Exécutif (Psdts-Ministres)";120
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Secrétariat gal Psdce de la République et Secrétariat Gal PM";121
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Députés, sénateurs, maires : mandat électif ou responsabilités parti politique";122
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Conseil constitutionnel";123
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Commissions ad hoc";124
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Cabinets ministériels";125
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Conseil économique et social ?";126
+"CHAMP POLITIQUE";"Administrations régionales, départementales et locales";"Administrateurs Sénat / Ass Na";127
+"CHAMP ECONOMIQUE";"Banque, Finance, Assurances";"Banque, Finance, Assurances";128
+"CHAMP ECONOMIQUE";"Industries productives";"Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTélécom)";131
+"CHAMP ECONOMIQUE";"Industries productives";"Grandes entreprises privées (l'Oréal, Thomson, Lagardère, Bouygues)";132
+"CHAMP ECONOMIQUE";"Industries productives";"PME";133
+"CHAMP ECONOMIQUE";"Services et conseils";"Sondages";134
+"CHAMP ECONOMIQUE";"Services et conseils";"Pub et marketing";135
+"CHAMP ECONOMIQUE";"Services et conseils";"Conseils, audit comptable et fiscal";136
+"CHAMP ECONOMIQUE";"Services et conseils";"Conseils juridique : avocats";137
+"CHAMP ECONOMIQUE";"Commerce (cbre de commerce)";"Commerce (cbre de commerce)";139
+"CHAMP LOBBYING";"Religieux Communautaire";"CRIF - CFJ";140
+"CHAMP LOBBYING";"Religieux Communautaire";"Catho (Amis - Sté Royaumont - Semaines sociales";141
+"CHAMP LOBBYING";"Patronal";"CNPF-MEDEF";144
+"CHAMP LOBBYING";"Patronal";"Clubs de réflexion (Institut Montaigne, Institut Aspen, Fondation Innovation, Institut La Boétie, Le siècle)";145
+"CHAMP LOBBYING";"Syndical";"Syndical";147
+"CHAMP LOBBYING";"ONG  (Croix Rouge / Sida)";"ONG  (Croix Rouge / Sida)";150
+"CHAMP LOBBYING";"Clubs réflexion";"(Club Saint Simon Cercle Tocqueville Club Horloge)";151
+"CHAMP LOBBYING";"Politique ";"Europe : Notre Europe   - Fondation Schuman";152
+"CHAMP LOBBYING";"Politique ";"Alter : ATTAC         ";153
+"CHAMP LOBBYING";"Politique ";"Action française        ";154
+"CHAMP LOBBYING";"Politique ";"Ecolo";155
+"CHAMP LOBBYING";"Politique ";"Socialiste";156
+"CHAMP LOBBYING";"Lobbying étranger";"Fondation Franco-US";157
+"CHAMP LOBBYING";"Lobbying étranger";"Afrique";158
+"CHAMP INTERNATIONAL";"Universitaire";"Universitaire";161
+"CHAMP INTERNATIONAL";"Diplomatie française et coopération";"Diplomatie française et coopération";162
+"CHAMP INTERNATIONAL";"Organisations internationales (ONU, OCDE)";"Organisations internationales (ONU, OCDE)";163
+"CHAMP INTERNATIONAL";"Firmes Multinationales";"Firmes Multinationales";164
+"CHAMP INTERNATIONAL";"Diplômés étrangers";"Diplômés étrangers";165
