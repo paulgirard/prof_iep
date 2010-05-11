@@ -89,8 +89,8 @@ class Graph :
 		self._nodes={}
 		self._edges={}
 		
-	def addNode(self,id,label,start="",end="") :
-		self._nodes[id]=Node(self,id,label,start,end)
+	def addNode(self,id,label,start="",end="",pid="") :
+		self._nodes[id]=Node(self,id,label,start,end,pid)
 		return self._nodes[id]
 	
 	def nodeExists(self,id) :
@@ -220,8 +220,13 @@ class Node :
 		self.start=start
 		self.end=end
 		self.pid=pid
-		self._attributes=[]
 		self._graph=graph
+		if not self.pid=="" :
+			if not self._graph.nodeExists(self.pid) :
+				raise Exception("pid "+self.pid+" node unknown, add nodes to graph first")
+
+		self._attributes=[]
+		
 		# add existing nodesattributes default values : bad idea and unecessary
 		#self._graph.addDefaultAttributesToNode(self)
 		
