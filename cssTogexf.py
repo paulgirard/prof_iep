@@ -7,7 +7,7 @@ export_gexf=1
 export_dot=0
 
 if export_gexf :
-	import gexf
+	from gexf import *
 
 
 def supprime_accent(ligne):
@@ -36,7 +36,8 @@ def addProfession(line,professions,professionGroups) :
 	#     professions[id]=[name,pid,depth]
 	#     professionsGroups[(group,pid)]=[id,lastId,depth]
 	
-	# filtrage des groups vides
+	# filtrage des groupes vides
+	
 	line=filter(lambda g:not g=="",line)
 	
 	lastId=-1
@@ -51,7 +52,6 @@ def addProfession(line,professions,professionGroups) :
 			lastId=professionGroups[(group,lastId)][0]
 			depth+=1
 	
-
 	name=line[len(line)-2]
 	id=line[len(line)-1]
 	professions[id]=[name,lastId,depth]
@@ -60,82 +60,95 @@ def addProfession(line,professions,professionGroups) :
 	#print str(lastId)+" > "+str(id)+" - "+name
 
 
-def loadCategory(file):
-# load a csv 
+def cleanIndata(data):
+	# process the data from CSV with some cleaning
+	
+	# get rid of eol
+	line=re.sub("[\r\n]","",data)
+	data=line.split(";")
+	# get rid of trailing spaces and "
+	data=map(lambda s:s.strip(' "'),data)
+	# get rid of accent unicode prb to be solved...
+	data=map(supprime_accent,data)
+	
+	return data
+
+
+def loadProfessionCode(file):
+# load a csv with ; as separator
 # colomun 0 : category name
 # column 1	: group1 name
 # column 2	: group2 name (optional)
 # column 3	: entity name
 # column 4	:  ID
-# returns dict [id]=["name","group1","group2","group3"] ou ["name","group1","group2"]
-	
-	cat=""
-	group1=group2=""
+# returns professions[id]=[name,pid,depth]	
 	nbline=1
-	codes={}
-	lines = file.readlines()
 	professionGroupsByName={}
 	professions={}
-	for line in lines:
+
+	for line in file.readlines():
 		try :
-			# get rid of eol
-			line=re.sub("[\r\n]","",line)
-			data=line.split(";")
-			# get rid of trailing spaces
-			data=map(lambda s:s.strip(),data)
-			# get rid of accent unicode prb to be solved...
-			data=map(supprime_accent,data)
-			
-			# to professions table with pid calculation
-			addProfession(data,professions,professionGroupsByName)
-			
-			#data.reverse()
-			#codes[data[0]]=map(supprime_accent,data[1:])
-			
-			
-			#print str(nbline)+":"+data[0]
-#			if not data[0]=="" :
-#				cat=data[0]
-#			else : 
-#				group1=data[1] if not data[1]=="" else group1
-#				group2=data[2] if not data[2]=="" else group2
-#				id=data[3] if len(data)>=4 else ""
-#				if not id=="" :
-#					name=re.sub("[\r\n]","",data[4]) if len(data)>=5 else ""
-#					codes[id]=[supprime_accent(cat),supprime_accent(group1),supprime_accent(group2),supprime_accent(name),id]
+			if not line=="" :
+				
+				data=cleanIndata(line)			
+				# to professions table with pid calculation
+				addProfession(data,professions,professionGroupsByName)
 
 
 		except Exception as e :
-			print "error line "+str(nbline)+" : "+line
+			print "error loadProfession line "+str(nbline)+" : "+line
 			print e
+			
 		nbline+=1
 
 
 	
 	# reverse key in dict professionsByName to professionsById
 	professionGroupsById=dict([[id,[name,pid,depth]] for (name,pid),[id,pid,depth] in professionGroupsByName.iteritems()])
-
-	return (professions,professionGroupsById)
 	
-def loadProf(file):
+	# let's merge the two dict :
+	professions.update(professionGroupsById)
+
+	return professions
+	
+def loadDisciplineCode(file):
+# load a csv with ; as separator
+# colomun 0 : discipline name
+# column 1	:  code
+# returns discipline[code]=[name]	
+	nbline=1
+	disciplines={}
+	for line in file.readlines():
+		try :
+			if not line=="" :
+				data=cleanIndata(line)		
+				disciplines[data[1]]=data[0]
+		except Exception as e :
+			print "error  loadDiscipline line "+str(nbline)+" : "+line
+			print e
+		nbline+=1
+
+	return disciplines
+	
+def loadProfessors(file):
 # load a csv 
 # columns :
 #NOM;DISCIPLINE;AUTO DESCRIPTION;FORMATION1;F2;F3;DIPLOME1;D2;PRO1;T1;PRO2;T2;PRO3;T3;PRO4;T4;PRO5;T5;PRO6;T6;PRO7;T7;EXTRA1;T2;EXTRA2;T2;EXTRA3;T3;EXTRA4;T4;EXTRA5;T5;EXTRA6;T6;;;;;;;;#
 # this function will extract :  
-# colomun 0 :  name
-# (...)
-# column 2	: autodescription = profession principale  
+# colomun 0 :  name			OK
+# column 1  : discipline	OK
+# column 2	: autodescription = profession principale  OK
 # column 3	: formation 
 # column 4	: f2
 # column 5	: f3
 # (...)
-# column 8	: profession 
-# column 10	: p2
-# column 12	: p3
-# column 14	: p4
-# column 16	: p5
-# column 18	: p6
-# column 20	: p7
+# column 8	: profession	OK 
+# column 10	: p2			OK
+# column 12	: p3			OK
+# column 14	: p4			OK
+# column 16	: p5			OK
+# column 18	: p6			OK
+# column 20	: p7			OK
 	
 	
 	profs=[]
@@ -147,14 +160,24 @@ def loadProf(file):
 			data=line.split(";")
 			
 			name=data[0]
+			# formation : not used so far
 			formations=[d for d in data[3:6] if not d in ("999","") ]
-			professions=[d for i,d in enumerate(data[8:21]) if not d in ("999","") and i%2==0]
+			#discipline
+			disciplineCode=data[1] if not data[1]=="" else "999"
+			#professions
+			professionsCodes=[d for i,d in enumerate(data[8:21]) if not d in ("999","") and i%2==0]
+			# add autodescription
+			if not data[2]=="999" :
+				professionsCodes.append(data[2])
+			else :	
+				print "no autodescription "+name+ " at line "+str(nbline)
+				
 			if len(professions)>0 : #len(formations)>0 or 
-				profs.append([supprime_accent(name),map(supprime_accent,formations),map(supprime_accent,professions),nbline])
+				profs.append([supprime_accent(name),disciplineCode,professionsCodes,nbline])
 			else :
-				print " no formation or no profession"+name+str(len(formations))+" "+str(len(professions)) 
+				print " no formation or no profession"+name+str(len(formations))+" "+str(len(professions))+ " at line "+str(nbline) 
 		except Exception as e:
-			print " error line "+str(nbline)+" : "+line
+			print " error loadProfessors line "+str(nbline)+" : "+line
 			print e
 		nbline+=1
 
@@ -251,7 +274,7 @@ def generateInstToInstGraph(profs,professionsCat,file_prefix):
 #
 ##########################################################
 
-def generateProfInstitutionGraph(profs,professionsName,professionsGroup,year,gexf_file):
+def generateProfInstitutionGraph(profs,professions,disciplines,year,gexf):
 	print "graph prof to inst"
 	dotString=""
 	edgesKeygen=autokey()
@@ -260,55 +283,42 @@ def generateProfInstitutionGraph(profs,professionsName,professionsGroup,year,gex
 		
 	if export_gexf :
 		
-		graph=gexf_file.addGraph("undirected","static",year)
+		graph=gexf.addGraph("undirected","static",year)
 		idAttType=graph.addNodeAttribute("type","professer","string")
-		idAttInstDepth=graph.addNodeAttribute("depth","0","integer")
-		idAttInstCat1=graph.addNodeAttribute("cat1","professors","string")
+		idAttInstAgreg=graph.addNodeAttribute("agregation","N/A","string")
+		labels_agregation=("champs","groupe","institution")
+		idAttInstCat1=graph.addNodeAttribute("champs","professors","string")
+		idAttDiscipline=graph.addNodeAttribute("discipline","N/A","string")
 #		idAttInstCat1=graph.addNodeAttribute("cat1","","String")
 		
-		
-		# CHECK PID DEPENDENCES
-		pids=[ p[1] for p in professionsName.itervalues()]+[ p[1] for p in professionsGroup.itervalues()]
-		pids=filter(lambda v: not v==-1,pids)
-		ids=professionsName.keys()+professionsGroup.keys()
-		for pid in pids :
-			if not pid == -1 and not pid in ids :
-				raise Exception('HIERARCHY ERROR', pid+' not found in ids')
   
 
 		
 
-		# professions nodes : no gexf hierarchy but a depth attribute
-
-		# let's merge the two dict :
-		professions=professionsName.copy()
-		professions.update(professionsGroup)
-		
-				
+		# professions nodes : no gexf hierarchy but a depth attribute				
 		for id,[name,pid,depth] in professions.iteritems() :
 			n=graph.addNode("inst_"+str(id),name)
 			n.addAttribute(idAttType,"institution")
-			n.addAttribute(idAttInstDepth,str(depth))
+			n.addAttribute(idAttInstAgreg,labels_agregation[int(depth)])
 			ppid=pid if not pid==-1 else id
 			while not pid==-1:
 				ppid=pid
 				pid=professions[ppid][1]
-	
 			n.addAttribute(idAttInstCat1,professions[ppid][0])
 				
 		
 		# professors nodes	
-		for name,formations,profProfessions,id in profs :
+		for name,disciplineCode,profProfessions,id in profs :
 			n=graph.addNode("prof_"+str(id),name)
 			n.addAttribute(idAttType,"professer")
-			n.addAttribute(idAttInstDepth,"-1")
+			n.addAttribute(idAttDiscipline,disciplines[disciplineCode])
 			# professors edges
 			professionLinked=[]
 			for professionID in profProfessions :
 				# add edges also to higher depth level professions (false hierarchy) 
 				while not professionID=="-1":
 					# avoid paralell edges
-					if not professionID in professionLinked :
+					if not professionID in professionLinked : 
 						graph.addEdge(edgesKeygen.next(),"prof_"+str(id),"inst_"+str(professionID))
 						professionLinked.append(professionID)
 					# jump up a level by using pid
@@ -340,50 +350,46 @@ def generateProfInstitutionGraph(profs,professionsName,professionsGroup,year,gex
 verbose=0
 # profession
 file=open("indata/code_prof.csv")
-professionsName,professionsGroup=loadCategory(file)
-#print professions
-#if verbose :
-#	for id,vals in professionsCat.iteritems() :
-#		print id+"|"+"|".join(vals)
-if verbose :
-	for id,[name,groupID,depth] in professionsName.iteritems() :
-		print professionsGroup[groupID][0]+" > "+str(id)+" - "+name
-	for id,[name,groupID,depth] in professionsGroup.iteritems() :
-		
-		print (professionsGroup[groupID][0] if not groupID==-1 else "-1")+" > "+str(id)+" - "+name
-#print professionsCat.keys()
+professions=loadProfessionCode(file)
 
-# formation
+#print professions
+if verbose :
+	for id,[name,groupID,depth] in professions.iteritems() :		
+		print (professions[groupID][0] if not groupID==-1 else "-1")+" > "+str(id)+" - "+name
+		
 
 # extra
+
+# diciplines
+file=open("indata/code_discipline.csv")
+disciplines=loadDisciplineCode(file)
 
 years=("2008","1996","1986","1970")
 
 for year in years :
 	# load prof
-	gexf_file=gexf.Gexf("medialab Sciences Po - Paul Girard - Marie Scot","Institutions and professers IEP "+year)
+	gexf=Gexf("medialab Sciences Po - Paul Girard - Marie Scot","Institutions and professers IEP "+year)
 
 	file=open("indata/"+year+".csv")
-	profs=loadProf(file)
+	profs=loadProfessors(file)
 	print year+": number profs loaded :"+str(len(profs))
 	#print professions
 	if verbose :
-		for name,formations,professions,id in profs :
-			print name+"|"+"|".join([professionsName[p][0] for p in professions])
+		for name,formations,profProfessions,id in profs :
+			print name+"|"+"|".join([professions[p][0] for p in profProfessions])
 	# let's gexf this
 
 	key=lambda prof:prof[0]
 	profs=sorted(profs, key=key )
 	
 		
-	generateProfInstitutionGraph(profs,professionsName,professionsGroup,year,gexf_file)
+	generateProfInstitutionGraph(profs,professions,disciplines,year,gexf)
 	#generateProfToProfGraph(profs,professionsCat,year)
 	#generateInstToInstGraph(profs,professionsCat,year)
 
-
 	if export_gexf :
 		file=open("outdata/profiep_profToinst_"+year+".gexf","w+")
-		gexf_file.write(file)
+		gexf.write(file)
 
 
 
