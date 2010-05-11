@@ -237,7 +237,7 @@ def generateInstToInstGraph(profs,professionsCat,file_prefix):
 			idEdge+=1
 				
 	if export_gexf  :
-		file=open("profiep_instToinst_"+file_prefix+"_hierarchy.gexf","w+")
+		file=open("profiep_instToinst_"+file_prefix+".gexf","w+")
 		gexf_file.write(file)
 	
 	if export_dot :
@@ -314,7 +314,7 @@ def generateProfInstitutionGraph(profs,professionsName,professionsGroup,file_pre
 					profession=professionsName[instID][0] 
 					dotString+=getDotLinkString(str(prof[3])+"-"+prof[0],profession,"1","")	
 	if export_gexf :
-		file=open("outdata/profiep_profToinst_"+file_prefix+".gexf","w+")
+		file=open("outdata/profiep_profToinst_"+file_prefix+"_hierarchy.gexf","w+")
 		gexf_file.write(file)
 	
 	if export_dot :
