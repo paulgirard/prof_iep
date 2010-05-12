@@ -25,6 +25,7 @@ class Gexf :
 		self.xmlns="http://www.gephi.org/gexf/1.1draft"
 		self.xsi="http://www.w3.org/2001/XMLSchema-instance"
 		self.schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd"
+		self.viz="http://www.gexf.net/1.1draft/viz"
 		self.version="1.1"
 	
 	def addGraph(self,type,mode,label):
@@ -33,9 +34,9 @@ class Gexf :
 		return g
  	
  	def getXML(self):
- 		gexfXML = etree.Element("gexf",xmlns=self.xmlns,version=self.version)
- 		gexfXML.set("xmlnsxsi",self.xsi)
- 		gexfXML.set("xsischemaLocation",self.schemaLocation)
+ 		gexfXML = etree.Element("{"+self.xmlns+"}gexf",version=self.version,nsmap={None:self.xmlns,'viz':self.viz,'xsi':self.xsi})
+# 		gexfXML.set("xmlnsxsi",)
+ 		gexfXML.set("{xsi}schemaLocation",self.schemaLocation)
 		meta = etree.SubElement(gexfXML, "meta")
 		meta.set("lastmodified",datetime.now().isoformat())
 		etree.SubElement(meta, "creator").text=self.creator		
@@ -215,13 +216,14 @@ class Graph :
 		
 class Node :
 
-	def __init__(self,graph,id,label,start="",end="",pid="") :
+	def __init__(self,graph,id,label,start="",end="",pid="",r="",g="",b="") :
 		self.id =id 
 		self.label=label
 		self.start=start
 		self.end=end
 		self.pid=pid
 		self._graph=graph
+		self.setColor(r,g,b)
 		if not self.pid=="" :
 			if not self._graph.nodeExists(self.pid) :
 				raise Exception("pid "+self.pid+" node unknown, add nodes to graph first")
@@ -259,12 +261,24 @@ class Node :
 				if not atts["end"]=="" :
 					attributeXML.set("end",atts["end"])
 			
+			if not self.r=="" and not self.g=="" and not self.b=="" :
+				#color : <viz:color r="239" g="173" b="66"/>
+				colorXML = etree.SubElement(nodeXML, "{http://www.gexf.net/1.1draft/viz}color")
+				colorXML.set("r",self.r)
+				colorXML.set("g",self.g)
+				colorXML.set("b",self.b)
+			
 			return nodeXML
 		except Exception as e:
 			print self.label
 			print self._attributes	
 			print e
 			exit()	
+	
+	def setColor(self,r,g,b) :
+		self.r=r
+		self.g=g
+		self.b=b
 	
 class Edge :
 

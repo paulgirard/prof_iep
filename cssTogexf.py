@@ -118,7 +118,9 @@ def loadDisciplineCode(file):
 # returns discipline[code]=[name]	
 	nbline=1
 	disciplines={}
-	for line in file.readlines():
+	lines=file.readlines()
+	# get rid of first line
+	for line in lines[1:]:
 		try :
 			if not line=="" :
 				data=cleanIndata(line)		
@@ -129,6 +131,29 @@ def loadDisciplineCode(file):
 		nbline+=1
 
 	return disciplines
+
+def loadProfessionColorCode(file):
+# load a csv with ; as separator
+# colomun 0 : profession name
+# column 1	:  red
+# column 2	:  green
+# column 3	:  blue
+# returns professionColorCord[name]=[r,g,b]	
+	nbline=1
+	colorCodes={}
+	lines=file.readlines()
+	# get rid of first line
+	for line in lines[1:]:
+		try :
+			if not line=="" :
+				data=cleanIndata(line)		
+				colorCodes[data[0]]=data[1:4]
+		except Exception as e :
+			print "error  loadProfessionColorCode line "+str(nbline)+" : "+line
+			print e
+		nbline+=1
+
+	return colorCodes
 	
 def loadProfessors(file):
 # load a csv 
@@ -141,7 +166,8 @@ def loadProfessors(file):
 # column 3	: formation 
 # column 4	: f2
 # column 5	: f3
-# (...)
+# column 6  : DIPLOME 1
+# column 7  : DIPLOME 2
 # column 8	: profession	OK 
 # column 10	: p2			OK
 # column 12	: p3			OK
@@ -149,6 +175,19 @@ def loadProfessors(file):
 # column 16	: p5			OK
 # column 18	: p6			OK
 # column 20	: p7			OK
+# column 22	: p8			OK
+# column 24	: p9			OK
+# column 26	: p10			OK
+# column 28	: extra	 
+# column 30	: e2			
+# column 32	: e3			
+# column 34	: e4			
+# column 36	: e5			
+# column 38	: e6			
+# column 40	: e7			
+# column 42	: e8			
+# column 44	: e9			
+# column 46	: e10			
 	
 	
 	profs=[]
@@ -160,22 +199,23 @@ def loadProfessors(file):
 			data=line.split(";")
 			
 			name=data[0]
-			# formation : not used so far
-			formations=[d for d in data[3:6] if not d in ("999","") ]
-			#discipline
-			disciplineCode=data[1] if not data[1]=="" else "999"
-			#professions
-			professionsCodes=[d for i,d in enumerate(data[8:21]) if not d in ("999","") and i%2==0]
-			# add autodescription
-			if not data[2]=="999" :
-				professionsCodes.append(data[2])
-			else :	
-				print "no autodescription "+name+ " at line "+str(nbline)
-				
-			if len(professions)>0 : #len(formations)>0 or 
-				profs.append([supprime_accent(name),disciplineCode,professionsCodes,nbline])
-			else :
-				print " no formation or no profession"+name+str(len(formations))+" "+str(len(professions))+ " at line "+str(nbline) 
+			if not name=="" : 
+				# formation : not used so far
+				formations=[d for d in data[3:6] if not d in ("999","") ]
+				#discipline
+				disciplineCode=data[1] if not data[1]=="" else "999"
+				#professions
+				professionsCodes=[d for i,d in enumerate(data[8:27]) if not d in ("999","") and i%2==0]
+				# add autodescription
+				if not data[2] in("999","") :
+					professionsCodes.append(data[2])
+				else :	
+					print "no autodescription "+name+ " at line "+str(nbline)
+					
+				if len(professions)>0 : #len(formations)>0 or 
+					profs.append([supprime_accent(name),disciplineCode,professionsCodes,nbline])
+				else :
+					print " no formation or no profession"+name+str(len(formations))+" "+str(len(professions))+ " at line "+str(nbline) 
 		except Exception as e:
 			print " error loadProfessors line "+str(nbline)+" : "+line
 			print e
@@ -274,7 +314,7 @@ def generateInstToInstGraph(profs,professionsCat,file_prefix):
 #
 ##########################################################
 
-def generateProfInstitutionGraph(profs,professions,disciplines,year,gexf):
+def generateProfInstitutionGraph(profs,professions,professionsColors,disciplines,year,gexf):
 	print "graph prof to inst"
 	dotString=""
 	edgesKeygen=autokey()
@@ -305,7 +345,11 @@ def generateProfInstitutionGraph(profs,professions,disciplines,year,gexf):
 				ppid=pid
 				pid=professions[ppid][1]
 			n.addAttribute(idAttInstCat1,professions[ppid][0])
-				
+			try :
+				(r,g,b)=professionsColors[professions[ppid][0]]
+				n.setColor(r,g,b)
+			except :
+				print "Warning : couldn't find the color for profession cat :"+professions[ppid][0]		
 		
 		# professors nodes	
 		for name,disciplineCode,profProfessions,id in profs :
@@ -351,7 +395,10 @@ verbose=0
 # profession
 file=open("indata/code_prof.csv")
 professions=loadProfessionCode(file)
-
+file.close()
+file=open("indata/colors_profession_code.csv")
+professionsColors=loadProfessionColorCode(file)
+file.close()
 #print professions
 if verbose :
 	for id,[name,groupID,depth] in professions.iteritems() :		
@@ -363,9 +410,10 @@ if verbose :
 # diciplines
 file=open("indata/code_discipline.csv")
 disciplines=loadDisciplineCode(file)
+file.close()
+
 
 years=("2008","1996","1986","1970")
-
 for year in years :
 	# load prof
 	gexf=Gexf("medialab Sciences Po - Paul Girard - Marie Scot","Institutions and professers IEP "+year)
@@ -383,7 +431,7 @@ for year in years :
 	profs=sorted(profs, key=key )
 	
 		
-	generateProfInstitutionGraph(profs,professions,disciplines,year,gexf)
+	generateProfInstitutionGraph(profs,professions,professionsColors,disciplines,year,gexf)
 	#generateProfToProfGraph(profs,professionsCat,year)
 	#generateInstToInstGraph(profs,professionsCat,year)
 
