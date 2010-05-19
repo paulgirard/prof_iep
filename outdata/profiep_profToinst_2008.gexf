@@ -1,5 +1,5 @@
 <gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
-  <meta lastmodified="2010-05-12T11:40:00.847134">
+  <meta lastmodified="2010-05-19T11:33:24.254422">
     <creator>medialab Sciences Po - Paul Girard - Marie Scot</creator>
     <description>Institutions and professers IEP 2008</description>
   </meta>
@@ -27,78 +27,91 @@
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_19" label="&quot;BEEKER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_14" label="&quot;BARBOU DES PLACES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_15" label="&quot;BARDON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_16" label="&quot;BATTISTELLA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_17" label="&quot;BAUBEROT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_10" label="&quot;BABINET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_11" label="&quot;BADIE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_12" label="&quot;BAHOUT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_13" label="&quot;BARAUD-SERFATY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_152" label="&quot;LEON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_153" label="&quot;LEPAGE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_150" label="&quot;LEFEBVRE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_158" label="Afrique">
         <attvalues>
@@ -106,31 +119,35 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="prof_156" label="&quot;LEVER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_157" label="&quot;LEVY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_154" label="&quot;LEPETIT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_155" label="&quot;LEQUESNE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_153" label="Alter : ATTAC">
         <attvalues>
@@ -138,7 +155,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_152" label="Europe : Notre Europe   - Fondation Schuman">
         <attvalues>
@@ -146,7 +163,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_151" label="(Club Saint Simon Cercle Tocqueville Club Horloge)">
         <attvalues>
@@ -154,7 +171,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_150" label="ONG  (Croix Rouge / Sida)">
         <attvalues>
@@ -162,7 +179,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_157" label="Fondation Franco-US">
         <attvalues>
@@ -170,7 +187,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_156" label="Socialiste">
         <attvalues>
@@ -178,7 +195,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_155" label="Ecolo">
         <attvalues>
@@ -186,7 +203,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_154" label="Action francaise">
         <attvalues>
@@ -194,7 +211,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_48" label="Uni Catho Paris">
         <attvalues>
@@ -202,7 +219,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_49" label="Institut international d'Administration publique, formation agents a l'etranger et cooperation">
         <attvalues>
@@ -210,7 +227,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_44" label="INALCO">
         <attvalues>
@@ -218,7 +235,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_45" label="IHED">
         <attvalues>
@@ -226,7 +243,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_46" label="Fondation pour les etudes de defense nationale">
         <attvalues>
@@ -234,7 +251,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_47" label="Ecole d'outre-mer">
         <attvalues>
@@ -242,7 +259,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_40" label="ENPC">
         <attvalues>
@@ -250,7 +267,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_41" label="CNAM">
         <attvalues>
@@ -258,7 +275,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_42" label="ECP">
         <attvalues>
@@ -266,7 +283,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_43" label="ENMagistrature">
         <attvalues>
@@ -274,73 +291,84 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="prof_151" label="&quot;LEGLISE-COSTA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_50" label="&quot;CRES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_51" label="&quot;CUBERTAFOND&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_52" label="&quot;CUSSET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_53" label="&quot;DAMON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_54" label="&quot;DARRIGOL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_55" label="&quot;DAUDIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_56" label="&quot;DAVEZIES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_57" label="&quot;DE CABARRUS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_58" label="&quot;DE GIORGIO&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_59" label="&quot;DE ROVIRA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_117" label="prefecture">
         <attvalues>
@@ -348,7 +376,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_116" label="Autres Conseils (credoc, conseil d'analyse strategique, conseil concurrence">
         <attvalues>
@@ -356,7 +384,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_115" label="INSEE">
         <attvalues>
@@ -364,7 +392,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_114" label="DATAR">
         <attvalues>
@@ -372,7 +400,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_113" label="Caisse des depots et consignations">
         <attvalues>
@@ -380,7 +408,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_112" label="Etablissements publics (BNF, Archives, Musees, hopitaux)">
         <attvalues>
@@ -388,7 +416,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_111" label="Caisses et secu sociale (AP-HP, ANPE)">
         <attvalues>
@@ -396,7 +424,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_110" label="Commissariat General Plan (CGP)">
         <attvalues>
@@ -404,19 +432,21 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="prof_219" label="&quot;SCHWEISGUTH&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_218" label="&quot;SAUTY DE CHALON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_119" label="ville">
         <attvalues>
@@ -424,7 +454,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_118" label="regions et departements">
         <attvalues>
@@ -432,373 +462,434 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="prof_8" label="&quot;AZERAD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_9" label="&quot;AZOULAI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_6" label="&quot;ATTAR&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_7" label="&quot;AUBY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_4" label="&quot;ARKWRIGHT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_5" label="&quot;ASSIER ANDRIEU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_2" label="&quot;AKGoNuL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_3" label="&quot;ALGAN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_1" label="&quot;AGUILA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_251" label="&quot;WILLIAMS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_250" label="&quot;WIHTOL DE WENDEN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_158" label="&quot;LORRAIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_159" label="&quot;MACRON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_109" label="&quot;HALPERN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_108" label="&quot;HAEGEL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_101" label="&quot;GRALEPOIS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_100" label="&quot;GONNET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_103" label="&quot;GREIF&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_102" label="&quot;GRAMAGLIA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_105" label="&quot;GROUX&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_104" label="&quot;GROSSMAN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_107" label="&quot;GUILHAMON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_106" label="&quot;GUIGOU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_202" label="&quot;RASTOIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_203" label="&quot;RAY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_200" label="&quot;RAMBAUD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_201" label="&quot;RAMBAUD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_206" label="&quot;RENAUT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_207" label="&quot;REY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_204" label="&quot;RAYNAUD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_205" label="&quot;RENAULT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_130" label="&quot;JUTTEAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_131" label="&quot;KAISER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_132" label="&quot;KALIFA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_133" label="&quot;KARSENTI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_134" label="&quot;LACARRAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_135" label="&quot;LAGROU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_136" label="&quot;LAIDI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_137" label="&quot;LAMOTTE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_138" label="&quot;LAMOUREUX&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_139" label="&quot;LANDAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_29" label="&quot;BOUTRY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_28" label="&quot;BOURLANGES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_21" label="&quot;BENVEGNU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_20" label="&quot;BENITES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_23" label="&quot;BERTRAND&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_22" label="&quot;BERGERON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_25" label="&quot;BORDAS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_24" label="&quot;BOBINEAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_27" label="&quot;BOULLIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_26" label="&quot;BOUCHER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_145" label="&quot;LE DANTEC&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_144" label="&quot;LE CACHEUX&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_147" label="&quot;LE GALES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_146" label="&quot;LE DEAUT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_141" label="&quot;LAURENT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_140" label="&quot;LATOUR&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_143" label="&quot;LAVIGNE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_142" label="&quot;LAUVAUX&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_224" label="&quot;SKZRYERBAK&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_225" label="&quot;SMITH&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_164" label="Firmes Multinationales">
         <attvalues>
@@ -806,7 +897,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_165" label="Diplomes etrangers">
         <attvalues>
@@ -814,7 +905,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_162" label="Diplomatie francaise et cooperation">
         <attvalues>
@@ -822,7 +913,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_163" label="Organisations internationales (ONU, OCDE)">
         <attvalues>
@@ -830,13 +921,14 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="prof_222" label="&quot;SEGURET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_161" label="Universitaire">
         <attvalues>
@@ -844,7 +936,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_79" label="CNC ?">
         <attvalues>
@@ -852,7 +944,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_78" label="Conseil Superieur de l'Audiovisuel">
         <attvalues>
@@ -860,7 +952,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_71" label="Associations disciplinaires">
         <attvalues>
@@ -868,7 +960,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_70" label="Evaluation : AERES, ANR">
         <attvalues>
@@ -876,7 +968,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_73" label="Comites de redaction de revue">
         <attvalues>
@@ -884,7 +976,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_75" label="Expertise privee">
         <attvalues>
@@ -892,7 +984,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_74" label="Expertise publique">
         <attvalues>
@@ -900,7 +992,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_77" label="TV">
         <attvalues>
@@ -908,7 +1000,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_76" label="Radio">
         <attvalues>
@@ -916,7 +1008,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g15" label="Arts et lettres">
         <attvalues>
@@ -924,7 +1016,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g14" label="Editions">
         <attvalues>
@@ -932,7 +1024,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g17" label="BNF - Archives - Musees">
         <attvalues>
@@ -940,7 +1032,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g16" label="Academie SMP">
         <attvalues>
@@ -948,7 +1040,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g11" label="ORTF- Radio-TL">
         <attvalues>
@@ -956,7 +1048,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g10" label="CHAMP CULTUREL">
         <attvalues>
@@ -964,7 +1056,7 @@
           <attvalue for="1" value="champs"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g13" label="Associations culturelles">
         <attvalues>
@@ -972,7 +1064,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g12" label="Presse">
         <attvalues>
@@ -980,7 +1072,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g19" label="CHAMP ADMINISTRATIF">
         <attvalues>
@@ -988,7 +1080,7 @@
           <attvalue for="1" value="champs"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_g18" label="Adm et amis Opera, Musees nationaux">
         <attvalues>
@@ -996,67 +1088,77 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="prof_69" label="&quot;DOMENACH&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_68" label="&quot;DIECKHOFF&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_65" label="&quot;DERDEVET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_64" label="&quot;DELPORT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_67" label="&quot;DEVIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_66" label="&quot;DESESQUELLES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_61" label="&quot;DELATTRE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_60" label="&quot;DEHOUSSE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_63" label="&quot;DELERIS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_62" label="&quot;DELAUNAY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_128" label="Banque, Finance, Assurances">
         <attvalues>
@@ -1064,7 +1166,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_122" label="Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
         <attvalues>
@@ -1135,60 +1237,70 @@
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_179" label="&quot;NICOLAS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_174" label="&quot;MOSSUZ-LAVAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_175" label="&quot;MOULINE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_176" label="&quot;MUIR WATT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_177" label="&quot;MUXEL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_170" label="&quot;MISSIKA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_171" label="&quot;MOLEUX&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_172" label="&quot;MORABITO&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_173" label="&quot;MOSCOVICI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_39" label="Mines">
         <attvalues>
@@ -1196,7 +1308,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_38" label="CELSA">
         <attvalues>
@@ -1204,7 +1316,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_35" label="X">
         <attvalues>
@@ -1212,7 +1324,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_34" label="ENS">
         <attvalues>
@@ -1220,7 +1332,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_37" label="ENSAE">
         <attvalues>
@@ -1228,7 +1340,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_36" label="St Cyr">
         <attvalues>
@@ -1236,7 +1348,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_31" label="INA">
         <attvalues>
@@ -1244,7 +1356,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_30" label="INED">
         <attvalues>
@@ -1252,7 +1364,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_33" label="ENA">
         <attvalues>
@@ -1260,7 +1372,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_32" label="CNES, INSERM, INRA, IFREMER, IFRI">
         <attvalues>
@@ -1268,121 +1380,140 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="prof_167" label="&quot;MESSERLIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_166" label="&quot;MERCIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_163" label="&quot;MAYER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_162" label="&quot;MARTIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_87" label="&quot;FRASER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_86" label="&quot;FRANK&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_85" label="&quot;FRANCOIS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_84" label="&quot;FRAISSE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_83" label="&quot;FOUILLAND&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_82" label="&quot;FLAHUTEZ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_81" label="&quot;FITOUSSI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_80" label="&quot;FAUCON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_160" label="&quot;MADELIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_89" label="&quot;FRIEDBERG&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_88" label="&quot;FRESSOZ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_220" label="&quot;SEFTON-GREEN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_213" label="&quot;ROY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_221" label="&quot;SEGRESTIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_212" label="&quot;ROUSSO&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_g28" label="Banque, Finance, Assurances">
         <attvalues>
@@ -1390,7 +1521,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_g29" label="Industries productives">
         <attvalues>
@@ -1398,7 +1529,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_g24" label="Administrations regionales, departementales et locales">
         <attvalues>
@@ -1406,7 +1537,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_g25" label="CHAMP POLITIQUE">
         <attvalues>
@@ -1430,7 +1561,7 @@
           <attvalue for="1" value="champs"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_g20" label="Grands Corps">
         <attvalues>
@@ -1438,7 +1569,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_g21" label="Ministeres">
         <attvalues>
@@ -1446,7 +1577,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_g22" label="Magistrature">
         <attvalues>
@@ -1454,7 +1585,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_g23" label="Administration centrale">
         <attvalues>
@@ -1462,253 +1593,294 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="prof_223" label="&quot;SERE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_123" label="&quot;JAMIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_122" label="&quot;JAGLIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_121" label="&quot;JAFFRELOT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_120" label="&quot;JACQUILLAT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_127" label="&quot;JOBIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_126" label="&quot;JESTAZ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_125" label="&quot;JEANNENEY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_124" label="&quot;JARRY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_129" label="&quot;JOSUE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_128" label="&quot;JORDAN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_36" label="&quot;CHAPOUTOT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_37" label="&quot;CHAUVEL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_34" label="&quot;CAUTRES&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_35" label="&quot;CEDDAHA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_32" label="&quot;BUISSON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_33" label="&quot;CAHIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_30" label="&quot;BOY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_31" label="&quot;BRAUD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_38" label="&quot;CHEBEL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_39" label="&quot;CHENU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_239" label="&quot;VEISSE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_238" label="&quot;VEDRINE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_237" label="&quot;TUBIANA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_236" label="&quot;TORREGROSSA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_235" label="&quot;TIGROUDJA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_234" label="&quot;TIBERJ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_233" label="&quot;THIOLLET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_232" label="&quot;TEITGEN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_231" label="&quot;TEINTURIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_230" label="&quot;TABUTEAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_198" label="&quot;RACHLINE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_199" label="&quot;RAJ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_196" label="&quot;PROST&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_197" label="&quot;QUINET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_194" label="&quot;POUCHEPADASS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_195" label="&quot;PRANCHERE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_192" label="&quot;PLACIDI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_193" label="&quot;PONCET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_190" label="&quot;PICQUART&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_191" label="&quot;PINSON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_66" label="Ecoles privees - centres prives">
         <attvalues>
@@ -1716,7 +1888,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_67" label="Dans fac : psdt, vpsdt, doyen, psdt departement">
         <attvalues>
@@ -1724,7 +1896,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_64" label="IUFM">
         <attvalues>
@@ -1732,7 +1904,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_62" label="Banlieue">
         <attvalues>
@@ -1740,7 +1912,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_63" label="Lycee">
         <attvalues>
@@ -1748,7 +1920,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_60" label="Province">
         <attvalues>
@@ -1756,7 +1928,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_61" label="Paris">
         <attvalues>
@@ -1764,7 +1936,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_68" label="Dans monde universitaire : CNU, CSU, Jurys">
         <attvalues>
@@ -1772,7 +1944,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_69" label="Dans Ministere ES : commissions de programmes, consultation">
         <attvalues>
@@ -1780,7 +1952,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_99" label="Ministere Culture">
         <attvalues>
@@ -1788,7 +1960,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_98" label="Ministere Agriculture">
         <attvalues>
@@ -1796,7 +1968,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_93" label="MINEFI">
         <attvalues>
@@ -1804,7 +1976,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_92" label="IGAS">
         <attvalues>
@@ -1812,7 +1984,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_91" label="Inspection des finances">
         <attvalues>
@@ -1820,7 +1992,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_90" label="Cour des Comptes">
         <attvalues>
@@ -1828,7 +2000,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_97" label="Ministere Travail et relations sociales / sante">
         <attvalues>
@@ -1836,7 +2008,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_96" label="Ministere Defense">
         <attvalues>
@@ -1844,7 +2016,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_95" label="Ministere Interieur">
         <attvalues>
@@ -1852,7 +2024,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_94" label="MAE">
         <attvalues>
@@ -1860,7 +2032,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_9" label="Versailles St Quentin en Yvelines">
         <attvalues>
@@ -1868,7 +2040,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_8" label="Paris XIII">
         <attvalues>
@@ -1876,7 +2048,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_3" label="Paris IV">
         <attvalues>
@@ -1884,7 +2056,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_2" label="Paris I">
         <attvalues>
@@ -1892,7 +2064,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_1" label="Province">
         <attvalues>
@@ -1900,7 +2072,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_0" label="a l'universite">
         <attvalues>
@@ -1908,7 +2080,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_7" label="Paris X">
         <attvalues>
@@ -1916,7 +2088,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_6" label="Paris VIII">
         <attvalues>
@@ -1924,7 +2096,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_5" label="Paris VII">
         <attvalues>
@@ -1932,7 +2104,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_4" label="Paris V">
         <attvalues>
@@ -1940,127 +2112,147 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="prof_246" label="&quot;VIVANT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_247" label="&quot;VON BUSEKIST&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_244" label="&quot;VIAL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_245" label="&quot;VINSON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_242" label="&quot;VERDIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_243" label="&quot;VERRIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_240" label="&quot;VENE-RAUTUREAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_241" label="&quot;VENTURINI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_248" label="&quot;WASMER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_249" label="&quot;WEST&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_78" label="&quot;EYRAUD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_79" label="&quot;FATH&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_72" label="&quot;DUHAMEL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_73" label="&quot;DUHAMEL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_70" label="&quot;DONEGANI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_71" label="&quot;D'SOUZA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_76" label="&quot;EMSELLEM&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_77" label="&quot;ESTEBE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_74" label="&quot;DURANTON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_75" label="&quot;DUTHEILLET DE LAMOTHE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_139" label="Commerce (cbre de commerce)">
         <attvalues>
@@ -2068,7 +2260,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_138" label="UNKOWN">
         <attvalues>
@@ -2076,7 +2268,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_135" label="Pub et marketing">
         <attvalues>
@@ -2084,7 +2276,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_134" label="Sondages">
         <attvalues>
@@ -2092,7 +2284,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_137" label="Conseils juridique : avocats">
         <attvalues>
@@ -2100,7 +2292,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_136" label="Conseils, audit comptable et fiscal">
         <attvalues>
@@ -2108,7 +2300,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_131" label="Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)">
         <attvalues>
@@ -2116,7 +2308,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_133" label="PME">
         <attvalues>
@@ -2124,7 +2316,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_132" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
         <attvalues>
@@ -2132,7 +2324,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_g9" label="Pouvoir universitaire et de recherche">
         <attvalues>
@@ -2140,7 +2332,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g8" label="Ecoles privees - centres prives">
         <attvalues>
@@ -2148,7 +2340,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g1" label="Fac Lettres et Sc Humaines">
         <attvalues>
@@ -2156,7 +2348,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g0" label="CHAMP UNIVERSITAIRE">
         <attvalues>
@@ -2164,7 +2356,7 @@
           <attvalue for="1" value="champs"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g3" label="IEP-FNSP">
         <attvalues>
@@ -2172,7 +2364,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g2" label="Fac Droit et eco">
         <attvalues>
@@ -2180,7 +2372,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g5" label="Autres ecoles de pouvoir">
         <attvalues>
@@ -2188,7 +2380,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g4" label="Grands etablissements d'Enseignement superieur et de recherche">
         <attvalues>
@@ -2196,7 +2388,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g7" label="Classes preparatoires">
         <attvalues>
@@ -2204,7 +2396,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_g6" label="Ecoles de commerce">
         <attvalues>
@@ -2212,19 +2404,21 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="prof_169" label="&quot;MILLOT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_168" label="&quot;MILLOT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_140" label="CRIF - CFJ">
         <attvalues>
@@ -2232,7 +2426,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_141" label="Catho (Amis - Ste Royaumont - Semaines sociales">
         <attvalues>
@@ -2240,19 +2434,21 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="prof_165" label="&quot;MELONIO&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_164" label="&quot;MAYER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_144" label="CNPF-MEDEF">
         <attvalues>
@@ -2260,7 +2456,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_145" label="Clubs de reflexion (Institut Montaigne, Institut Aspen, Fondation Innovation, Institut La Boetie, Le siecle)">
         <attvalues>
@@ -2268,13 +2464,14 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="prof_161" label="&quot;MALICK&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_147" label="Syndical">
         <attvalues>
@@ -2282,7 +2479,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_28" label="EPHE - EHESS">
         <attvalues>
@@ -2290,7 +2487,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_29" label="College de France">
         <attvalues>
@@ -2298,7 +2495,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_22" label="Directeur recherche FNSP">
         <attvalues>
@@ -2306,7 +2503,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_23" label="Bibliotheque et ressources documentaires">
         <attvalues>
@@ -2314,7 +2511,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_20" label="Directeur recherche CNRS">
         <attvalues>
@@ -2322,7 +2519,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_21" label="Charge recherche FNSP">
         <attvalues>
@@ -2330,7 +2527,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_26" label="Assistant, ATER, AMN, associe">
         <attvalues>
@@ -2338,7 +2535,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_27" label="CNRS">
         <attvalues>
@@ -2346,7 +2543,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_24" label="Direction / Charge de mission">
         <attvalues>
@@ -2354,7 +2551,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_25" label="IEP Province">
         <attvalues>
@@ -2362,73 +2559,84 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="prof_94" label="&quot;GAULTIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_95" label="&quot;GENCARELLI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_96" label="&quot;GENEREUX&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_97" label="&quot;GLASER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_90" label="&quot;FRISON-ROCHE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_91" label="&quot;GALLET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_92" label="&quot;GASTAUD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_93" label="&quot;GAUDIBERT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_98" label="&quot;GODEMENT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_99" label="&quot;GOLDSTEIN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_253" label="&quot;ZECH&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_57" label="Autres">
         <attvalues>
@@ -2436,7 +2644,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_56" label="ESSEC">
         <attvalues>
@@ -2444,7 +2652,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_55" label="ESCP">
         <attvalues>
@@ -2452,7 +2660,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_54" label="INSEAD">
         <attvalues>
@@ -2460,7 +2668,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_53" label="HEC">
         <attvalues>
@@ -2468,7 +2676,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_51" label="Autres">
         <attvalues>
@@ -2476,7 +2684,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_50" label="Institut francais Presse / CFJournaliste">
         <attvalues>
@@ -2484,13 +2692,14 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="prof_252" label="&quot;ZAKARIAN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_g39" label="Politique">
         <attvalues>
@@ -2498,7 +2707,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g38" label="Clubs reflexion">
         <attvalues>
@@ -2506,7 +2715,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g37" label="ONG  (Croix Rouge / Sida)">
         <attvalues>
@@ -2514,7 +2723,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g36" label="Syndical">
         <attvalues>
@@ -2522,7 +2731,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g35" label="Patronal">
         <attvalues>
@@ -2530,7 +2739,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g34" label="Religieux Communautaire">
         <attvalues>
@@ -2538,7 +2747,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g33" label="CHAMP LOBBYING">
         <attvalues>
@@ -2546,7 +2755,7 @@
           <attvalue for="1" value="champs"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g32" label="Commerce (cbre de commerce)">
         <attvalues>
@@ -2554,7 +2763,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_g31" label="UNKNOWN">
         <attvalues>
@@ -2562,7 +2771,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="inst_g30" label="Services et conseils">
         <attvalues>
@@ -2570,163 +2779,189 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP ECONOMIQUE"/>
         </attvalues>
-        <viz:color r="61" g="153" b="138"/>
+        <viz:color r="8" g="66" b="230"/>
       </node>
       <node id="prof_228" label="&quot;STREHO&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_229" label="&quot;TABET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_116" label="&quot;HENNEBEL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_117" label="&quot;HEYDON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_114" label="&quot;HEILBRONN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_115" label="&quot;HENARD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_112" label="&quot;HAYAT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_113" label="&quot;HEILBRONN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_110" label="&quot;HATTO&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_111" label="&quot;HAYAT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_118" label="&quot;JACOMET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_119" label="&quot;JACOMY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_43" label="&quot;CLAY&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_42" label="&quot;CITTON&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_41" label="&quot;CINALLI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_40" label="&quot;CHEVAUCHEZ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_47" label="&quot;COSTA&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_46" label="&quot;CONIEZ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Culture G"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_45" label="&quot;COLAS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_44" label="&quot;CLEMENT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_49" label="&quot;COUTARD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_48" label="&quot;COTIS&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_226" label="&quot;SOETARD&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Com/Pub"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_227" label="&quot;STIRN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_149" label="&quot;LE SASSIER BOISAUNE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_148" label="&quot;LE GLOANNEC&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_104" label="Ministere Educ Nat, Ens sup Recherche">
         <attvalues>
@@ -2734,7 +2969,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_105" label="Jeunesse &amp; Sport">
         <attvalues>
@@ -2742,7 +2977,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_106" label="Equipement">
         <attvalues>
@@ -2750,7 +2985,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_107" label="Magistrat">
         <attvalues>
@@ -2758,7 +2993,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_100" label="Ministere Environnement / ADEME">
         <attvalues>
@@ -2766,7 +3001,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_101" label="Ministere Outre Mer et  Ministere Cooperation">
         <attvalues>
@@ -2774,7 +3009,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_102" label="Ministere Fonction Publique">
         <attvalues>
@@ -2782,7 +3017,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_103" label="Ministere Justice">
         <attvalues>
@@ -2790,19 +3025,21 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="prof_208" label="&quot;REYNIE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_209" label="&quot;ROBLET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="business"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_108" label="CSMagistrature">
         <attvalues>
@@ -2810,7 +3047,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_109" label="Banque de France (BF) - cob, regulation financiere">
         <attvalues>
@@ -2818,103 +3055,119 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="prof_181" label="&quot;OFFNER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_180" label="&quot;OBERTI&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_183" label="&quot;PAROCHE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="droit"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_182" label="&quot;PALIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="sociologie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_185" label="&quot;PERREAU-SAUSSINE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_184" label="&quot;PELLET&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_187" label="&quot;PESTRE&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_186" label="&quot;PERRINEAU&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_189" label="&quot;PICQ&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_188" label="&quot;PHILIBERT&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="economie"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_215" label="&quot;SALAME&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="Relations internationales"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_214" label="&quot;SAINT-PAUL&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="medias"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_217" label="&quot;SARACENO&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="eco internationale"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_216" label="&quot;SANDER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="urbanisme"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_211" label="&quot;ROUSSELLIER&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="histoire-geo"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="prof_210" label="&quot;ROUBAN&quot;">
         <attvalues>
           <attvalue for="0" value="professer"/>
           <attvalue for="3" value="science po"/>
         </attvalues>
+        <viz:color r="220" g="220" b="220"/>
       </node>
       <node id="inst_13" label="Paris II">
         <attvalues>
@@ -2922,7 +3175,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_12" label="Province">
         <attvalues>
@@ -2930,7 +3183,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_11" label="Charge de cours / prof associe + lieu dans seconde colonne">
         <attvalues>
@@ -2938,7 +3191,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_10" label="Banlieue">
         <attvalues>
@@ -2946,7 +3199,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_17" label="MCF Universite">
         <attvalues>
@@ -2954,7 +3207,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_16" label="PR Universite">
         <attvalues>
@@ -2962,7 +3215,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_15" label="Paris">
         <attvalues>
@@ -2970,7 +3223,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_14" label="Paris IX">
         <attvalues>
@@ -2978,7 +3231,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_19" label="Charge recherche CNRS">
         <attvalues>
@@ -2986,7 +3239,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_18" label="Agrege - certifie affecte">
         <attvalues>
@@ -2994,7 +3247,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
         </attvalues>
-        <viz:color r="89" g="44" b="88"/>
+        <viz:color r="199" g="127" b="255"/>
       </node>
       <node id="inst_88" label="Adm et amis Opera, Musees nationaux">
         <attvalues>
@@ -3002,7 +3255,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_89" label="Conseil d'Etat">
         <attvalues>
@@ -3010,7 +3263,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
         </attvalues>
-        <viz:color r="163" g="219" b="32"/>
+        <viz:color r="98" g="191" b="15"/>
       </node>
       <node id="inst_80" label="AFP">
         <attvalues>
@@ -3018,7 +3271,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_81" label="Hebdomadaire">
         <attvalues>
@@ -3026,7 +3279,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_82" label="Mensuel">
         <attvalues>
@@ -3034,7 +3287,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_83" label="Associations culturelles">
         <attvalues>
@@ -3042,7 +3295,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_84" label="Editions">
         <attvalues>
@@ -3050,7 +3303,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_85" label="Arts et lettres">
         <attvalues>
@@ -3058,7 +3311,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_86" label="Academie SMP">
         <attvalues>
@@ -3066,7 +3319,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_87" label="BNF - Archives - Musees">
         <attvalues>
@@ -3074,7 +3327,7 @@
           <attvalue for="1" value="institution"/>
           <attvalue for="2" value="CHAMP CULTUREL"/>
         </attvalues>
-        <viz:color r="98" g="191" b="15"/>
+        <viz:color r="31" g="218" b="255"/>
       </node>
       <node id="inst_g46" label="Diplomes etrangers">
         <attvalues>
@@ -3082,7 +3335,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_g44" label="Organisations internationales (ONU, OCDE)">
         <attvalues>
@@ -3090,7 +3343,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_g45" label="Firmes Multinationales">
         <attvalues>
@@ -3098,7 +3351,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_g42" label="Universitaire">
         <attvalues>
@@ -3106,7 +3359,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_g43" label="Diplomatie francaise et cooperation">
         <attvalues>
@@ -3114,7 +3367,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
       <node id="inst_g40" label="Lobbying etranger">
         <attvalues>
@@ -3122,7 +3375,7 @@
           <attvalue for="1" value="groupe"/>
           <attvalue for="2" value="CHAMP LOBBYING"/>
         </attvalues>
-        <viz:color r="122" g="14" b="0"/>
+        <viz:color r="255" g="68" b="48"/>
       </node>
       <node id="inst_g41" label="CHAMP INTERNATIONAL">
         <attvalues>
@@ -3130,7 +3383,7 @@
           <attvalue for="1" value="champs"/>
           <attvalue for="2" value="CHAMP INTERNATIONAL"/>
         </attvalues>
-        <viz:color r="48" g="45" b="35"/>
+        <viz:color r="223" g="112" b="0"/>
       </node>
     </nodes>
     <edges>

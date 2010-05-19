@@ -7,7 +7,7 @@ export_gexf=1
 export_dot=0
 
 if export_gexf :
-	from gexf import *
+	from pygexf.gexf import *
 
 
 def supprime_accent(ligne):
@@ -352,10 +352,13 @@ def generateProfInstitutionGraph(profs,professions,professionsColors,disciplines
 				print "Warning : couldn't find the color for profession cat :"+professions[ppid][0]		
 		
 		# professors nodes	
+		# get prof color
+		(r,g,b)=professionsColors["PROF"]
 		for name,disciplineCode,profProfessions,id in profs :
 			n=graph.addNode("prof_"+str(id),name)
 			n.addAttribute(idAttType,"professer")
 			n.addAttribute(idAttDiscipline,disciplines[disciplineCode])
+			n.setColor(r,g,b)
 			# professors edges
 			professionLinked=[]
 			for professionID in profProfessions :
