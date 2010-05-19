@@ -154,8 +154,50 @@ def loadProfessionColorCode(file):
 		nbline+=1
 
 	return colorCodes
+
+def loadProfTranscode(file):
+# load a csv with ; as separator
+# colomun 0 : old prof code
+# column 1	: new prof code
+# returns discipline[oldcode]=[newcode]	
+	nbline=1
+	profTranscode={}
+	lines=file.readlines()
+	# get rid of first line
+	for line in lines[1:]:
+		try :
+			if not line=="" :
+				data=cleanIndata(line)		
+				profTranscode[data[0]]=data[1]
+		except Exception as e :
+			print "error  loadProfTranscode line "+str(nbline)+" : "+line
+			print e
+		nbline+=1
+
+	return profTranscode
 	
-def loadProfessors(file):
+def loadExtraToProfCode(file):
+# load a csv with ; as separator
+# colomun 0 : extra code
+# column 1...n	: corresponding profession codes
+# returns extraToProf[extracode]=[professionCode,...,professionCode]	
+	nbline=1
+	extraToProf={}
+	lines=file.readlines()
+	# get rid of first line
+	for line in lines[1:]:
+		try :
+			if not line=="" :
+				data=cleanIndata(line)		
+				extraToProf[data[0]]=filter(lambda d : d !='', data[1:])
+		except Exception as e :
+			print "error  loadEstraToProf line "+str(nbline)+" : "+line
+			print e
+		nbline+=1
+
+	return extraToProf
+	
+def loadProfessors(file,profTranscode,extraToProf):
 # load a csv 
 # columns :
 #NOM;DISCIPLINE;AUTO DESCRIPTION;FORMATION1;F2;F3;DIPLOME1;D2;PRO1;T1;PRO2;T2;PRO3;T3;PRO4;T4;PRO5;T5;PRO6;T6;PRO7;T7;EXTRA1;T2;EXTRA2;T2;EXTRA3;T3;EXTRA4;T4;EXTRA5;T5;EXTRA6;T6;;;;;;;;#
@@ -195,7 +237,7 @@ def loadProfessors(file):
 	nbline=1
 	# avoid first line 
 	for line in lines[1:]:
-		try :
+		#try :
 			data=line.split(";")
 			
 			name=data[0]
@@ -211,15 +253,28 @@ def loadProfessors(file):
 					professionsCodes.append(data[2])
 				else :	
 					print "no autodescription "+name+ " at line "+str(nbline)
-					
+				
+				# apply transcode on profession codes
+				professionsTranscoded=[professionID if not professionID in profTranscode.keys() else profTranscode[professionID] for professionID in professionsCodes]
+				
+				#extra with transcode to profession codes
+				extra=[]
+				for i,d in enumerate(data[28:47]) :
+					if not d in ("999","") and i%2==0 :
+						if d in extraToProf.keys() :
+							extra[len(extra):]=extraToProf[d]
+						else :
+							print "WARNING : wrong extra "+d+" for "+name+" at line "+str(nbline)  
+							
+				
 				if len(professions)>0 : #len(formations)>0 or 
-					profs.append([supprime_accent(name),disciplineCode,professionsCodes,nbline])
+					profs.append([supprime_accent(name),disciplineCode,professionsTranscoded,extra,nbline])
 				else :
 					print " no formation or no profession"+name+str(len(formations))+" "+str(len(professions))+ " at line "+str(nbline) 
-		except Exception as e:
-			print " error loadProfessors line "+str(nbline)+" : "+line
-			print e
-		nbline+=1
+#		except Exception as e:
+#			print " error loadProfessors line "+str(nbline)+" : "+line
+#			print e
+				nbline+=1
 
 	return profs	
 	
@@ -354,26 +409,47 @@ def generateProfInstitutionGraph(profs,professions,professionsColors,disciplines
 		# professors nodes	
 		# get prof color
 		(r,g,b)=professionsColors["PROF"]
-		for name,disciplineCode,profProfessions,id in profs :
+		for name,disciplineCode,profProfessions,extra,id in profs :
 			n=graph.addNode("prof_"+str(id),name)
 			n.addAttribute(idAttType,"professer")
 			n.addAttribute(idAttDiscipline,disciplines[disciplineCode])
 			n.setColor(r,g,b)
-			# professors edges
+			# professors-professions edges
 			professionLinked=[]
 			for professionID in profProfessions :
-				# add edges also to higher depth level professions (false hierarchy) 
-				while not professionID=="-1":
-					# avoid paralell edges
-					if not professionID in professionLinked : 
-						graph.addEdge(edgesKeygen.next(),"prof_"+str(id),"inst_"+str(professionID))
-						professionLinked.append(professionID)
-					# jump up a level by using pid
-					professionID=str(professions[professionID][1])
+				if professionID in professions.keys() :
+					# add edges also to higher depth level professions (false hierarchy)
+					while not professionID=="-1":
+						# avoid paralell edges
+						if not professionID in professionLinked : 
+							graph.addEdge(edgesKeygen.next(),"prof_"+str(id),"inst_"+str(professionID))
+							professionLinked.append(professionID)
+						# jump up a level by using pid
+						professionID=str(professions[professionID][1])
 					
 						
-#				else :
-#					raise Exception('EDGES ERROR', professionID+' not found in profession ids')			
+				else :
+					print "WARNING : profession "+professionID+' not found in profession ids for professer '+name
+					#raise Exception('EDGES ERROR', professionID+' not found in profession ids for professer '+name)
+			# professors-extra edges
+	
+			for extraID in extra :
+				if extraID in professions.keys() :
+					# add edges also to higher depth level professions (false hierarchy)
+					while not extraID=="-1":
+						# avoid paralell edges (profession edges included)
+						if not extraID in professionLinked : 
+							e=graph.addEdge(edgesKeygen.next(),"prof_"+str(id),"inst_"+str(extraID))
+							# color extra link differently
+							e.setColor("255","0","0");
+							professionLinked.append(extraID)
+						# jump up a level by using pid
+						extraID=str(professions[extraID][1])
+					
+						
+				else :
+					print "WARNING : extra "+extraID+' not found in profession ids for professer '+name
+					#raise Exception('EDGES ERROR', professionID+' not found in profession ids for professer '+name)					
 				
 #	if export_dot :
 #		for prof in profs :
@@ -402,6 +478,11 @@ file.close()
 file=open("indata/colors_profession_code.csv")
 professionsColors=loadProfessionColorCode(file)
 file.close()
+file=open("indata/transcode_prof.csv")
+profTranscode=loadProfTranscode(file)
+file.close()
+
+
 #print professions
 if verbose :
 	for id,[name,groupID,depth] in professions.iteritems() :		
@@ -409,6 +490,9 @@ if verbose :
 		
 
 # extra
+file=open("indata/extra_to_prof.csv")
+extraToProf=loadExtraToProfCode(file)
+file.close()
 
 # diciplines
 file=open("indata/code_discipline.csv")
@@ -422,7 +506,7 @@ for year in years :
 	gexf=Gexf("medialab Sciences Po - Paul Girard - Marie Scot","Institutions and professers IEP "+year)
 
 	file=open("indata/"+year+".csv")
-	profs=loadProfessors(file)
+	profs=loadProfessors(file,profTranscode,extraToProf)
 	print year+": number profs loaded :"+str(len(profs))
 	#print professions
 	if verbose :
