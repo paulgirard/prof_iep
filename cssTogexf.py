@@ -264,8 +264,8 @@ def loadProfessors(file,profTranscode,extraToProf):
 						if d in extraToProf.keys() :
 							extra[len(extra):]=extraToProf[d]
 						else :
-							print "WARNING : wrong extra "+d+" for "+name+" at line "+str(nbline)  
-							
+							#print "WARNING : wrong extra "+d+" for "+name+" at line "+str(nbline)+" taking the profession code instead"   
+							extra.append(d)
 				
 				if len(professions)>0 : #len(formations)>0 or 
 					profs.append([supprime_accent(name),disciplineCode,professionsTranscoded,extra,nbline])
