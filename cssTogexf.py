@@ -384,6 +384,7 @@ def generateProfInstitutionGraph(profs,professions,professionsColors,disciplines
 		labels_agregation=("champs","groupe","institution")
 		idAttInstCat1=graph.addNodeAttribute("champs","professors","string")
 		idAttDiscipline=graph.addNodeAttribute("discipline","N/A","string")
+		idAttWeak=graph.addEdgeAttribute("weak","false","boolean")
 #		idAttInstCat1=graph.addNodeAttribute("cat1","","String")
 		
   
@@ -440,8 +441,9 @@ def generateProfInstitutionGraph(profs,professions,professionsColors,disciplines
 						# avoid paralell edges (profession edges included)
 						if not extraID in professionLinked : 
 							e=graph.addEdge(edgesKeygen.next(),"prof_"+str(id),"inst_"+str(extraID))
-							# color extra link differently
-							e.setColor("255","0","0");
+							# color extra link differently : COLOR on EDGES isn't supported in GEXF...
+							#e.setColor("255","0","0");
+							e.addAttribute(idAttWeak,"true")
 							professionLinked.append(extraID)
 						# jump up a level by using pid
 						extraID=str(professions[extraID][1])
