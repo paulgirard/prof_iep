@@ -1,0 +1,2257 @@
+<gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2010-05-26T12:22:11.800093">
+    <creator>medialab Sciences Po - Paul Girard - Marie Scot</creator>
+    <description>IEP Professers' Institutions 1970</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="1970">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string">
+        <default>professer</default>
+      </attribute>
+      <attribute id="1" title="agregation" type="string">
+        <default>N/A</default>
+      </attribute>
+      <attribute id="2" title="champs" type="string">
+        <default>professors</default>
+      </attribute>
+      <attribute id="3" title="discipline" type="string">
+        <default>N/A</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="weak" type="boolean">
+        <default>false</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="inst_28" label="EPHE - EHESS">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_29" label="College de France">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_22" label="Directeur recherche FNSP">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_23" label="Bibliotheque et ressources documentaires">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_20" label="Directeur recherche CNRS">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_21" label="Charge recherche FNSP">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_26" label="Assistant, ATER, AMN, associe">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_27" label="CNRS">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_24" label="Direction / Charge de mission">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_25" label="IEP Province">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_133" label="PME">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_132" label="Grandes entreprises privees (l'Oreal, Thomson, Lagardere, Bouygues)">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_158" label="Afrique">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_153" label="Alter-gauche : ATTAC">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_152" label="Europe : Notre Europe   - Fondation Schuman">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_151" label="Clubs reflexion: Saint Simon Cercle Tocqueville Club Horloge">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_150" label="ONG">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_157" label="Fondation Franco-US">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_156" label="Socialiste">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_155" label="Ecolo">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_154" label="Extreme Droit : Action francaise">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_99" label="Ministere Culture">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_57" label="Ecoles Commerce Autre">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_56" label="ESSEC">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_55" label="ESCP">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_54" label="INSEAD">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_53" label="HEC">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_51" label="Ecoles pouvoir autres">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_50" label="Institut francais Presse / CFJournaliste">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_93" label="MINEFI">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_92" label="IGAS">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_164" label="Firmes multinationales">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_162" label="Diplomatie / Cooperation">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_163" label="OI Autres">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_161" label="Uni Inter Colonies / Tiers Monde">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_90" label="Cour des Comptes">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_97" label="Ministere Travail et relations sociales / sante">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_96" label="Ministere Defense">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_48" label="Uni Catho Paris">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_95" label="Ministere Interieur">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_44" label="INALCO">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_45" label="IHED">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_46" label="Fondation pour les etudes de defense nationale">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_94" label="MAE">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_40" label="ENPC">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_41" label="CNAM">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_42" label="ECP">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_43" label="ENM">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_79" label="CNC / dir cinema">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_78" label="CSA Conseil Superieur de l'Audiovisuel">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_71" label="ASSOCIATIONS disciplinaires">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_70" label="AERES, ANR, EVA">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_73" label="REVUES Comites de redaction">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_72" label="EXPERTISE banque">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_75" label="EXPERTISE industrie">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_74" label="EXPERTISE publique">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_77" label="TV">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_76" label="Radio">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_104" label="Ministere Educ Nat, Ens sup Recherche">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_105" label="Jeunesse &amp; Sport">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_106" label="Equipement">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_107" label="Magistrat">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_100" label="Ministere Environnement / ADEME">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_101" label="Ministere Outre Mer et  Ministere Cooperation">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_102" label="Ministere Fonction Publique">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_103" label="Ministere Justice">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_108" label="CSMagistrature">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_109" label="Banque de France (BF) - cob, regulation financiere">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_49" label="Institut international d'Administration publique, formation agents a l'etranger et cooperation">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_66" label="EcolesPrivees">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_67" label="POUVOIR UNI Psdt, vpsdt, doyen, psdt departement">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_64" label="IUFM">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_62" label="Prepa-Banlieue">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_63" label="Lycee">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_60" label="Prepa-Province">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_61" label="Prepa-Paris">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_68" label="POUVOIR UNI CNU, CSU, Jury">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_69" label="POUVOIR MES : commissions de programmes, consultation">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_131" label="Grandes entreprises publiques (SNCF, EDG, GDF, PTT, SNCF, FceTelecom)">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_210" label="IEP-FNSP">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_211" label="Uni AL">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_212" label="OTAN">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_117" label="prefecture">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_116" label="Autres Conseils (credoc, conseil d'analyse strategique, conseil concurrence">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_115" label="INSEE">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_114" label="DATAR">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_113" label="Caisse des depots et consignations">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_112" label="Etablissements publics (BNF, Archives, Musees, hopitaux)">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_111" label="Caisses et secu sociale (AP-HP, ANPE)">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_110" label="Commissariat General Plan (CGP)">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_119" label="ville">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_118" label="regions et departements">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_13" label="Paris II">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_12" label="Fac Droit-Prov">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_11" label="Charge de cours / prof associe + lieu dans seconde colonne">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_10" label="Fac LSH Banlieue">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_17" label="MCF Universite">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_16" label="PR Universite">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_15" label="Fac Droit Paris">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_14" label="Paris IX">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_19" label="Charge recherche CNRS">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_18" label="Agrege - certifie affecte">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_209" label="FMI-BM">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_208" label="EDITION dir de collection">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_207" label="OCDE">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_206" label="ONU">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_205" label="OI-Europe">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_204" label="Uni USA">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_203" label="Uni Europe">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP INTERNATIONAL"/>
+        </attvalues>
+        <viz:color r="223" g="112" b="0"/>
+      </node>
+      <node id="inst_201" label="CA - direction TV-Radio-Presse">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_200" label="EXPERTISE internationale">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_128" label="Banque, Finance, Assurances">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_98" label="Ministere Agriculture">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_122" label="Deputes, senateurs, maires : mandat electif ou responsabilites parti politique">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_123" label="Conseil constitutionnel">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_120" label="Executif (Psdts-Ministres)">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_121" label="Secretariat gal Psdce de la Republique et Secretariat Gal PM">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_126" label="CES Conseil economique et social">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_127" label="Administrateurs Senat / Ass Na">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_124" label="Commissions ad hoc">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_125" label="Cabinets ministeriels">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP POLITIQUE"/>
+        </attvalues>
+        <viz:color r="252" g="196" b="24"/>
+      </node>
+      <node id="inst_9" label="Versailles St Quentin en Yvelines">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_8" label="Paris XIII">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_3" label="Paris IV">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_2" label="Paris I">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_1" label="Fac LSH Paris">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_0" label="Fac LSH">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_7" label="Paris X">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_6" label="Paris VIII">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_5" label="Paris VII">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_4" label="Paris V">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_83" label="Associations culturelles">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_88" label="Adm et amis Opera, Musees nationaux">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_89" label="Conseil d'Etat">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_47" label="Ecole d'outre-mer">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_139" label="Commerce">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_135" label="Pub et marketing">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_134" label="Sondages">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_82" label="Mensuel">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_136" label="Conseils, audit comptable et fiscal">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_84" label="Editions">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_85" label="Arts et lettres">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_86" label="Academie Siences Morales et Politiques">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_87" label="BNF - Archives - Musees">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_39" label="MINES">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_38" label="CELSA">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_35" label="X POLYTECH">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_34" label="ENS">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_37" label="ENSAE">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_36" label="St CYR">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_31" label="INA">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_30" label="INED">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_33" label="ENA">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_32" label="CNES, INSERM, INRA, IFREMER, IFRI">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP UNIVERSITAIRE"/>
+        </attvalues>
+        <viz:color r="199" g="127" b="255"/>
+      </node>
+      <node id="inst_91" label="IGF Inspection des finances">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ADMINISTRATIF"/>
+        </attvalues>
+        <viz:color r="98" g="191" b="15"/>
+      </node>
+      <node id="inst_145" label="Clubs de reflexion (Institut Montaigne, Institut Aspen, Fondation Innovation, Institut La Boetie, Le siecle)">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_80" label="AFP">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_81" label="Hebdomadaire">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP CULTUREL"/>
+        </attvalues>
+        <viz:color r="31" g="218" b="255"/>
+      </node>
+      <node id="inst_140" label="CRIF - CFJ">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_141" label="Catho (Amis - Ste Royaumont - Semaines sociales">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_144" label="CNPF-MEDEF">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_137" label="Conseils juridique : avocats">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP ECONOMIQUE"/>
+        </attvalues>
+        <viz:color r="8" g="66" b="230"/>
+      </node>
+      <node id="inst_146" label="Corporation / associations professionnelles">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+      <node id="inst_147" label="Syndicats travail">
+        <attvalues>
+          <attvalue for="0" value="institution"/>
+          <attvalue for="1" value="institution"/>
+          <attvalue for="2" value="CHAMP LOBBYING"/>
+        </attvalues>
+        <viz:color r="255" g="68" b="48"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="inst_212" target="inst_114" id="0" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_212" target="inst_110" id="1" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_212" target="inst_109" id="2" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_212" target="inst_90" id="3" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_27" id="4" weight="2" label="DREYFUS | LANCELOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_28" id="5" weight="3" label="GAUDEMET | MEYRIAT | PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_121" id="6" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_122" id="7" weight="2" label="DREYFUS | GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_123" id="8" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_125" id="9" weight="4" label="CASANOVA | GOURNAY | MATHIOT | TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_127" id="10" weight="2" label="CHAPSAL | GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_203" id="11" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_115" id="12" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_110" id="13" weight="1" label="GOURNAY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_206" id="14" weight="3" label="GROSSER | PIATIER | TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_7" id="15" weight="2" label="CASANOVA | REMOND">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_108" id="16" weight="1" label="MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_2" id="17" weight="2" label="CARRERE d'ENCAUSSE | DUROSELLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_162" id="18" weight="1" label="TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_90" id="19" weight="1" label="GOURNAY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_94" id="20" weight="1" label="TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_13" id="21" weight="5" label="CASANOVA | DUVERGER | GAUDEMET | LAVAU  | MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_12" id="22" weight="4" label="DUVERGER | GAUDEMET | LAVAU  | MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_15" id="23" weight="1" label="MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_116" id="24" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_41" id="25" weight="1" label="ADAM">
+        <attvalues/>
+      </edge>
+      <edge source="inst_210" target="inst_1" id="26" weight="5" label="CASANOVA | DREYFUS | DUROSELLE | GERBET | REMOND">
+        <attvalues/>
+      </edge>
+      <edge source="inst_211" target="inst_27" id="27" weight="1" label="MONBEIG">
+        <attvalues/>
+      </edge>
+      <edge source="inst_211" target="inst_28" id="28" weight="1" label="TABAH">
+        <attvalues/>
+      </edge>
+      <edge source="inst_211" target="inst_206" id="29" weight="1" label="TABAH">
+        <attvalues/>
+      </edge>
+      <edge source="inst_211" target="inst_30" id="30" weight="1" label="TABAH">
+        <attvalues/>
+      </edge>
+      <edge source="inst_211" target="inst_2" id="31" weight="1" label="MONBEIG">
+        <attvalues/>
+      </edge>
+      <edge source="inst_211" target="inst_41" id="32" weight="1" label="MONBEIG">
+        <attvalues/>
+      </edge>
+      <edge source="inst_133" target="inst_132" id="33" weight="1" label="DALLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_133" target="inst_137" id="34" weight="1" label="DALLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_133" target="inst_144" id="35" weight="3" label="NEIDINGER | NOUSBAUM | PECRESSE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_131" id="36" weight="1" label="CHENIQUE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_137" id="37" weight="1" label="DALLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_136" id="38" weight="1" label="BOUNINE-CABALE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_135" id="39" weight="1" label="BOUNINE-CABALE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_104" id="40" weight="1" label="PIGANIOL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_69" id="41" weight="1" label="PIGANIOL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_162" id="42" weight="1" label="BOUNINE-CABALE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_132" target="inst_144" id="43" weight="1" label="DESMYTTERE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_131" target="inst_120" id="44" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_131" target="inst_123" id="45" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_131" target="inst_125" id="46" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_131" target="inst_128" id="47" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_131" target="inst_89" id="48" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_131" target="inst_109" id="49" weight="1" label="MAJORELLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_131" target="inst_116" id="50" weight="1" label="MAJORELLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_136" target="inst_135" id="51" weight="1" label="BOUNINE-CABALE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_136" target="inst_67" id="52" weight="1" label="DUCROCQ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_136" target="inst_162" id="53" weight="1" label="BOUNINE-CABALE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_135" target="inst_162" id="54" weight="1" label="BOUNINE-CABALE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_121" id="55" weight="1" label="DEVILLIERS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_122" id="56" weight="1" label="DREYFUS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_51" id="57" weight="1" label="MERCIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_81" id="58" weight="1" label="DEVILLIERS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_2" id="59" weight="1" label="MONBEIG">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_96" id="60" weight="1" label="DEVILLIERS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_41" id="61" weight="1" label="MONBEIG">
+        <attvalues/>
+      </edge>
+      <edge source="inst_27" target="inst_1" id="62" weight="2" label="DREYFUS | MERCIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_161" id="63" weight="1" label="JAMES">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_125" id="64" weight="1" label="MORAZE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_203" id="65" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_115" id="66" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_111" id="67" weight="1" label="FOURASTIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_110" id="68" weight="1" label="FOURASTIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_87" id="69" weight="1" label="ELISSEEFF">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_206" id="70" weight="4" label="ELISSEEFF | MORAZE | PIATIER | TABAH">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_30" id="71" weight="1" label="TABAH">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_35" id="72" weight="1" label="MORAZE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_13" id="73" weight="2" label="GAUDEMET | JAMES">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_12" id="74" weight="2" label="GAUDEMET | JAMES">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_15" id="75" weight="1" label="JAMES">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_116" id="76" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_41" id="77" weight="1" label="FOURASTIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_28" target="inst_5" id="78" weight="1" label="CHESNEAUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_29" target="inst_119" id="79" weight="1" label="CHEVALIER ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_29" target="inst_30" id="80" weight="1" label="CHEVALIER ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_161" target="inst_203" id="81" weight="1" label="L'HUILLIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_161" target="inst_82" id="82" weight="1" label="BOISSONNAT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_161" target="inst_162" id="83" weight="1" label="L'HUILLIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_161" target="inst_13" id="84" weight="2" label="HOUIN | JAMES">
+        <attvalues/>
+      </edge>
+      <edge source="inst_161" target="inst_12" id="85" weight="2" label="HOUIN | JAMES">
+        <attvalues/>
+      </edge>
+      <edge source="inst_161" target="inst_15" id="86" weight="1" label="JAMES">
+        <attvalues/>
+      </edge>
+      <edge source="inst_161" target="inst_76" id="87" weight="1" label="BOISSONNAT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_4" target="inst_87" id="88" weight="1" label="GIRARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_4" target="inst_30" id="89" weight="1" label="GIRARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_4" target="inst_2" id="90" weight="1" label="GIRARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_4" target="inst_13" id="91" weight="1" label="KREWERAS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_119" target="inst_125" id="92" weight="1" label="HOLLEAUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_119" target="inst_89" id="93" weight="1" label="HOLLEAUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_119" target="inst_30" id="94" weight="1" label="CHEVALIER ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_119" target="inst_99" id="95" weight="1" label="HOLLEAUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_120" target="inst_123" id="96" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_120" target="inst_125" id="97" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_120" target="inst_128" id="98" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_120" target="inst_89" id="99" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_122" id="100" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_123" id="101" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_125" id="102" weight="4" label="HUET | LATTRE de | PETIT | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_127" id="103" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_128" id="104" weight="2" label="PETIT | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_81" id="105" weight="1" label="DEVILLIERS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_207" id="106" weight="1" label="HUET">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_109" id="107" weight="3" label="HUET | LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_162" id="108" weight="1" label="HUET">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_91" id="109" weight="3" label="HUET | LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_90" id="110" weight="1" label="PETIT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_93" id="111" weight="3" label="HUET | LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_96" id="112" weight="1" label="DEVILLIERS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_117" id="113" weight="1" label="PETIT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_121" target="inst_209" id="114" weight="2" label="LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_123" id="115" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_125" id="116" weight="1" label="CONSIGNY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_127" id="117" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_118" id="118" weight="1" label="LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_82" id="119" weight="1" label="SALMON">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_81" id="120" weight="1" label="SALMON">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_162" id="121" weight="1" label="LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_91" id="122" weight="2" label="CONSIGNY | LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_93" id="123" weight="1" label="LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_94" id="124" weight="1" label="LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_1" id="125" weight="1" label="DREYFUS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_122" target="inst_78" id="126" weight="1" label="SALMON">
+        <attvalues/>
+      </edge>
+      <edge source="inst_123" target="inst_125" id="127" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_123" target="inst_127" id="128" weight="1" label="GOGUEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_123" target="inst_128" id="129" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_123" target="inst_89" id="130" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_128" id="131" weight="4" label="CHENOT | MOUSSA  | PETIT | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_89" id="132" weight="4" label="CHENOT | HOLLEAUX | ODENT | PEPY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_111" id="133" weight="1" label="GOUT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_110" id="134" weight="3" label="GOURNAY | ULLMO | WAHL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_87" id="135" weight="1" label="LALOY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_207" id="136" weight="2" label="HUET | MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_206" id="137" weight="4" label="LALOY | MORAZE | REUTER | TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_7" id="138" weight="1" label="CASANOVA">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_108" id="139" weight="1" label="MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_109" id="140" weight="3" label="HUET | LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_106" id="141" weight="1" label="MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_35" id="142" weight="1" label="MORAZE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_162" id="143" weight="6" label="HUET | LALOY | MOUSSA  | PEPY | TOUCHARD | WAHL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_99" id="144" weight="1" label="HOLLEAUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_91" id="145" weight="6" label="CONSIGNY | HUET | LATTRE de | MOUSSA  | OUDIETTE | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_90" id="146" weight="3" label="GOURNAY | PETIT | ULLMO">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_93" id="147" weight="8" label="GOUT | HUET | LATTRE de | MOUSSA  | OUDIETTE | SAINT-GEOURS | VEDEL | WAHL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_94" id="148" weight="3" label="LALOY | TOUCHARD | VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_97" id="149" weight="1" label="GOUT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_13" id="150" weight="4" label="CASANOVA | MATHIOT | REUTER | VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_12" id="151" weight="2" label="MATHIOT | VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_15" id="152" weight="2" label="MATHIOT | REUTER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_117" id="153" weight="1" label="PETIT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_1" id="154" weight="1" label="CASANOVA">
+        <attvalues/>
+      </edge>
+      <edge source="inst_125" target="inst_209" id="155" weight="2" label="LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_89" id="156" weight="1" label="CHENOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_111" id="157" weight="1" label="MAYOUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_207" id="158" weight="1" label="MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_109" id="159" weight="3" label="BESSE | MAYOUX | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_106" id="160" weight="1" label="MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_162" id="161" weight="2" label="ALBERT | MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_91" id="162" weight="4" label="ALBERT | MAYOUX | MOUSSA  | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_90" id="163" weight="1" label="PETIT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_93" id="164" weight="4" label="FRANCK | MAYOUX | MOUSSA  | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_94" id="165" weight="1" label="FRANCK">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_117" id="166" weight="1" label="PETIT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_205" id="167" weight="1" label="ALBERT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_128" target="inst_209" id="168" weight="1" label="SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_118" target="inst_111" id="169" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_118" target="inst_110" id="170" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_118" target="inst_162" id="171" weight="1" label="LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_118" target="inst_91" id="172" weight="2" label="LA MARTINIERE de | PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_118" target="inst_93" id="173" weight="2" label="LA MARTINIERE de | PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_118" target="inst_95" id="174" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_118" target="inst_94" id="175" weight="1" label="LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_51" target="inst_31" id="176" weight="1" label="DUMONT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_51" target="inst_1" id="177" weight="1" label="MERCIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_50" target="inst_82" id="178" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_50" target="inst_206" id="179" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_50" target="inst_107" id="180" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_50" target="inst_99" id="181" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_203" target="inst_115" id="182" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_203" target="inst_82" id="183" weight="1" label="BONDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_203" target="inst_206" id="184" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_203" target="inst_162" id="185" weight="1" label="L'HUILLIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_203" target="inst_12" id="186" weight="1" label="CHAUMONT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_203" target="inst_116" id="187" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_115" target="inst_206" id="188" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_115" target="inst_116" id="189" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_114" target="inst_110" id="190" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_114" target="inst_109" id="191" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_114" target="inst_90" id="192" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_89" target="inst_33" id="193" weight="1" label="GAZIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_89" target="inst_162" id="194" weight="3" label="FOURNIER | GAZIER | PEPY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_89" target="inst_99" id="195" weight="1" label="HOLLEAUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_110" id="196" weight="2" label="FOURASTIER | PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_109" id="197" weight="1" label="MAYOUX">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_91" id="198" weight="2" label="MAYOUX | PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_93" id="199" weight="4" label="GOUT | MAYOUX | PALLEZ | VOGUE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_95" id="200" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_97" id="201" weight="1" label="GOUT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_13" id="202" weight="1" label="VALLEUL de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_12" id="203" weight="1" label="VALLEUL de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_111" target="inst_41" id="204" weight="1" label="FOURASTIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_110" target="inst_109" id="205" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_110" target="inst_162" id="206" weight="1" label="WAHL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_110" target="inst_91" id="207" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_110" target="inst_90" id="208" weight="3" label="GOURNAY | ULLMO | VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_110" target="inst_93" id="209" weight="2" label="PALLEZ | WAHL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_110" target="inst_95" id="210" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_110" target="inst_41" id="211" weight="1" label="FOURASTIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_82" target="inst_81" id="212" weight="1" label="SALMON">
+        <attvalues/>
+      </edge>
+      <edge source="inst_82" target="inst_206" id="213" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_82" target="inst_107" id="214" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_82" target="inst_99" id="215" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_82" target="inst_76" id="216" weight="2" label="BILLARD | BOISSONNAT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_82" target="inst_79" id="217" weight="1" label="BILLARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_82" target="inst_78" id="218" weight="1" label="SALMON">
+        <attvalues/>
+      </edge>
+      <edge source="inst_81" target="inst_84" id="219" weight="1" label="LACOUTURE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_81" target="inst_162" id="220" weight="1" label="LACOUTURE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_81" target="inst_94" id="221" weight="1" label="LACOUTURE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_81" target="inst_96" id="222" weight="1" label="DEVILLIERS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_81" target="inst_78" id="223" weight="1" label="SALMON">
+        <attvalues/>
+      </edge>
+      <edge source="inst_87" target="inst_206" id="224" weight="2" label="ELISSEEFF | LALOY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_87" target="inst_30" id="225" weight="1" label="GIRARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_87" target="inst_2" id="226" weight="1" label="GIRARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_87" target="inst_162" id="227" weight="1" label="LALOY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_87" target="inst_94" id="228" weight="1" label="LALOY">
+        <attvalues/>
+      </edge>
+      <edge source="inst_87" target="inst_13" id="229" weight="1" label="MERCILLON ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_87" target="inst_12" id="230" weight="1" label="MERCILLON ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_84" target="inst_162" id="231" weight="1" label="LACOUTURE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_84" target="inst_94" id="232" weight="1" label="LACOUTURE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_207" target="inst_109" id="233" weight="2" label="CARMOY de | HUET">
+        <attvalues/>
+      </edge>
+      <edge source="inst_207" target="inst_106" id="234" weight="1" label="MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_207" target="inst_162" id="235" weight="2" label="HUET | MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_207" target="inst_91" id="236" weight="3" label="CARMOY de | HUET | MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_207" target="inst_93" id="237" weight="2" label="HUET | MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_107" id="238" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_30" id="239" weight="1" label="TABAH">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_35" id="240" weight="1" label="MORAZE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_162" id="241" weight="3" label="LACHARRIERE de | LALOY | TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_99" id="242" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_94" id="243" weight="3" label="LACHARRIERE de | LALOY | TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_13" id="244" weight="3" label="BASTID | REUTER | ROUSSEAU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_12" id="245" weight="2" label="BASTID | ROUSSEAU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_15" id="246" weight="1" label="REUTER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_206" target="inst_116" id="247" weight="1" label="PIATIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_7" target="inst_13" id="248" weight="1" label="CASANOVA">
+        <attvalues/>
+      </edge>
+      <edge source="inst_7" target="inst_1" id="249" weight="3" label="CASANOVA | REMOND | VIGIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_108" target="inst_13" id="250" weight="1" label="MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_108" target="inst_12" id="251" weight="1" label="MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_108" target="inst_15" id="252" weight="1" label="MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_109" target="inst_162" id="253" weight="1" label="HUET">
+        <attvalues/>
+      </edge>
+      <edge source="inst_109" target="inst_91" id="254" weight="5" label="CARMOY de | HUET | LATTRE de | MAYOUX | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_109" target="inst_90" id="255" weight="1" label="VIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_109" target="inst_93" id="256" weight="4" label="HUET | LATTRE de | MAYOUX | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_109" target="inst_116" id="257" weight="1" label="MAJORELLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_109" target="inst_209" id="258" weight="2" label="LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_106" target="inst_162" id="259" weight="1" label="MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_106" target="inst_91" id="260" weight="1" label="MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_106" target="inst_93" id="261" weight="1" label="MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_107" target="inst_99" id="262" weight="1" label="TERROU">
+        <attvalues/>
+      </edge>
+      <edge source="inst_104" target="inst_69" id="263" weight="1" label="PIGANIOL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_33" target="inst_162" id="264" weight="1" label="GAZIER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_30" target="inst_2" id="265" weight="1" label="GIRARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_34" target="inst_90" id="266" weight="1" label="ERGMANN">
+        <attvalues/>
+      </edge>
+      <edge source="inst_67" target="inst_162" id="267" weight="1" label="RONDOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_67" target="inst_96" id="268" weight="1" label="RONDOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_67" target="inst_46" id="269" weight="1" label="RONDOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_2" target="inst_162" id="270" weight="1" label="BROCHIER ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_2" target="inst_91" id="271" weight="1" label="LABASSE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_2" target="inst_13" id="272" weight="1" label="BROCHIER ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_2" target="inst_12" id="273" weight="1" label="CHARDONNET">
+        <attvalues/>
+      </edge>
+      <edge source="inst_2" target="inst_41" id="274" weight="1" label="MONBEIG">
+        <attvalues/>
+      </edge>
+      <edge source="inst_2" target="inst_1" id="275" weight="3" label="DRESCH | DUROSELLE | GEORGE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_162" target="inst_91" id="276" weight="4" label="ALBERT | HUET | LA MARTINIERE de | MOUSSA ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_162" target="inst_93" id="277" weight="4" label="HUET | LA MARTINIERE de | MOUSSA  | WAHL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_162" target="inst_94" id="278" weight="5" label="LA MARTINIERE de | LACHARRIERE de | LACOUTURE | LALOY | TOUCHARD">
+        <attvalues/>
+      </edge>
+      <edge source="inst_162" target="inst_96" id="279" weight="1" label="RONDOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_162" target="inst_13" id="280" weight="1" label="BROCHIER ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_162" target="inst_46" id="281" weight="1" label="RONDOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_162" target="inst_205" id="282" weight="1" label="ALBERT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_91" target="inst_93" id="283" weight="9" label="HUET | LA MARTINIERE de | LAROQUE | LATTRE de | MAYOUX | MOUSSA  | OUDIETTE | PALLEZ | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_91" target="inst_95" id="284" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_91" target="inst_94" id="285" weight="1" label="LA MARTINIERE de">
+        <attvalues/>
+      </edge>
+      <edge source="inst_91" target="inst_205" id="286" weight="1" label="ALBERT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_91" target="inst_209" id="287" weight="2" label="LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_90" target="inst_117" id="288" weight="1" label="PETIT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_93" target="inst_95" id="289" weight="1" label="PALLEZ">
+        <attvalues/>
+      </edge>
+      <edge source="inst_93" target="inst_94" id="290" weight="3" label="FRANCK | LA MARTINIERE de | VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_93" target="inst_97" id="291" weight="1" label="GOUT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_93" target="inst_13" id="292" weight="1" label="VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_93" target="inst_12" id="293" weight="1" label="VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_93" target="inst_209" id="294" weight="2" label="LATTRE de | SAINT-GEOURS">
+        <attvalues/>
+      </edge>
+      <edge source="inst_95" target="inst_1" id="295" weight="1" label="LATREILLE">
+        <attvalues/>
+      </edge>
+      <edge source="inst_94" target="inst_13" id="296" weight="1" label="VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_94" target="inst_12" id="297" weight="1" label="VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_96" target="inst_46" id="298" weight="1" label="RONDOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_13" target="inst_12" id="299" weight="12" label="BASTID | BURDEAU | DUVERGER | GAUDEMET | HOUIN | JAMES | LAVAU  | MATHIOT | MERCILLON  | ROUSSEAU | VALLEUL de | VEDEL">
+        <attvalues/>
+      </edge>
+      <edge source="inst_13" target="inst_15" id="300" weight="3" label="JAMES | MATHIOT | REUTER">
+        <attvalues/>
+      </edge>
+      <edge source="inst_13" target="inst_1" id="301" weight="1" label="CASANOVA">
+        <attvalues/>
+      </edge>
+      <edge source="inst_12" target="inst_15" id="302" weight="2" label="JAMES | MATHIOT">
+        <attvalues/>
+      </edge>
+      <edge source="inst_76" target="inst_79" id="303" weight="1" label="BILLARD">
+        <attvalues/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

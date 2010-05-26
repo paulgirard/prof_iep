@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
-
+import itertools
 
 verbose=0
 export_gexf=1
@@ -234,7 +234,9 @@ def loadProfessors(file,profTranscode,extraToProf):
 	
 	profs=[]
 	lines = file.readlines()
+	#print lines
 	nbline=1
+
 	# avoid first line 
 	for line in lines[1:]:
 		#try :
@@ -275,7 +277,7 @@ def loadProfessors(file,profTranscode,extraToProf):
 #			print " error loadProfessors line "+str(nbline)+" : "+line
 #			print e
 				nbline+=1
-
+				
 	return profs	
 	
 
@@ -321,48 +323,67 @@ def generateProfToProfGraph(profs,professionsCat,file_prefix):
 #
 #
 ##########################################################
-def generateInstToInstGraph(profs,professionsCat,file_prefix):
+def generateInstToInstGraph(profs,professions,professionsColors,year,gexf):
 	print "graph inst to inst"
 	dotString=""
 	idEdge=0
 	
 	if export_gexf :
-		gexf_file=gexf.Gexf("Paul Girard medialab Sciences Po","Institutions linked by common IEP professers "+file_prefix)
-		graph=gexf_file.addGraph("undirected","static")
-		idAttInstCat2=graph.addNodeAttribute("cat2","","String")
-		idAttInstCat1=graph.addNodeAttribute("cat1","","String")
+		graph=gexf.addGraph("undirected","static",year)
+		idAttType=graph.addNodeAttribute("type","professer","string")
+		idAttInstAgreg=graph.addNodeAttribute("agregation","N/A","string")
+		labels_agregation=("champs","groupe","institution")
+		idAttInstCat1=graph.addNodeAttribute("champs","professors","string")
+		idAttDiscipline=graph.addNodeAttribute("discipline","N/A","string")
+		idAttWeak=graph.addEdgeAttribute("weak","false","boolean")	
+			
+		# professions nodes : no gexf hierarchy but a depth attribute				
+		for id,[name,pid,depth] in professions.iteritems() :
+			# filters nodes on depth : only depths = 3 are selected
+			if depth==2 :
+				n=graph.addNode("inst_"+str(id),name)
+				n.addAttribute(idAttType,"institution")
+				n.addAttribute(idAttInstAgreg,labels_agregation[int(depth)])
+				ppid=pid if not pid==-1 else id
+				while not pid==-1:
+					ppid=pid
+					pid=professions[ppid][1]
+				n.addAttribute(idAttInstCat1,professions[ppid][0])
+				try :
+					(r,g,b)=professionsColors[professions[ppid][0]]
+					n.setColor(r,g,b)
+				except :
+					print "Warning : couldn't find the color for profession cat :"+professions[ppid][0]		
 		
-		for cat,group1,group2,name,id in professionsCat.values() :
-			n=graph.addNode(str(id),name if not name=="" else group2)
-			n.addAttribute(idAttInstCat2,group2)
-			n.addAttribute(idAttInstCat1,group1)
-	
-	
-	for inst1,inst2 in [(inst1,inst2) for i,inst1 in enumerate(professionsCat.values()) for inst2 in professionsCat.values()[i:] if inst1!=inst2] :		weight=0		labels=[]
-		idinst1=inst1[4]
-		idinst2=inst2[4]
+		# filter professions on depth : only depths = 3 are selected
+		professionsDepth3only=filter(lambda inst:inst[1][2]==2,professions.items())
 		
-		# pour toutes les professions du prof 1
-		for prof in profs :			if idinst1 in prof[2] and idinst2 in prof[2] :
-			# si inst1 et inst 2 sont présentes dans les professions du prof				# on incrémente le poids du lien et on ajoute le prof au label
-				weight+=1				labels.append(prof[0])		# si on a trouvé des professeurs communs
-		if weight>0 :
-			# on ajoute un lien
-			node1=inst1[3] if not inst1[3]=="" else inst1[2]
-			node2=inst2[3] if not inst2[3]=="" else inst2[2]
-
-			if export_gexf :				graph.addEdge(idEdge,inst1[4],inst2[4],weight=str(weight),label=" | ".join(labels))
-			if export_dot :
-				dotString+=getDotLinkString(node1,node2,str(weight)," | ".join(labels))
-			idEdge+=1
+		# generate couples of institutions of depth 3
+		for (idinst1,inst1),(idinst2,inst2) in itertools.combinations(professionsDepth3only,2) :
+			
+			weight=0			labels=[]
+			
+			# for all professers
+			for name,disciplineCode,profProfessions,extra,id in profs :				if idinst1 in profProfessions and idinst2 in profProfessions :
+				# if inst1 and inst 2 are in prof's professions					# increment weight and store name in labels
+					weight+=1					labels.append(name)			# if common professers have been found
+			if weight>0 :
+				# add a link
+				if export_gexf :					graph.addEdge(idEdge,"inst_"+str(idinst1),"inst_"+str(idinst2),weight=str(weight),label=" | ".join(labels))
+					idEdge+=1
+				if export_dot :
+					node1=inst1[3] if not inst1[3]=="" else inst1[2]
+					node2=inst2[3] if not inst2[3]=="" else inst2[2]
+					dotString+=getDotLinkString(node1,node2,str(weight)," | ".join(labels))
 				
-	if export_gexf  :
-		file=open("profiep_instToinst_"+file_prefix+".gexf","w+")
-		gexf_file.write(file)
-	
-	if export_dot :
-		file=open("profiep_instToinst.dot","w+")
-		file.write("digrpah output {\n"+dotString+"}")
+				
+#	if export_gexf  :
+#		file=open("profiep_instToinst_"+year+".gexf","w+")
+#		gexf_file.write(file)
+#	
+#	if export_dot :
+#		file=open("profiep_instToinst.dot","w+")
+#		file.write("digrpah output {\n"+dotString+"}")
 
 ################### PROF TO INST #########################
 #
@@ -501,12 +522,12 @@ file=open("indata/code_discipline.csv")
 disciplines=loadDisciplineCode(file)
 file.close()
 
-
+#"2008","1996","1986",
 years=("2008","1996","1986","1970")
+todo=("insttoinst")
 for year in years :
-	# load prof
-	gexf=Gexf("medialab Sciences Po - Paul Girard - Marie Scot","Institutions and professers IEP "+year)
-
+	# create gexf
+	
 	file=open("indata/"+year+".csv")
 	profs=loadProfessors(file,profTranscode,extraToProf)
 	print year+": number profs loaded :"+str(len(profs))
@@ -519,14 +540,23 @@ for year in years :
 	key=lambda prof:prof[0]
 	profs=sorted(profs, key=key )
 	
-		
-	generateProfInstitutionGraph(profs,professions,professionsColors,disciplines,year,gexf)
+	if "proftoinst" in todo : 
+		# prof to inst graph
+		gexf=Gexf("medialab Sciences Po - Paul Girard - Marie Scot","Institutions and professers IEP "+year)
+		generateProfInstitutionGraph(profs,professions,professionsColors,disciplines,year,gexf)
+		if export_gexf :
+			file=open("outdata/profiep_profToinst_"+year+".gexf","w+")
+			gexf.write(file)
+
+	if "insttoinst" in todo : 
+		# inst to inst graph
+		gexf=Gexf("medialab Sciences Po - Paul Girard - Marie Scot","IEP Professers' Institutions "+year)
+		generateInstToInstGraph(profs,professions,professionsColors,year,gexf)
+		if export_gexf :
+			file=open("outdata/profiep_instToinst_"+year+".gexf","w+")
+			gexf.write(file)
 	#generateProfToProfGraph(profs,professionsCat,year)
 	#generateInstToInstGraph(profs,professionsCat,year)
-
-	if export_gexf :
-		file=open("outdata/profiep_profToinst_"+year+".gexf","w+")
-		gexf.write(file)
 
 
 
